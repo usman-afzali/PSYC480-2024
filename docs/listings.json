@@ -2,11 +2,11 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html",
       "/posts/Lab03-2024.html",
       "/posts/Lab02-2024.html",
-      "/posts/lab-1/Lab01-2024.html"
+      "/posts/lab-1/Lab01-2024.html",
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html"
     ]
   }
 ]

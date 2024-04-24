@@ -3,7 +3,7 @@ title: "Lab 03"
 subtitle: "PSYC480"
 author: "Harriet Grace"
 institute: "University of Canterbury"
-date: 2023 04 23
+date: 2024-04-23
 format: 
   revealjs:
     theme: simple
