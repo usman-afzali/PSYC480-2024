@@ -9,9 +9,23 @@
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "title": "Welcome To PSYC480 Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Kia ora!\nWelcome to PSYC480 (2024) blog.\nI am Usman Afzali, the course coordinator and lecturer of the course.\nThis website contains labs and EEG data processing and analysis instructions for Special Topic: Computational Contemplative-Neuroscience taught at the School of Psychology, Speech and Hearing, University of Canterbury."
+  },
+  {
+    "objectID": "posts/welcome/index.html#blog",
+    "href": "posts/welcome/index.html#blog",
+    "title": "Welcome To PSYC480 Blog",
+    "section": "Blog",
+    "text": "Blog\nPlease access the PSYC480 blog to see this code live."
+  },
+  {
+    "objectID": "posts/welcome/index.html#note",
+    "href": "posts/welcome/index.html#note",
+    "title": "Welcome To PSYC480 Blog",
+    "section": "Note",
+    "text": "Note\n\nFeel free to use/replicate the code.\nSuggestions welcome.\n\nKind regards.\nUsman Afzali, PhD\nwww.usmanafzali.com"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -23,8 +37,8 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "psyc480-2024",
+    "title": "Special Topic: Computational Contemplative-Neuroscience",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 25, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 22, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 25, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To PSYC480 Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 25, 2024\n\n\nUsman Afzali\n\n\n\n\n\n\nNo matching items"
   }
 ]

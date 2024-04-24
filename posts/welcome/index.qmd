@@ -1,12 +1,31 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2024-04-22"
+title: "Welcome To PSYC480 Blog"
+author: "Usman Afzali"
+date: "2024-04-25"
 categories: [news]
+image: erp.jpg
 ---
 
-This is the first post in a Quarto blog. Welcome!
+Kia ora!
 
-![](thumbnail.jpg)
+Welcome to PSYC480 (2024) blog.
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+I am Usman Afzali, the course coordinator and lecturer of the course.
+
+This website contains `labs` and `EEG data processing and analysis` instructions for [Special Topic: Computational Contemplative-Neuroscience](https://courseinfo.canterbury.ac.nz/GetCourseDetails.aspx?course=PSYC480&occurrence=24S1(C)&year=2024) taught at the [School of Psychology, Speech and Hearing, University of Canterbury](https://www.canterbury.ac.nz/science/schools/psyc-speech-hear/).
+
+## Blog
+
+Please access the [PSYC480 blog](https://usman-afzali.github.io/psyc480-2k24/) to see this code live.
+
+## Note
+
+-   Feel free to use/replicate the code.
+
+-   Suggestions welcome.
+
+Kind regards.
+
+Usman Afzali, PhD
+
+[www.usmanafzali.com](https://www.usmanafzali.com)

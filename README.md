@@ -1,1 +1,23 @@
-# psyc480-2024
+Kia ora!
+
+Welcome to PSYC480 (2024) blog.
+
+I am Usman Afzali, the course coordinator and lecturer of the course.
+
+This website contains `labs` and `EEG data processing and analysis` instructions for [Special Topic: Computational Contemplative-Neuroscience](https://courseinfo.canterbury.ac.nz/GetCourseDetails.aspx?course=PSYC480&occurrence=24S1(C)&year=2024) taught at the [School of Psychology, Speech and Hearing, University of Canterbury](https://www.canterbury.ac.nz/science/schools/psyc-speech-hear/).
+
+## Blog
+
+Please access the [PSYC480 blog](https://usman-afzali.github.io/psyc480-2k24/) to see this code live.
+
+## Note
+
+-   Feel free to use/replicate the code.
+
+-   Suggestions welcome.
+
+Kind regards.
+
+Usman Afzali, PhD
+
+[www.usmanafzali.com](https://www.usmanafzali.com)

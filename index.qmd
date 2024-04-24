@@ -1,5 +1,5 @@
 ---
-title: "psyc480-2024"
+title: "Special Topic: Computational Contemplative-Neuroscience"
 listing:
   contents: posts
   sort: "date desc"
