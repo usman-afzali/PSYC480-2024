@@ -1,8 +1,9 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "psyc480-2024"
+  title: "PSYC480 Open Science Blog"
   navbar:
     right:
       - about.qmd
