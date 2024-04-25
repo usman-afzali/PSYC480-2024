@@ -1,19 +1,18 @@
 ---
-title: "About"
-image: profile.jpg
+title: "Lecturer and Course Coordinator"
+image: IMG_4724.jpeg
 about:
   template: jolla
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com
+      href: https://twitter.com/UsmanAfzali
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/usman-afzali/
     - icon: github
       text: Github
-      href: https://github.com
-
+      href: https://github.com/usman-afzali/
 ---
 
-About this blog
+[Dr Usman Afzali](www.usmanafzali.com)

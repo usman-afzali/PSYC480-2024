@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-html/tabby.min.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.552">
 
   <meta name="author" content="Harriet Grace">
-  <meta name="dcterms.date" content="2024-03-19">
-  <title>PSYC480 Blog - Introduction to MATLAB</title>
+  <meta name="dcterms.date" content="2024-03-26">
+  <title>PSYC480 Blog - Lab 02</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -31,11 +31,11 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css">
-  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
   .callout {
@@ -327,7 +327,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Introduction to MATLAB</h1>
+  <h1 class="title">Lab 02</h1>
   <p class="subtitle">PSYC480</p>
 
 <div class="quarto-title-authors">
@@ -341,149 +341,53 @@ Harriet Grace
     </div>
 </div>
 
-  <p class="date">2024-03-19</p>
-</section>
-<section>
-<section id="matlab-and-eeglab" class="title-slide slide level1 center" data-background-color="orange">
-<h1>MATLAB and EEGLab</h1>
-
-</section>
-<section id="what-is-matlab" class="slide level2" data-background-color="#346bc8">
-<h2>What is MATLAB?</h2>
-<ul>
-<li>Programming language</li>
-<li>Matrix manipulations, plotting, implementing algorithms etc.</li>
-<li>Toolboxes and apps</li>
-</ul>
-</section>
-<section id="what-is-eeglab" class="slide level2" data-background-color="#346bc8">
-<h2>What is EEGLab?</h2>
-<ul>
-<li>A MATLAB toolbox</li>
-<li>Used for processing and analysing EEG, MEG and other electrophysiological signals.</li>
-<li>It has a GUI</li>
-</ul>
-</section>
-<section id="processing-and-analysing-eeg-data" class="slide level2" data-background-color="#346bc8">
-<h2>Processing and analysing EEG data</h2>
-<ul>
-<li>MATLAB command line</li>
-<li>The standalone EEGLab software</li>
-<li>Use EEGLab in association with MATLAB</li>
-</ul>
-</section></section>
-<section>
-<section id="demonstration" class="title-slide slide level1 center" data-background-color="orange">
-<h1>Demonstration</h1>
-
+  <p class="date">2024-03-26</p>
 </section>
 <section id="pipeline" class="slide level2" data-background-color="#346bc8">
 <h2>Pipeline</h2>
 
-<img data-src="../../figs/pipeline.png" class="r-stretch"><p><a href="https://youtu.be/gEk33jWB0MY">EEGLab Preprocessing - Delorme</a></p>
+<img data-src="../figs/pipeline.png" class="r-stretch"><p><a href="https://youtu.be/gEk33jWB0MY">EEGLab Preprocessing - Delorme</a></p>
 </section>
-<section id="how-to-process-using-eeglab" class="slide level2" data-background-color="#346bc8">
-<h2>How to process using EEGLab</h2>
+<section id="recap" class="slide level2" data-background-color="#346bc8">
+<h2>Recap</h2>
 <ul>
-<li>Use the available dataset from Learn <code>Lab 1 demo</code>.</li>
-<li>Note “Channels per frame, Frames per epoch, epoch, events, sampling rate, reference and other attributes.</li>
+<li>Referencing and filtering</li>
+<li>Removing unwanted channels</li>
+<li>Removing artefacts</li>
 </ul>
 </section>
-<section id="how-to-process-using-eeglab-1" class="slide level2" data-background-color="#346bc8">
-<h2>How to process using EEGLab</h2>
-<ul>
-<li>Epoch: A procedure in which specific time-windows are extracted from the continuous EEG signal. These time windows are called “epochs”, and usually are time-locked with respect an event e.g.&nbsp;a visual stimulus. <img data-src="../../figs/Figure 9.png"></li>
-</ul>
-</section>
-<section id="attributes-contd" class="slide level2" data-background-color="#346bc8">
-<h2>Attributes contd…</h2>
-<ul>
-<li>Event: a visual stimuli or a task</li>
-<li>Sampling rate (Hz): the number of samples (of electrical activity) recorded per second</li>
-<li>Frames: Frames in EEGLAB are the same as samples (so if you sampled at 500 Hz your data will have 500 frames each second)</li>
-<li>Referencing: EEG recordings measure differences in electrical potentials between two points (Voltages). This means the signal displayed at any channel is in fact the difference in electrical potential to some other recording site (or reference).</li>
-</ul>
-</section>
-<section id="visualising-eeg-data" class="slide level2" data-background-color="#346bc8">
-<h2>Visualising EEG data</h2>
-<ul>
-<li>Use <code>Plot -&gt; Channel data (scroll)</code>.</li>
-</ul>
-
-<img data-src="../../figs/eeg1.png" class="r-stretch"></section>
-<section id="referencing" class="slide level2" data-background-color="#346bc8">
-<h2>Referencing</h2>
+<section id="independent-component-analysis-ica" class="slide level2" data-background-color="#346bc8">
+<h2>Independent Component Analysis (ICA)</h2>
 <div>
 <ul>
-<li class="fragment">Why do we reference?</li>
+<li class="fragment">Why we need ICA?</li>
+<li class="fragment">ICA is a signal processing method to separate independent sources linearly mixed in several sensors (ICA for Dummies - By Delorme)</li>
+<li class="fragment">Let’s watch the video together: <a href="https://www.youtube.com/watch?v=kWAjhXr7pT4">ICA by Delorme</a></li>
+<li class="fragment">Remove artefacts, make sure you have enough data (20 * square of number of channels), high pass filter at 0.5, remove bad channels.</li>
 </ul>
 </div>
 </section>
-<section id="referencing-to-m1-and-m2" class="slide level2" data-background-color="#346bc8">
-<h2>Referencing to M1 and M2</h2>
+<section id="running-ica" class="slide level2" data-background-color="#346bc8">
+<h2>Running ICA</h2>
 <div>
 <ul>
-<li class="fragment">Use <code>Tools -&gt; re-reference the data</code>.</li>
-<li class="fragment">Compare the attributes to the original dataset. Is there any discrepancy? If yes, why?</li>
-<li class="fragment">If you haven’t picked answer to “why” yet, plot the data again and observe closely.</li>
+<li class="fragment">Use the the <code>Lab 2 demo</code> dataset on Learn.</li>
+<li class="fragment">Use <code>Tools -&gt; Decompose data by ICA</code>. Select <code>Infomax runica.m (default)</code>, <code>extended 1</code> (helps to detect line noise).</li>
+<li class="fragment">You can also plot all or individual component maps from the <code>Plot</code> menu.</li>
+<li class="fragment">Use <code>Tools -&gt; Inspect/label components by map</code>.</li>
+<li class="fragment">Use <code>Tools -&gt; Remove components from data</code>.</li>
 </ul>
 </div>
 </section>
-<section id="filtering" class="slide level2" data-background-color="#346bc8">
-<h2>Filtering</h2>
+<section id="continued" class="slide level2" data-background-color="#346bc8">
+<h2>Continued</h2>
 <div>
 <ul>
-<li class="fragment">Why do we filter data?</li>
-<li class="fragment">Many sources of noise, such as the 60Hz line noise, consist mainly of very high frequencies or very low frequencies, whereas most of the useful information in an EEG or ERP waveform is at intermediate frequencies (between approximately 0.1Hz and 50Hz).</li>
+<li class="fragment">Or, do this automatically: <code>Tools -&gt; Classify components using ICLabel</code>, then flag components as artefacts.</li>
+<li class="fragment">Important: DON’T remove/reject components if you are conducting group level analysis (we will learn about group level analysis later).</li>
 </ul>
 </div>
 </section>
-<section id="filtering-contd." class="slide level2" data-background-color="#346bc8">
-<h2>Filtering contd….</h2>
-<div>
-<ul>
-<li class="fragment"><p>Consequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.</p></li>
-<li class="fragment"><p>Delorme recommends filtering at 0.5.</p></li>
-<li class="fragment"><p>Use <code>Tools -&gt; Filter data -&gt; basic FIR Filter</code>. Type 0.5 in the <code>Lower edge</code></p></li>
-<li class="fragment"><p>DC offset: <a href="https://relaytraining.com/what-is-dc-offset-ask-chris/" class="uri">https://relaytraining.com/what-is-dc-offset-ask-chris/</a></p></li>
-</ul>
-</div>
-</section>
-<section id="visaul-inspection." class="slide level2" data-background-color="#346bc8">
-<h2>Visaul inspection….</h2>
-<ul>
-<li>From <code>Edit</code>, select <code>channel locations</code></li>
-<li>Plot channels as <code>2-D</code></li>
-</ul>
-</section>
-<section id="removing-unwanted-channels" class="slide level2" data-background-color="#346bc8">
-<h2>Removing unwanted channels</h2>
-<p>Use <code>Edit -&gt; Select data</code>. Select the <code>Channel range</code> that you want to remove.</p>
-</section>
-<section id="examining-raw-data" class="slide level2" data-background-color="#346bc8">
-<h2>Examining raw data</h2>
-<div class="quarto-layout-panel" data-layout="[[60, 40], [100]]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
-<ul>
-<li>To identify artefacts</li>
-<li>And to reject them</li>
-<li>Use <code>Tools -&gt; Inspect/reject data by eye.</code> Use your mouse to highlight the part you want to reject, and click the <code>REJECT</code> button.</li>
-</ul>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: center;">
-<p><img data-src="../../figs/messydata.png"></p>
-</div>
-</div>
-</div>
-</section>
-<section id="automatic-artefact-rejection" class="slide level2" data-background-color="#346bc8">
-<h2>Automatic artefact rejection</h2>
-<p>Use <code>Tools -&gt; Reject data using Clean Rawdata and ASR.</code> Generally, we’d use all <code>default choices</code> - Consequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.</p>
-<ul>
-<li>Delorme’s <a href="https://www.youtube.com/watch?v=5BTT-L2Ab04&amp;list=PLXc9qfVbMMN1ZS3sU2xT2hhfB5PAmuNae&amp;index=6">video</a> and another <a href="https://www.youtube.com/watch?v=ZvbRiX84mgc&amp;list=PLXc9qfVbMMN1ZS3sU2xT2hhfB5PAmuNae&amp;index=7">video</a> on these.</li>
-</ul>
-</section></section>
 <section>
 <section id="exercise" class="title-slide slide level1 center" data-background-color="orange">
 <h1>Exercise</h1>
@@ -492,23 +396,12 @@ Harriet Grace
 <section id="to-submit" class="slide level2" data-background-color="#346bc8">
 <h2>To submit</h2>
 <ul>
-<li>Use the the <code>Lab 1 exercise</code> dataset on Learn.</li>
-<li>Read it in to the EEGLab</li>
-<li>Report all attributes</li>
-<li>Insert a screenshot of the attributes</li>
-<li>Plot data using the scroll option</li>
-<li>Insert a screenshot</li>
-<li>Report your observation: do the data look similar to <code>demonstration</code>? What do you see as a potential difference?</li>
-</ul>
-</section>
-<section id="to-submit-continued" class="slide level2" data-background-color="#346bc8">
-<h2>To submit continued</h2>
-<ul>
-<li>Plot channels as <code>2-D</code></li>
-<li>Do you see any anomaly? Comment!</li>
-<li>Conduct automatic rejection with ASR.</li>
-<li>Report your findings in comparison with before artefact rejection.</li>
-<li>Submit this as a pdf on Learn.</li>
+<li>Use the the <code>Lab 2 exercise</code> dataset on Learn.</li>
+<li>Conduct pipeline processing as per usual (using last week’s processing too).</li>
+<li>Run ICA, share a screenshot.</li>
+<li>Remove components, share a screenshot.</li>
+<li>Compare pre- and post-analysis attributes.</li>
+<li>Compare pre- and post-analysis Channel data (scroll). What do you conclude? Any problems/issues? Why or why not? (consists 25% of today’s mark).</li>
 </ul>
 </section></section>
 <section id="the-end" class="title-slide slide level1 center" data-background-color="orange">
@@ -524,19 +417,19 @@ Harriet Grace
   </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
-  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>

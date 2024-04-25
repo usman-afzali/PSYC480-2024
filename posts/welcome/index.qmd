@@ -1,5 +1,5 @@
 ---
-title: "Welcome To PSYC480 Blog"
+title: "Welcome to PSYC480 Blog"
 author: "Usman Afzali"
 date: "2024-03-18"
 categories: [intro]
