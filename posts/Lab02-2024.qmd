@@ -9,6 +9,7 @@ format:
     theme: simple
     highlight-style: github
     slide-number: c/t
+categories: [lab, eeg, eeglab]   
 ---
 
 ## Pipeline {background-color="#346bc8"}
