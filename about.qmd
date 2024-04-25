@@ -1,6 +1,6 @@
 ---
-title: "Lecturer and Course Coordinator"
-image: IMG_4724.jpeg
+title: "Contact"
+
 about:
   template: jolla
   links:

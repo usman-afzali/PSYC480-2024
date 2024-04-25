@@ -2,7 +2,7 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Lecturer and Course Coordinator",
+    "title": "Contact",
     "section": "",
     "text": "Dr Usman Afzali"
   },
@@ -136,8 +136,8 @@
     "objectID": "posts/Lab03-2024.html#eeg-microstates",
     "href": "posts/Lab03-2024.html#eeg-microstates",
     "title": "Lab 03",
-    "section": "EEG Microstates",
-    "text": "EEG Microstates\n\n\nDefinition\nUse\nRe-processing"
+    "section": "",
+    "text": "Definition\nUse\nRe-processing"
   },
   {
     "objectID": "posts/Lab03-2024.html#microstates-definition",
@@ -179,7 +179,7 @@
     "href": "posts/Lab03-2024.html#processing-continued.-1",
     "title": "Lab 03",
     "section": "Processing continued….",
-    "text": "Processing continued….\n\n\nFigure 1: Automatic artefact removal"
+    "text": "Processing continued….\n\n\n\n\n\n\nFigure 1: Automatic artefact removal"
   },
   {
     "objectID": "posts/Lab03-2024.html#processing-continued.-2",
@@ -193,14 +193,14 @@
     "href": "posts/Lab03-2024.html#microstates-menu",
     "title": "Lab 03",
     "section": "Microstates menu",
-    "text": "Microstates menu\n\n\nFigure 2"
+    "text": "Microstates menu\n\n\n\n\n\n\nFigure 2"
   },
   {
     "objectID": "posts/Lab03-2024.html#typical-ms-maps",
     "href": "posts/Lab03-2024.html#typical-ms-maps",
     "title": "Lab 03",
     "section": "Typical MS Maps",
-    "text": "Typical MS Maps\n\n\nFigure 3: Four prototypical microstates (Nash et al. 2022)"
+    "text": "Typical MS Maps\n\n\n\n\n\n\nFigure 3: Four prototypical microstates (Nash et al. 2022)"
   },
   {
     "objectID": "posts/Lab03-2024.html#obtaining-microstates",
@@ -395,8 +395,8 @@
     "objectID": "posts/Lab02-2024.html#pipeline",
     "href": "posts/Lab02-2024.html#pipeline",
     "title": "Lab 02",
-    "section": "Pipeline",
-    "text": "Pipeline\n\nEEGLab Preprocessing - Delorme"
+    "section": "",
+    "text": "EEGLab Preprocessing - Delorme"
   },
   {
     "objectID": "posts/Lab02-2024.html#recap",
@@ -460,5 +460,19 @@
     "title": "Special Topic: Computational Contemplative-Neuroscience",
     "section": "",
     "text": "EEG data acquistion, processing, and analysis\n\n\n\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nApr 25, 2024\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, Harriet Grace, and Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nApr 23, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nMar 26, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 01\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nMar 19, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to MATLAB\n\n\nPSYC480\n\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nMar 19, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to PSYC480 Blog\n\n\n\n\n\n\nintro\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nUsman Afzali\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/Lab02-2024.html",
+    "href": "posts/Lab02-2024.html",
+    "title": "Lab 02",
+    "section": "",
+    "text": "EEGLab Preprocessing - Delorme"
+  },
+  {
+    "objectID": "posts/Lab03-2024.html",
+    "href": "posts/Lab03-2024.html",
+    "title": "Lab 03",
+    "section": "",
+    "text": "Definition\nUse\nRe-processing"
   }
 ]
