@@ -14,7 +14,7 @@ categories: [Lab, EEG, EEGLAB]
 
 ## Pipeline {background-color="#346bc8"}
 
-![](/figs/pipeline.png)
+![](pipeline.png)
 
 [EEGLab Preprocessing - Delorme](https://youtu.be/gEk33jWB0MY)
 

@@ -36,7 +36,7 @@ categories: [Lab, EEG, EEGLAB]
 
 ## Pipeline {background-color="#346bc8"}
 
-![](/figs/pipeline.png)
+![](pipeline.png)
 
 [EEGLab Preprocessing - Delorme](https://youtu.be/gEk33jWB0MY)
 
@@ -47,7 +47,7 @@ categories: [Lab, EEG, EEGLAB]
 
 ## How to process using EEGLab {background-color="#346bc8"}
 
--   Epoch: A procedure in which specific time-windows are extracted from the continuous EEG signal. These time windows are called “epochs”, and usually are time-locked with respect an event e.g. a visual stimulus. ![](/figs/Figure%209.png)
+-   Epoch: A procedure in which specific time-windows are extracted from the continuous EEG signal. These time windows are called “epochs”, and usually are time-locked with respect an event e.g. a visual stimulus. ![](Figure9.png)
 
 ## Attributes contd... {background-color="#346bc8"}
 
@@ -60,7 +60,7 @@ categories: [Lab, EEG, EEGLAB]
 
 -   Use `Plot -> Channel data (scroll)`.
 
-![](/figs/eeg1.png)
+![](eeg1.png)
 
 ## Referencing {background-color="#346bc8"}
 
@@ -111,7 +111,7 @@ Use `Edit -> Select data`. Select the `Channel range` that you want to remove.
 -   And to reject them
 -   Use `Tools -> Inspect/reject data by eye.` Use your mouse to highlight the part you want to reject, and click the `REJECT` button.
 
-![](/figs/messydata.png)
+![](messydata.png)
 :::
 
 ## Automatic artefact rejection {background-color="#346bc8"}
