@@ -175,88 +175,53 @@
     "text": "To submit\n\nUse the the Lab 2 exercise dataset on Learn.\nConduct pipeline processing as per usual (using last week’s processing too).\nRun ICA, share a screenshot.\nRemove components, share a screenshot.\nCompare pre- and post-analysis attributes.\nCompare pre- and post-analysis Channel data (scroll). What do you conclude? Any problems/issues? Why or why not? (consists 25% of today’s mark)."
   },
   {
-    "objectID": "posts/Lab03-2024.html#eeg-microstates",
-    "href": "posts/Lab03-2024.html#eeg-microstates",
-    "title": "Lab 03",
-    "section": "EEG Microstates",
-    "text": "EEG Microstates\n\n\nDefinition\nUse\nRe-processing"
+    "objectID": "posts/eeg-acq-process/eeg-acq-process.html",
+    "href": "posts/eeg-acq-process/eeg-acq-process.html",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "",
+    "text": "Note\n\n\n\nThis is work under progress and more information will be added."
   },
   {
-    "objectID": "posts/Lab03-2024.html#microstates-definition",
-    "href": "posts/Lab03-2024.html#microstates-definition",
-    "title": "Lab 03",
-    "section": "Microstates Definition",
-    "text": "Microstates Definition\n“EEG microstates are brief, recurring periods of stable brain activity that reflect the activation of large-scale neural networks. The temporal characteristics of these microstates, including their average duration, number of occurrences, and percentage contribution have been shown to serve as biomarkers of mental and neurological disorders” (Kleinert, Nash, et al. 2024)."
+    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#collecting-eeg-data",
+    "href": "posts/eeg-acq-process/eeg-acq-process.html#collecting-eeg-data",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "Collecting EEG data",
+    "text": "Collecting EEG data\nEEG data can be collected using a variety of EEG headset tools and software. We are using a mobile, gel-based, 32 channel headset, Ant Neuro EEGO Sports.\n\nEEG Headset Technical details\n\nBrand: Ant Neuro EEGO Sports 32 (ES-230)\nAmplifier: 32-channel EEGO amplifier, 2 kHz, CE Class IIa medical device\nReference: online referencing with CPz\nGround electrode: AFz\nResolution: 24-bit\nEEG Cap: Waveguard – sizes M, and L\nSampling rate: upto 2048 Hz\nSoftware: EEGO software for recording, reviewing, and export EEG data\n\n\n\nData acquisition\n1. Creating a new subject\n2. Placing EEG headset\n3. Checking Impedance\n4. EEG Recording\n5. Exporting EEG data"
   },
   {
-    "objectID": "posts/Lab03-2024.html#two-major-types",
-    "href": "posts/Lab03-2024.html#two-major-types",
-    "title": "Lab 03",
-    "section": "Two major types",
-    "text": "Two major types\n\n\nResting EEG Microstates\nERP Microstates"
+    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#data-processing-and-analysis",
+    "href": "posts/eeg-acq-process/eeg-acq-process.html#data-processing-and-analysis",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "Data processing and analysis",
+    "text": "Data processing and analysis\nA variety of software are available for EEG data processing and analysis. The widely used licensed programme is MATALB (stands for matrix laboratory). It is primarily a statistical and machine learning programme and can be used for EEG data processing in two ways: via command line or via a freely available toolbox EEGLab.\n\n\n\nMATLAB user interface\n\n\nThere are many alternative. A famous free programme is Python – whereas the relevant library is called MNE.\nWe primarily use EEGLab in PSYC480, that shall be installed as an MATLAB add-on."
   },
   {
-    "objectID": "posts/Lab03-2024.html#the-use-of-microstates",
-    "href": "posts/Lab03-2024.html#the-use-of-microstates",
-    "title": "Lab 03",
-    "section": "The use of Microstates",
-    "text": "The use of Microstates\n“Recent publications demonstrate the potential of microstate research to contribute to a more sophisticated diagnosis, monitoring, prognosis, and prevention of mental disorders in clinical psychology and psychiatry. Microstate characteristics may serve as biomarkers of schizophrenia (da Cruz et al. 2020; de Bock et al. 2020), affective disorders (Al Zoubi et al. 2019; Damborská et al. 2019b; Murphy et al. 2020), anxiety disorders (Al Zoubi et al. 2019), ADHD (Férat et al. 2022a), and autism (D’Croz-Baron et al. 2019; Bochet et al. 2021). as mentioned in (Kleinert, Koenig, et al. 2024)”"
+    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#installing-eeglab-toolbox",
+    "href": "posts/eeg-acq-process/eeg-acq-process.html#installing-eeglab-toolbox",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "Installing EEGLab Toolbox",
+    "text": "Installing EEGLab Toolbox\n\nUse the latest versions of MATLAB and EEGLab.\nUnzip EEGLab and Microstates1.21, and paste Microstates1.2 inside EEGLab -&gt; plugins.\nMake sure that you do not have any extra - old copies of the software on your computer.\nFrom MATLAB Home tab, click Preferences -&gt; Add-Ons and click on three dots beside the installation folder path (see Figure 1). This shows you the folder where MATLAB has been installed. If you see a MATLAB Add-Ons folder within Mathworks, then EEGLab (unzipped) should be pasted here and deleted from all other places on your computer. If such a folder does not exist, create a new folder and name it MATLAB Add-Ons, then paste the EEGLab folder here. Creating this folder should not be problematics as described here.\nFrom MATLAB Home tab, click Set Path -&gt; Default. This deletes all old paths. Once the process completes, click Save. Then, click Add with Subfolders and find the path to EEGLab folder based on point 4, then click Save.\nType eeglab in MATLAB Command Window and EEGLab shall open.\n\n\n\n\n\n\n\nFigure 1: MATLAB preferences\n\n\n\nEEGLab fig tba.\nHow to create a study\n(Used to process multiple datasets at once)\n\nLoad in datasets\nFile -&gt; Create Study -&gt; Using all loaded datasets\n\nHow to remove non-EEG channels\n\nEdit -&gt; Select Data -&gt; Tick the box on the same line as channel range and then click on the “…” box to select the channels to remove (how do you know how to remove the channels? I wish I knew)\n\nHow to compute the average reference for microstate analysis\n\nTools -&gt; Basic FIR filter -&gt; Set lower edge to 2 and upper edge to 20 and run\n\nHow to run artifact correction (ASR)\n\nTools -&gt; Reject data using clean rawdata and ASR\nTick the “Remove channel drift” box and change the values to 0.75 and 1.25 (Why? IDK)\nUncheck the “Remove channel if it is flat for more than …” box\nChange the min acceptable correlation with nearby chans from 0.8 to 0.7\n\nApparently we now average reference again, but this time we also interpolate removed channels\nHow to run ICA with Picard\n\nTools -&gt; Decompose data by ICA\nChange from “runica” to “picard”\nUncheck the reorder components by variance box\nAfter that is finished, go back to Tools -&gt; Classify components using ICLabel-&gt; label components (leave as default) and run\nThen Tools -&gt; Classify components using ICLabel-&gt; Flag components as artifacts\nThen Tools -&gt; remove components from data\n\nHow to actually run microstate analysis (Windows edition)\n\nTools -&gt; Microstate analysis toolbox -&gt; select data for microstate analysis\nChange ERP – Concatenate datasets to Spontaneous GFP Peaks\nTools -&gt; Microstate analysis toolbox -&gt; Segment into microstates\nCopy this (Shamelessly stolen from Usman’s slides)\n\n\n\nCopy this\n\n\nYou should be able to plot them after doing this."
   },
   {
-    "objectID": "posts/Lab03-2024.html#processing-for-microstates-analysis",
-    "href": "posts/Lab03-2024.html#processing-for-microstates-analysis",
-    "title": "Lab 03",
-    "section": "Processing for Microstates analysis",
-    "text": "Processing for Microstates analysis\nEEG data processing (as described in the previous labs) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble the prototypical four to seven network types."
+    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#resting-eeg-microstates",
+    "href": "posts/eeg-acq-process/eeg-acq-process.html#resting-eeg-microstates",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "Resting EEG Microstates",
+    "text": "Resting EEG Microstates\nEEG data processing (as described above) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble the prototypical four network types. To the best of my knowledge, it is important to use only the following processing steps:\n\nChannel locations\nFilter 2-20 Hz\nRemove artefacts with ASR, but make sure to un-check the option Remove channel if it is flat for more than (seconds), see Figure 2.\nReference to average and interpolate removed channels.\nFrom Tools -&gt; Microstates -&gt; Obtain Microstate Maps, use k-means method with a min of 4 and max of 5 maps, and set restarts to 20.\nFrom Plots -&gt; …\nExamine whether or not your obtained microstates resemble the prototypical four network types (see Figure 3) (Nash et al. 2022).\n\n\n\n\n\n\n\nFigure 2: Automatic artefact removal\n\n\n\n\n\n\n\n\n\nFigure 3: Four prototypical microstates (Nash et al. 2022)"
   },
   {
-    "objectID": "posts/Lab03-2024.html#processing-continued.",
-    "href": "posts/Lab03-2024.html#processing-continued.",
-    "title": "Lab 03",
-    "section": "Processing continued….",
-    "text": "Processing continued….\nTo the best of my knowledge, it is important to use only the following processing steps:\n\nAdd channel locations\nFilter 2-20 Hz\nRemove artefacts with ASR, but make sure to un-check the option Remove channel if it is flat for more than (seconds), see Figure 1.\nReference to average and interpolate removed channels."
+    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#eeg-headset-maintenance-and-cleaning",
+    "href": "posts/eeg-acq-process/eeg-acq-process.html#eeg-headset-maintenance-and-cleaning",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "EEG Headset maintenance and cleaning",
+    "text": "EEG Headset maintenance and cleaning\nhttps://youtu.be/FOgfR0QI9_A"
   },
   {
-    "objectID": "posts/Lab03-2024.html#processing-continued.-1",
-    "href": "posts/Lab03-2024.html#processing-continued.-1",
-    "title": "Lab 03",
-    "section": "Processing continued….",
-    "text": "Processing continued….\n\n\nFigure 1: Automatic artefact removal"
-  },
-  {
-    "objectID": "posts/Lab03-2024.html#processing-continued.-2",
-    "href": "posts/Lab03-2024.html#processing-continued.-2",
-    "title": "Lab 03",
-    "section": "Processing continued….",
-    "text": "Processing continued….\n\nFrom Tools -&gt; Microstates -&gt; Obtain Microstate Maps, use k-means method with a min of 4 and max of 5 maps, and set restarts to 20, see Figure 2.\nFrom Plots -&gt; …\nExamine whether or not your obtained microstates resemble the prototypical four (or seven) network types (see Figure 3) (Nash et al. 2022)."
-  },
-  {
-    "objectID": "posts/Lab03-2024.html#microstates-menu",
-    "href": "posts/Lab03-2024.html#microstates-menu",
-    "title": "Lab 03",
-    "section": "Microstates menu",
-    "text": "Microstates menu\n\n\nFigure 2"
-  },
-  {
-    "objectID": "posts/Lab03-2024.html#typical-ms-maps",
-    "href": "posts/Lab03-2024.html#typical-ms-maps",
-    "title": "Lab 03",
-    "section": "Typical MS Maps",
-    "text": "Typical MS Maps\n\n\nFigure 3: Four prototypical microstates (Nash et al. 2022)"
-  },
-  {
-    "objectID": "posts/Lab03-2024.html#obtaining-microstates",
-    "href": "posts/Lab03-2024.html#obtaining-microstates",
-    "title": "Lab 03",
-    "section": "Obtaining microstates",
-    "text": "Obtaining microstates\n\n\nUse Lab 3 demo dataset on Learn.\nConduct the necessary processing."
-  },
-  {
-    "objectID": "posts/Lab03-2024.html#to-submit",
-    "href": "posts/Lab03-2024.html#to-submit",
-    "title": "Lab 03",
-    "section": "To submit",
-    "text": "To submit\n\nUse the the Lab 3 exercise dataset on Learn.\nConduct necessary processing.\nIdentify microstate maps"
+    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#footnotes",
+    "href": "posts/eeg-acq-process/eeg-acq-process.html#footnotes",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nMicrostates is not primarily needed for EEGLab. We install it because it will be used for acquiring resting EEG microstate plots and relevant statistics.↩︎"
   },
   {
     "objectID": "posts/lab-1/Lab01-2024.html#what-is-matlab",
@@ -385,55 +350,6 @@
     "text": "To submit continued\n\nPlot channels as 2-D\nDo you see any anomaly? Comment!\nConduct automatic rejection with ASR.\nReport your findings in comparison with before artefact rejection.\nSubmit this as a pdf on Learn."
   },
   {
-    "objectID": "posts/eeg-acq-process/eeg-acq-process.html",
-    "href": "posts/eeg-acq-process/eeg-acq-process.html",
-    "title": "EEG data acquistion, processing, and analysis",
-    "section": "",
-    "text": "Note\n\n\n\nThis is work under progress and more information will be added."
-  },
-  {
-    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#collecting-eeg-data",
-    "href": "posts/eeg-acq-process/eeg-acq-process.html#collecting-eeg-data",
-    "title": "EEG data acquistion, processing, and analysis",
-    "section": "Collecting EEG data",
-    "text": "Collecting EEG data\nEEG data can be collected using a variety of EEG headset tools and software. We are using a mobile, gel-based, 32 channel headset, Ant Neuro EEGO Sports.\n\nEEG Headset Technical details\n\nBrand: Ant Neuro EEGO Sports 32 (ES-230)\nAmplifier: 32-channel EEGO amplifier, 2 kHz, CE Class IIa medical device\nReference: online referencing with CPz\nGround electrode: AFz\nResolution: 24-bit\nEEG Cap: Waveguard – sizes M, and L\nSampling rate: upto 2048 Hz\nSoftware: EEGO software for recording, reviewing, and export EEG data\n\n\n\nData acquisition\n1. Creating a new subject\n2. Placing EEG headset\n3. Checking Impedance\n4. EEG Recording\n5. Exporting EEG data"
-  },
-  {
-    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#data-processing-and-analysis",
-    "href": "posts/eeg-acq-process/eeg-acq-process.html#data-processing-and-analysis",
-    "title": "EEG data acquistion, processing, and analysis",
-    "section": "Data processing and analysis",
-    "text": "Data processing and analysis\nA variety of software are available for EEG data processing and analysis. The widely used licensed programme is MATALB (stands for matrix laboratory). It is primarily a statistical and machine learning programme and can be used for EEG data processing in two ways: via command line or via a freely available toolbox EEGLab.\n\n\n\nMATLAB user interface\n\n\nThere are many alternative. A famous free programme is Python – whereas the relevant library is called MNE.\nWe primarily use EEGLab in PSYC480, that shall be installed as an MATLAB add-on."
-  },
-  {
-    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#installing-eeglab-toolbox",
-    "href": "posts/eeg-acq-process/eeg-acq-process.html#installing-eeglab-toolbox",
-    "title": "EEG data acquistion, processing, and analysis",
-    "section": "Installing EEGLab Toolbox",
-    "text": "Installing EEGLab Toolbox\n\nUse the latest versions of MATLAB and EEGLab.\nUnzip EEGLab and Microstates1.21, and paste Microstates1.2 inside EEGLab -&gt; plugins.\nMake sure that you do not have any extra - old copies of the software on your computer.\nFrom MATLAB Home tab, click Preferences -&gt; Add-Ons and click on three dots beside the installation folder path (see Figure 1). This shows you the folder where MATLAB has been installed. If you see a MATLAB Add-Ons folder within Mathworks, then EEGLab (unzipped) should be pasted here and deleted from all other places on your computer. If such a folder does not exist, create a new folder and name it MATLAB Add-Ons, then paste the EEGLab folder here. Creating this folder should not be problematics as described here.\nFrom MATLAB Home tab, click Set Path -&gt; Default. This deletes all old paths. Once the process completes, click Save. Then, click Add with Subfolders and find the path to EEGLab folder based on point 4, then click Save.\nType eeglab in MATLAB Command Window and EEGLab shall open.\n\n\n\n\n\n\n\nFigure 1: MATLAB preferences\n\n\n\nEEGLab fig tba.\nHow to create a study\n(Used to process multiple datasets at once)\n\nLoad in datasets\nFile -&gt; Create Study -&gt; Using all loaded datasets\n\nHow to remove non-EEG channels\n\nEdit -&gt; Select Data -&gt; Tick the box on the same line as channel range and then click on the “…” box to select the channels to remove (how do you know how to remove the channels? I wish I knew)\n\nHow to compute the average reference for microstate analysis\n\nTools -&gt; Basic FIR filter -&gt; Set lower edge to 2 and upper edge to 20 and run\n\nHow to run artifact correction (ASR)\n\nTools -&gt; Reject data using clean rawdata and ASR\nTick the “Remove channel drift” box and change the values to 0.75 and 1.25 (Why? IDK)\nUncheck the “Remove channel if it is flat for more than …” box\nChange the min acceptable correlation with nearby chans from 0.8 to 0.7\n\nApparently we now average reference again, but this time we also interpolate removed channels\nHow to run ICA with Picard\n\nTools -&gt; Decompose data by ICA\nChange from “runica” to “picard”\nUncheck the reorder components by variance box\nAfter that is finished, go back to Tools -&gt; Classify components using ICLabel-&gt; label components (leave as default) and run\nThen Tools -&gt; Classify components using ICLabel-&gt; Flag components as artifacts\nThen Tools -&gt; remove components from data\n\nHow to actually run microstate analysis (Windows edition)\n\nTools -&gt; Microstate analysis toolbox -&gt; select data for microstate analysis\nChange ERP – Concatenate datasets to Spontaneous GFP Peaks\nTools -&gt; Microstate analysis toolbox -&gt; Segment into microstates\nCopy this (Shamelessly stolen from Usman’s slides)\n\n\n\nCopy this\n\n\nYou should be able to plot them after doing this."
-  },
-  {
-    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#resting-eeg-microstates",
-    "href": "posts/eeg-acq-process/eeg-acq-process.html#resting-eeg-microstates",
-    "title": "EEG data acquistion, processing, and analysis",
-    "section": "Resting EEG Microstates",
-    "text": "Resting EEG Microstates\nEEG data processing (as described above) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble the prototypical four network types. To the best of my knowledge, it is important to use only the following processing steps:\n\nChannel locations\nFilter 2-20 Hz\nRemove artefacts with ASR, but make sure to un-check the option Remove channel if it is flat for more than (seconds), see Figure 2.\nReference to average and interpolate removed channels.\nFrom Tools -&gt; Microstates -&gt; Obtain Microstate Maps, use k-means method with a min of 4 and max of 5 maps, and set restarts to 20.\nFrom Plots -&gt; …\nExamine whether or not your obtained microstates resemble the prototypical four network types (see Figure 3) (Nash et al. 2022).\n\n\n\n\n\n\n\nFigure 2: Automatic artefact removal\n\n\n\n\n\n\n\n\n\nFigure 3: Four prototypical microstates (Nash et al. 2022)"
-  },
-  {
-    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#eeg-headset-maintenance-and-cleaning",
-    "href": "posts/eeg-acq-process/eeg-acq-process.html#eeg-headset-maintenance-and-cleaning",
-    "title": "EEG data acquistion, processing, and analysis",
-    "section": "EEG Headset maintenance and cleaning",
-    "text": "EEG Headset maintenance and cleaning\nhttps://youtu.be/FOgfR0QI9_A"
-  },
-  {
-    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#footnotes",
-    "href": "posts/eeg-acq-process/eeg-acq-process.html#footnotes",
-    "title": "EEG data acquistion, processing, and analysis",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nMicrostates is not primarily needed for EEGLab. We install it because it will be used for acquiring resting EEG microstate plots and relevant statistics.↩︎"
-  },
-  {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome to PSYC480 Blog",
@@ -543,6 +459,6 @@
     "href": "index.html",
     "title": "Special Topic: Computational Contemplative-Neuroscience",
     "section": "",
-    "text": "EEG data acquistion, processing, and analysis\n\n\n\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nApr 25, 2024\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, Harriet Grace, and Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nApr 23, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nApr 23, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nMar 26, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 01\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nMar 19, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to MATLAB\n\n\nPSYC480\n\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nMar 19, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to PSYC480 Blog\n\n\n\n\n\n\nintro\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nUsman Afzali\n\n\n\n\n\n\nNo matching items"
+    "text": "Introduction to MATLAB\n\n\nPSYC480\n\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nApr 26, 2024\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nEEG data acquistion, processing, and analysis\n\n\n\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nApr 25, 2024\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, Harriet Grace, and Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nApr 23, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nMar 26, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 01\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nMar 19, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to PSYC480 Blog\n\n\n\n\n\n\nintro\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nUsman Afzali\n\n\n\n\n\n\nNo matching items"
   }
 ]

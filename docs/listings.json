@@ -2,12 +2,11 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/matlab/intro-matlab.html",
       "/posts/eeg-acq-process/eeg-acq-process.html",
-      "/posts/Lab03-2024.html",
       "/posts/lab-3/Lab03-2024.html",
       "/posts/lab-2/Lab02-2024.html",
       "/posts/lab-1/Lab01-2024.html",
-      "/posts/matlab/intro-matlab.html",
       "/posts/welcome/index.html"
     ]
   }

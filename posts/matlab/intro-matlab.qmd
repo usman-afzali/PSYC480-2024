@@ -1,9 +1,9 @@
 ---
 title: "Introduction to MATLAB"
 subtitle: "PSYC480"
-author: "Harriet Grace"
+author: "Usman Afzali"
 institute: "University of Canterbury"
-date: 2024-03-19
+date: 2024-04-26
 format: 
   revealjs:
     theme: simple
