@@ -9,7 +9,7 @@ format:
     theme: simple
     highlight-style: github
     slide-number: c/t
-categories: [lab, eeg, eeglab]
+categories: [Lab, EEG, EEGLAB]
 ---
 
 # MATLAB and EEGLab {background-color="orange"}

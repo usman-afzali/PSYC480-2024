@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-html/tabby.min.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.552">
 
   <meta name="author" content="Harriet Grace">
-  <meta name="dcterms.date" content="2024-03-19">
-  <title>PSYC480 Open Science Blog - Introduction to MATLAB</title>
+  <meta name="dcterms.date" content="2024-04-23">
+  <title>PSYC480 Open Science Blog - Lab 03</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -30,12 +30,32 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css">
-  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
   .callout {
@@ -327,7 +347,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Introduction to MATLAB</h1>
+  <h1 class="title">Lab 03</h1>
   <p class="subtitle">PSYC480</p>
 
 <div class="quarto-title-authors">
@@ -341,177 +361,93 @@ Harriet Grace
     </div>
 </div>
 
-  <p class="date">2024-03-19</p>
+  <p class="date">2024-04-23</p>
 </section>
-<section>
-<section id="matlab-and-eeglab" class="title-slide slide level1 center" data-background-color="orange">
-<h1>MATLAB and EEGLab</h1>
-
-</section>
-<section id="what-is-matlab" class="slide level2" data-background-color="#346bc8">
-<h2>What is MATLAB?</h2>
-<ul>
-<li>Programming language</li>
-<li>Matrix manipulations, plotting, implementing algorithms etc.</li>
-<li>Toolboxes and apps</li>
-</ul>
-</section>
-<section id="what-is-eeglab" class="slide level2" data-background-color="#346bc8">
-<h2>What is EEGLab?</h2>
-<ul>
-<li>A MATLAB toolbox</li>
-<li>Used for processing and analysing EEG, MEG and other electrophysiological signals.</li>
-<li>It has a GUI</li>
-</ul>
-</section>
-<section id="processing-and-analysing-eeg-data" class="slide level2" data-background-color="#346bc8">
-<h2>Processing and analysing EEG data</h2>
-<ul>
-<li>MATLAB command line</li>
-<li>The standalone EEGLab software</li>
-<li>Use EEGLab in association with MATLAB</li>
-</ul>
-</section></section>
-<section>
-<section id="demonstration" class="title-slide slide level1 center" data-background-color="orange">
-<h1>Demonstration</h1>
-
-</section>
-<section id="pipeline" class="slide level2" data-background-color="#346bc8">
-<h2>Pipeline</h2>
-
-<img data-src="../../figs/pipeline.png" class="r-stretch"><p><a href="https://youtu.be/gEk33jWB0MY">EEGLab Preprocessing - Delorme</a></p>
-</section>
-<section id="how-to-process-using-eeglab" class="slide level2" data-background-color="#346bc8">
-<h2>How to process using EEGLab</h2>
-<ul>
-<li>Use the available dataset from Learn <code>Lab 1 demo</code>.</li>
-<li>Note “Channels per frame, Frames per epoch, epoch, events, sampling rate, reference and other attributes.</li>
-</ul>
-</section>
-<section id="how-to-process-using-eeglab-1" class="slide level2" data-background-color="#346bc8">
-<h2>How to process using EEGLab</h2>
-<ul>
-<li>Epoch: A procedure in which specific time-windows are extracted from the continuous EEG signal. These time windows are called “epochs”, and usually are time-locked with respect an event e.g.&nbsp;a visual stimulus. <img data-src="../../figs/Figure 9.png"></li>
-</ul>
-</section>
-<section id="attributes-contd" class="slide level2" data-background-color="#346bc8">
-<h2>Attributes contd…</h2>
-<ul>
-<li>Event: a visual stimuli or a task</li>
-<li>Sampling rate (Hz): the number of samples (of electrical activity) recorded per second</li>
-<li>Frames: Frames in EEGLAB are the same as samples (so if you sampled at 500 Hz your data will have 500 frames each second)</li>
-<li>Referencing: EEG recordings measure differences in electrical potentials between two points (Voltages). This means the signal displayed at any channel is in fact the difference in electrical potential to some other recording site (or reference).</li>
-</ul>
-</section>
-<section id="visualising-eeg-data" class="slide level2" data-background-color="#346bc8">
-<h2>Visualising EEG data</h2>
-<ul>
-<li>Use <code>Plot -&gt; Channel data (scroll)</code>.</li>
-</ul>
-
-<img data-src="../../figs/eeg1.png" class="r-stretch"></section>
-<section id="referencing" class="slide level2" data-background-color="#346bc8">
-<h2>Referencing</h2>
+<section id="eeg-microstates" class="slide level2" data-background-color="orange">
+<h2>EEG Microstates</h2>
 <div>
 <ul>
-<li class="fragment">Why do we reference?</li>
+<li class="fragment">Definition</li>
+<li class="fragment">Use</li>
+<li class="fragment">Re-processing</li>
 </ul>
 </div>
 </section>
-<section id="referencing-to-m1-and-m2" class="slide level2" data-background-color="#346bc8">
-<h2>Referencing to M1 and M2</h2>
+<section id="microstates-definition" class="slide level2" data-background-color="#346bc8">
+<h2>Microstates Definition</h2>
+<p>“EEG microstates are brief, recurring periods of stable brain activity that reflect the activation of <code>large-scale neural networks</code>. The temporal characteristics of these microstates, including their average duration, number of occurrences, and percentage contribution have been shown to <code>serve</code> as biomarkers of mental and neurological disorders” <span class="citation" data-cites="kleinert2024">(<a href="#/the-end" role="doc-biblioref" onclick="">Kleinert, Nash, et al. 2024</a>)</span>.</p>
+</section>
+<section id="two-major-types" class="slide level2" data-background-color="#346bc8">
+<h2>Two major types</h2>
 <div>
 <ul>
-<li class="fragment">Use <code>Tools -&gt; re-reference the data</code>.</li>
-<li class="fragment">Compare the attributes to the original dataset. Is there any discrepancy? If yes, why?</li>
-<li class="fragment">If you haven’t picked answer to “why” yet, plot the data again and observe closely.</li>
+<li class="fragment">Resting EEG Microstates</li>
+<li class="fragment">ERP Microstates</li>
 </ul>
 </div>
 </section>
-<section id="filtering" class="slide level2" data-background-color="#346bc8">
-<h2>Filtering</h2>
-<div>
-<ul>
-<li class="fragment">Why do we filter data?</li>
-<li class="fragment">Many sources of noise, such as the 60Hz line noise, consist mainly of very high frequencies or very low frequencies, whereas most of the useful information in an EEG or ERP waveform is at intermediate frequencies (between approximately 0.1Hz and 50Hz).</li>
-</ul>
-</div>
+<section id="the-use-of-microstates" class="slide level2" data-background-color="#346bc8">
+<h2>The use of Microstates</h2>
+<p>“Recent publications demonstrate the potential of microstate research to <code>contribute</code> to a more sophisticated diagnosis, monitoring, prognosis, and prevention of mental disorders in clinical psychology and psychiatry. Microstate characteristics may serve as <code>biomarkers</code> of schizophrenia (da Cruz et al.&nbsp;2020; de Bock et al.&nbsp;2020), affective disorders (Al Zoubi et al.&nbsp;2019; Damborská et al.&nbsp;2019b; Murphy et al.&nbsp;2020), anxiety disorders (Al Zoubi et al.&nbsp;2019), ADHD (Férat et al.&nbsp;2022a), and autism (D’Croz-Baron et al.&nbsp;2019; Bochet et al.&nbsp;2021). as mentioned in <span class="citation" data-cites="kleinert2024a">(<a href="#/the-end" role="doc-biblioref" onclick="">Kleinert, Koenig, et al. 2024</a>)</span>”</p>
 </section>
-<section id="filtering-contd." class="slide level2" data-background-color="#346bc8">
-<h2>Filtering contd….</h2>
-<div>
-<ul>
-<li class="fragment"><p>Consequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.</p></li>
-<li class="fragment"><p>Delorme recommends filtering at 0.5.</p></li>
-<li class="fragment"><p>Use <code>Tools -&gt; Filter data -&gt; basic FIR Filter</code>. Type 0.5 in the <code>Lower edge</code></p></li>
-<li class="fragment"><p>DC offset: <a href="https://relaytraining.com/what-is-dc-offset-ask-chris/" class="uri">https://relaytraining.com/what-is-dc-offset-ask-chris/</a></p></li>
-</ul>
-</div>
+<section id="processing-for-microstates-analysis" class="slide level2" data-background-color="#346bc8">
+<h2>Processing for Microstates analysis</h2>
+<p>EEG data processing (as described in the previous labs) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble the prototypical four to seven network types.</p>
 </section>
-<section id="visaul-inspection." class="slide level2" data-background-color="#346bc8">
-<h2>Visaul inspection….</h2>
-<ul>
-<li>From <code>Edit</code>, select <code>channel locations</code></li>
-<li>Plot channels as <code>2-D</code></li>
-</ul>
+<section id="processing-continued." class="slide level2" data-background-color="#346bc8">
+<h2>Processing continued….</h2>
+<p>To the best of my knowledge, it is important to use only the following processing steps:</p>
+<ol type="1">
+<li>Add channel locations</li>
+<li>Filter 2-20 Hz</li>
+<li>Remove artefacts with ASR, but make sure to un-check the option <code>Remove channel if it is flat for more than (seconds)</code>, see <a href="#/fig-artefact-ms" class="quarto-xref">Figure&nbsp;1</a>.</li>
+<li>Reference to average and interpolate removed channels.</li>
+</ol>
 </section>
-<section id="removing-unwanted-channels" class="slide level2" data-background-color="#346bc8">
-<h2>Removing unwanted channels</h2>
-<p>Use <code>Edit -&gt; Select data</code>. Select the <code>Channel range</code> that you want to remove.</p>
-</section>
-<section id="examining-raw-data" class="slide level2" data-background-color="#346bc8">
-<h2>Examining raw data</h2>
-<div class="quarto-layout-panel" data-layout="[[60, 40], [100]]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
-<ul>
-<li>To identify artefacts</li>
-<li>And to reject them</li>
-<li>Use <code>Tools -&gt; Inspect/reject data by eye.</code> Use your mouse to highlight the part you want to reject, and click the <code>REJECT</code> button.</li>
-</ul>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: center;">
-<p><img data-src="../../figs/messydata.png"></p>
-</div>
-</div>
-</div>
-</section>
-<section id="automatic-artefact-rejection" class="slide level2" data-background-color="#346bc8">
-<h2>Automatic artefact rejection</h2>
-<p>Use <code>Tools -&gt; Reject data using Clean Rawdata and ASR.</code> Generally, we’d use all <code>default choices</code> - Consequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.</p>
-<ul>
-<li>Delorme’s <a href="https://www.youtube.com/watch?v=5BTT-L2Ab04&amp;list=PLXc9qfVbMMN1ZS3sU2xT2hhfB5PAmuNae&amp;index=6">video</a> and another <a href="https://www.youtube.com/watch?v=ZvbRiX84mgc&amp;list=PLXc9qfVbMMN1ZS3sU2xT2hhfB5PAmuNae&amp;index=7">video</a> on these.</li>
-</ul>
-</section></section>
-<section>
-<section id="exercise" class="title-slide slide level1 center" data-background-color="orange">
-<h1>Exercise</h1>
+<section id="processing-continued.-1" class="slide level2" data-background-color="#346bc8">
+<h2>Processing continued….</h2>
 
+<img data-src="../figs/artefact-ms.jpg" class="r-stretch quarto-figure-center"><p class="caption">
+Figure&nbsp;1: Automatic artefact removal
+</p></section>
+<section id="processing-continued.-2" class="slide level2" data-background-color="#346bc8">
+<h2>Processing continued….</h2>
+<ol start="5" type="1">
+<li>From <code>Tools -&gt; Microstates -&gt; Obtain Microstate Maps</code>, use <code>k-means</code> method with a min of 4 and max of 5 maps, and set <code>restarts</code> to 20, see <a href="#/microstates-menu" class="quarto-xref">Figure&nbsp;2</a>.</li>
+<li>From <code>Plots -&gt;</code> …</li>
+<li>Examine whether or not your obtained microstates resemble the prototypical four (or seven) network types (see <a href="#/fig-fourmaps" class="quarto-xref">Figure&nbsp;3</a>) <span class="citation" data-cites="nash2022">(<a href="#/the-end" role="doc-biblioref" onclick="">Nash et al. 2022</a>)</span>.</li>
+</ol>
+</section>
+<section id="microstates-menu" class="slide level2">
+<h2>Microstates menu</h2>
+
+<img data-src="../figs/ms.png" id="fig-snap-ms" class="r-stretch quarto-figure-center"><p class="caption">
+Figure&nbsp;2
+</p></section>
+<section id="typical-ms-maps" class="slide level2" data-background-color="#346bc8">
+<h2>Typical MS Maps</h2>
+
+<img data-src="../figs/fourmaps.png" class="r-stretch quarto-figure-center"><p class="caption">
+Figure&nbsp;3: Four prototypical microstates <span class="citation" data-cites="nash2022">(<a href="#/the-end" role="doc-biblioref" onclick="">Nash et al. 2022</a>)</span>
+</p></section>
+<section id="obtaining-microstates" class="slide level2" data-background-color="#346bc8">
+<h2>Obtaining microstates</h2>
+<div>
+<ul>
+<li class="fragment">Use <code>Lab 3 demo</code> dataset on Learn.</li>
+<li class="fragment">Conduct the necessary processing.</li>
+</ul>
+</div>
 </section>
 <section id="to-submit" class="slide level2" data-background-color="#346bc8">
 <h2>To submit</h2>
 <ul>
-<li>Use the the <code>Lab 1 exercise</code> dataset on Learn.</li>
-<li>Read it in to the EEGLab</li>
-<li>Report all attributes</li>
-<li>Insert a screenshot of the attributes</li>
-<li>Plot data using the scroll option</li>
-<li>Insert a screenshot</li>
-<li>Report your observation: do the data look similar to <code>demonstration</code>? What do you see as a potential difference?</li>
+<li>Use the the <code>Lab 3 exercise</code> dataset on Learn.</li>
+<li>Conduct necessary processing.</li>
+<li>Identify microstate maps</li>
 </ul>
 </section>
-<section id="to-submit-continued" class="slide level2" data-background-color="#346bc8">
-<h2>To submit continued</h2>
-<ul>
-<li>Plot channels as <code>2-D</code></li>
-<li>Do you see any anomaly? Comment!</li>
-<li>Conduct automatic rejection with ASR.</li>
-<li>Report your findings in comparison with before artefact rejection.</li>
-<li>Submit this as a pdf on Learn.</li>
-</ul>
-</section></section>
-<section id="the-end" class="title-slide slide level1 center" data-background-color="orange">
+<section id="the-end" class="title-slide slide level1 smaller scrollable" data-background-color="orange">
 <h1>The END</h1>
 
 <div class="quarto-auto-generated-content">
@@ -519,24 +455,35 @@ Harriet Grace
 
 </div>
 </div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-kleinert2024a" class="csl-entry" role="listitem">
+Kleinert, Tobias, Thomas Koenig, Kyle Nash, and Edmund Wascher. 2024. <span>“On the Reliability of the EEG Microstate Approach.”</span> <em>Brain Topography</em> 37 (2): 271–86. <a href="https://doi.org/10.1007/s10548-023-00982-9">https://doi.org/10.1007/s10548-023-00982-9</a>.
+</div>
+<div id="ref-kleinert2024" class="csl-entry" role="listitem">
+Kleinert, Tobias, Kyle Nash, Thomas Koenig, and Edmund Wascher. 2024. <span>“Normative Intercorrelations Between EEG Microstate Characteristics.”</span> <em>Brain Topography</em> 37 (2): 265–69. <a href="https://doi.org/10.1007/s10548-023-00988-3">https://doi.org/10.1007/s10548-023-00988-3</a>.
+</div>
+<div id="ref-nash2022" class="csl-entry" role="listitem">
+Nash, Kyle, Tobias Kleinert, Josh Leota, Andy Scott, and Jeff Schimel. 2022. <span>“Resting-State Networks of Believers and Non-Believers: An EEG Microstate Study.”</span> <em>Biological Psychology</em> 169 (March): 108283. <a href="https://doi.org/10.1016/j.biopsycho.2022.108283">https://doi.org/10.1016/j.biopsycho.2022.108283</a>.
+</div>
+</div>
 </section>
     </div>
   </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
-  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>

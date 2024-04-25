@@ -4,7 +4,7 @@ author: "Charlie Drinkwater, Sheena Henderson, Cambria Doyle, Harriet Grace, and
 date: 2024-04-25
 format: html
 bibliography: references.bib
-categories: [lab, eeg, eeglab, matlab]
+categories: [Lab, EEG, EEGLAB, MATLAB]
 ---
 
 ::: callout-note

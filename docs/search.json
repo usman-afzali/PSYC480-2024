@@ -7,67 +7,263 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To PSYC480 Blog",
-    "section": "",
-    "text": "Kia ora!\nWelcome to PSYC480 (2024) blog.\nI am Usman Afzali, the course coordinator and lecturer of the course.\nThis website contains labs and EEG data processing and analysis instructions for Special Topic: Computational Contemplative-Neuroscience taught at the School of Psychology, Speech and Hearing, University of Canterbury."
+    "objectID": "posts/matlab/intro-matlab.html#what-is-matlab",
+    "href": "posts/matlab/intro-matlab.html#what-is-matlab",
+    "title": "Introduction to MATLAB",
+    "section": "What is MATLAB?",
+    "text": "What is MATLAB?\n\nProgramming language\nMatrix manipulations, plotting, implementing algorithms etc.\nToolboxes and apps"
   },
   {
-    "objectID": "posts/welcome/index.html#blog",
-    "href": "posts/welcome/index.html#blog",
-    "title": "Welcome To PSYC480 Blog",
-    "section": "Blog",
-    "text": "Blog\nPlease access the PSYC480 blog to see this code live."
+    "objectID": "posts/matlab/intro-matlab.html#what-is-eeglab",
+    "href": "posts/matlab/intro-matlab.html#what-is-eeglab",
+    "title": "Introduction to MATLAB",
+    "section": "What is EEGLab?",
+    "text": "What is EEGLab?\n\nA MATLAB toolbox\nUsed for processing and analysing EEG, MEG and other electrophysiological signals.\nIt has a GUI"
   },
   {
-    "objectID": "posts/welcome/index.html#note",
-    "href": "posts/welcome/index.html#note",
-    "title": "Welcome To PSYC480 Blog",
-    "section": "Note",
-    "text": "Note\n\nFeel free to use/replicate the code.\nSuggestions welcome.\n\nKind regards.\nUsman Afzali, PhD\nwww.usmanafzali.com"
+    "objectID": "posts/matlab/intro-matlab.html#processing-and-analysing-eeg-data",
+    "href": "posts/matlab/intro-matlab.html#processing-and-analysing-eeg-data",
+    "title": "Introduction to MATLAB",
+    "section": "Processing and analysing EEG data",
+    "text": "Processing and analysing EEG data\n\nMATLAB command line\nThe standalone EEGLab software\nUse EEGLab in association with MATLAB"
   },
   {
-    "objectID": "posts/Lab02-2024.html#pipeline",
-    "href": "posts/Lab02-2024.html#pipeline",
-    "title": "Lab 02",
+    "objectID": "posts/matlab/intro-matlab.html#pipeline",
+    "href": "posts/matlab/intro-matlab.html#pipeline",
+    "title": "Introduction to MATLAB",
     "section": "Pipeline",
     "text": "Pipeline\n\nEEGLab Preprocessing - Delorme"
   },
   {
-    "objectID": "posts/Lab02-2024.html#recap",
-    "href": "posts/Lab02-2024.html#recap",
-    "title": "Lab 02",
-    "section": "Recap",
-    "text": "Recap\n\nReferencing and filtering\nRemoving unwanted channels\nRemoving artefacts"
+    "objectID": "posts/matlab/intro-matlab.html#how-to-process-using-eeglab",
+    "href": "posts/matlab/intro-matlab.html#how-to-process-using-eeglab",
+    "title": "Introduction to MATLAB",
+    "section": "How to process using EEGLab",
+    "text": "How to process using EEGLab\n\nUse the available dataset from Learn Lab 1 demo.\nNote “Channels per frame, Frames per epoch, epoch, events, sampling rate, reference and other attributes."
   },
   {
-    "objectID": "posts/Lab02-2024.html#independent-component-analysis-ica",
-    "href": "posts/Lab02-2024.html#independent-component-analysis-ica",
-    "title": "Lab 02",
-    "section": "Independent Component Analysis (ICA)",
-    "text": "Independent Component Analysis (ICA)\n\n\nWhy we need ICA?\nICA is a signal processing method to separate independent sources linearly mixed in several sensors (ICA for Dummies - By Delorme)\nLet’s watch the video together: ICA by Delorme\nRemove artefacts, make sure you have enough data (20 * square of number of channels), high pass filter at 0.5, remove bad channels."
+    "objectID": "posts/matlab/intro-matlab.html#how-to-process-using-eeglab-1",
+    "href": "posts/matlab/intro-matlab.html#how-to-process-using-eeglab-1",
+    "title": "Introduction to MATLAB",
+    "section": "How to process using EEGLab",
+    "text": "How to process using EEGLab\n\nEpoch: A procedure in which specific time-windows are extracted from the continuous EEG signal. These time windows are called “epochs”, and usually are time-locked with respect an event e.g. a visual stimulus."
   },
   {
-    "objectID": "posts/Lab02-2024.html#running-ica",
-    "href": "posts/Lab02-2024.html#running-ica",
-    "title": "Lab 02",
-    "section": "Running ICA",
-    "text": "Running ICA\n\n\nUse the the Lab 2 demo dataset on Learn.\nUse Tools -&gt; Decompose data by ICA. Select Infomax runica.m (default), extended 1 (helps to detect line noise).\nYou can also plot all or individual component maps from the Plot menu.\nUse Tools -&gt; Inspect/label components by map.\nUse Tools -&gt; Remove components from data."
+    "objectID": "posts/matlab/intro-matlab.html#attributes-contd",
+    "href": "posts/matlab/intro-matlab.html#attributes-contd",
+    "title": "Introduction to MATLAB",
+    "section": "Attributes contd…",
+    "text": "Attributes contd…\n\nEvent: a visual stimuli or a task\nSampling rate (Hz): the number of samples (of electrical activity) recorded per second\nFrames: Frames in EEGLAB are the same as samples (so if you sampled at 500 Hz your data will have 500 frames each second)\nReferencing: EEG recordings measure differences in electrical potentials between two points (Voltages). This means the signal displayed at any channel is in fact the difference in electrical potential to some other recording site (or reference)."
   },
   {
-    "objectID": "posts/Lab02-2024.html#continued",
-    "href": "posts/Lab02-2024.html#continued",
-    "title": "Lab 02",
-    "section": "Continued",
-    "text": "Continued\n\n\nOr, do this automatically: Tools -&gt; Classify components using ICLabel, then flag components as artefacts.\nImportant: DON’T remove/reject components if you are conducting group level analysis (we will learn about group level analysis later)."
+    "objectID": "posts/matlab/intro-matlab.html#visualising-eeg-data",
+    "href": "posts/matlab/intro-matlab.html#visualising-eeg-data",
+    "title": "Introduction to MATLAB",
+    "section": "Visualising EEG data",
+    "text": "Visualising EEG data\n\nUse Plot -&gt; Channel data (scroll)."
   },
   {
-    "objectID": "posts/Lab02-2024.html#to-submit",
-    "href": "posts/Lab02-2024.html#to-submit",
-    "title": "Lab 02",
+    "objectID": "posts/matlab/intro-matlab.html#referencing",
+    "href": "posts/matlab/intro-matlab.html#referencing",
+    "title": "Introduction to MATLAB",
+    "section": "Referencing",
+    "text": "Referencing\n\n\nWhy do we reference?"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#referencing-to-m1-and-m2",
+    "href": "posts/matlab/intro-matlab.html#referencing-to-m1-and-m2",
+    "title": "Introduction to MATLAB",
+    "section": "Referencing to M1 and M2",
+    "text": "Referencing to M1 and M2\n\n\nUse Tools -&gt; re-reference the data.\nCompare the attributes to the original dataset. Is there any discrepancy? If yes, why?\nIf you haven’t picked answer to “why” yet, plot the data again and observe closely."
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#filtering",
+    "href": "posts/matlab/intro-matlab.html#filtering",
+    "title": "Introduction to MATLAB",
+    "section": "Filtering",
+    "text": "Filtering\n\n\nWhy do we filter data?\nMany sources of noise, such as the 60Hz line noise, consist mainly of very high frequencies or very low frequencies, whereas most of the useful information in an EEG or ERP waveform is at intermediate frequencies (between approximately 0.1Hz and 50Hz)."
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#filtering-contd.",
+    "href": "posts/matlab/intro-matlab.html#filtering-contd.",
+    "title": "Introduction to MATLAB",
+    "section": "Filtering contd….",
+    "text": "Filtering contd….\n\n\nConsequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.\nDelorme recommends filtering at 0.5.\nUse Tools -&gt; Filter data -&gt; basic FIR Filter. Type 0.5 in the Lower edge\nDC offset: https://relaytraining.com/what-is-dc-offset-ask-chris/"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#visaul-inspection.",
+    "href": "posts/matlab/intro-matlab.html#visaul-inspection.",
+    "title": "Introduction to MATLAB",
+    "section": "Visaul inspection….",
+    "text": "Visaul inspection….\n\nFrom Edit, select channel locations\nPlot channels as 2-D"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#removing-unwanted-channels",
+    "href": "posts/matlab/intro-matlab.html#removing-unwanted-channels",
+    "title": "Introduction to MATLAB",
+    "section": "Removing unwanted channels",
+    "text": "Removing unwanted channels\nUse Edit -&gt; Select data. Select the Channel range that you want to remove."
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#examining-raw-data",
+    "href": "posts/matlab/intro-matlab.html#examining-raw-data",
+    "title": "Introduction to MATLAB",
+    "section": "Examining raw data",
+    "text": "Examining raw data\n\n\n\n\nTo identify artefacts\nAnd to reject them\nUse Tools -&gt; Inspect/reject data by eye. Use your mouse to highlight the part you want to reject, and click the REJECT button."
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#automatic-artefact-rejection",
+    "href": "posts/matlab/intro-matlab.html#automatic-artefact-rejection",
+    "title": "Introduction to MATLAB",
+    "section": "Automatic artefact rejection",
+    "text": "Automatic artefact rejection\nUse Tools -&gt; Reject data using Clean Rawdata and ASR. Generally, we’d use all default choices - Consequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.\n\nDelorme’s video and another video on these."
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#to-submit",
+    "href": "posts/matlab/intro-matlab.html#to-submit",
+    "title": "Introduction to MATLAB",
     "section": "To submit",
-    "text": "To submit\n\nUse the the Lab 2 exercise dataset on Learn.\nConduct pipeline processing as per usual (using last week’s processing too).\nRun ICA, share a screenshot.\nRemove components, share a screenshot.\nCompare pre- and post-analysis attributes.\nCompare pre- and post-analysis Channel data (scroll). What do you conclude? Any problems/issues? Why or why not? (consists 25% of today’s mark)."
+    "text": "To submit\n\nUse the the Lab 1 exercise dataset on Learn.\nRead it in to the EEGLab\nReport all attributes\nInsert a screenshot of the attributes\nPlot data using the scroll option\nInsert a screenshot\nReport your observation: do the data look similar to demonstration? What do you see as a potential difference?"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#to-submit-continued",
+    "href": "posts/matlab/intro-matlab.html#to-submit-continued",
+    "title": "Introduction to MATLAB",
+    "section": "To submit continued",
+    "text": "To submit continued\n\nPlot channels as 2-D\nDo you see any anomaly? Comment!\nConduct automatic rejection with ASR.\nReport your findings in comparison with before artefact rejection.\nSubmit this as a pdf on Learn."
+  },
+  {
+    "objectID": "posts/Lab03-2024.html#eeg-microstates",
+    "href": "posts/Lab03-2024.html#eeg-microstates",
+    "title": "Lab 03",
+    "section": "EEG Microstates",
+    "text": "EEG Microstates\n\n\nDefinition\nUse\nRe-processing"
+  },
+  {
+    "objectID": "posts/Lab03-2024.html#microstates-definition",
+    "href": "posts/Lab03-2024.html#microstates-definition",
+    "title": "Lab 03",
+    "section": "Microstates Definition",
+    "text": "Microstates Definition\n“EEG microstates are brief, recurring periods of stable brain activity that reflect the activation of large-scale neural networks. The temporal characteristics of these microstates, including their average duration, number of occurrences, and percentage contribution have been shown to serve as biomarkers of mental and neurological disorders” (Kleinert, Nash, et al. 2024)."
+  },
+  {
+    "objectID": "posts/Lab03-2024.html#two-major-types",
+    "href": "posts/Lab03-2024.html#two-major-types",
+    "title": "Lab 03",
+    "section": "Two major types",
+    "text": "Two major types\n\n\nResting EEG Microstates\nERP Microstates"
+  },
+  {
+    "objectID": "posts/Lab03-2024.html#the-use-of-microstates",
+    "href": "posts/Lab03-2024.html#the-use-of-microstates",
+    "title": "Lab 03",
+    "section": "The use of Microstates",
+    "text": "The use of Microstates\n“Recent publications demonstrate the potential of microstate research to contribute to a more sophisticated diagnosis, monitoring, prognosis, and prevention of mental disorders in clinical psychology and psychiatry. Microstate characteristics may serve as biomarkers of schizophrenia (da Cruz et al. 2020; de Bock et al. 2020), affective disorders (Al Zoubi et al. 2019; Damborská et al. 2019b; Murphy et al. 2020), anxiety disorders (Al Zoubi et al. 2019), ADHD (Férat et al. 2022a), and autism (D’Croz-Baron et al. 2019; Bochet et al. 2021). as mentioned in (Kleinert, Koenig, et al. 2024)”"
+  },
+  {
+    "objectID": "posts/Lab03-2024.html#processing-for-microstates-analysis",
+    "href": "posts/Lab03-2024.html#processing-for-microstates-analysis",
+    "title": "Lab 03",
+    "section": "Processing for Microstates analysis",
+    "text": "Processing for Microstates analysis\nEEG data processing (as described in the previous labs) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble the prototypical four to seven network types."
+  },
+  {
+    "objectID": "posts/Lab03-2024.html#processing-continued.",
+    "href": "posts/Lab03-2024.html#processing-continued.",
+    "title": "Lab 03",
+    "section": "Processing continued….",
+    "text": "Processing continued….\nTo the best of my knowledge, it is important to use only the following processing steps:\n\nAdd channel locations\nFilter 2-20 Hz\nRemove artefacts with ASR, but make sure to un-check the option Remove channel if it is flat for more than (seconds), see Figure 1.\nReference to average and interpolate removed channels."
+  },
+  {
+    "objectID": "posts/Lab03-2024.html#processing-continued.-1",
+    "href": "posts/Lab03-2024.html#processing-continued.-1",
+    "title": "Lab 03",
+    "section": "Processing continued….",
+    "text": "Processing continued….\n\n\nFigure 1: Automatic artefact removal"
+  },
+  {
+    "objectID": "posts/Lab03-2024.html#processing-continued.-2",
+    "href": "posts/Lab03-2024.html#processing-continued.-2",
+    "title": "Lab 03",
+    "section": "Processing continued….",
+    "text": "Processing continued….\n\nFrom Tools -&gt; Microstates -&gt; Obtain Microstate Maps, use k-means method with a min of 4 and max of 5 maps, and set restarts to 20, see Figure 2.\nFrom Plots -&gt; …\nExamine whether or not your obtained microstates resemble the prototypical four (or seven) network types (see Figure 3) (Nash et al. 2022)."
+  },
+  {
+    "objectID": "posts/Lab03-2024.html#microstates-menu",
+    "href": "posts/Lab03-2024.html#microstates-menu",
+    "title": "Lab 03",
+    "section": "Microstates menu",
+    "text": "Microstates menu\n\n\nFigure 2"
+  },
+  {
+    "objectID": "posts/Lab03-2024.html#typical-ms-maps",
+    "href": "posts/Lab03-2024.html#typical-ms-maps",
+    "title": "Lab 03",
+    "section": "Typical MS Maps",
+    "text": "Typical MS Maps\n\n\nFigure 3: Four prototypical microstates (Nash et al. 2022)"
+  },
+  {
+    "objectID": "posts/Lab03-2024.html#obtaining-microstates",
+    "href": "posts/Lab03-2024.html#obtaining-microstates",
+    "title": "Lab 03",
+    "section": "Obtaining microstates",
+    "text": "Obtaining microstates\n\n\nUse Lab 3 demo dataset on Learn.\nConduct the necessary processing."
+  },
+  {
+    "objectID": "posts/Lab03-2024.html#to-submit",
+    "href": "posts/Lab03-2024.html#to-submit",
+    "title": "Lab 03",
+    "section": "To submit",
+    "text": "To submit\n\nUse the the Lab 3 exercise dataset on Learn.\nConduct necessary processing.\nIdentify microstate maps"
+  },
+  {
+    "objectID": "posts/eeg-acq-process/eeg-acq-process.html",
+    "href": "posts/eeg-acq-process/eeg-acq-process.html",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "",
+    "text": "Note\n\n\n\nThis is work under progress and more information will be added."
+  },
+  {
+    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#collecting-eeg-data",
+    "href": "posts/eeg-acq-process/eeg-acq-process.html#collecting-eeg-data",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "Collecting EEG data",
+    "text": "Collecting EEG data\nEEG data can be collected using a variety of EEG headset tools and software. We are using a mobile, gel-based, 32 channel headset, Ant Neuro EEGO Sports.\n\nEEG Headset Technical details\n\nBrand: Ant Neuro EEGO Sports 32 (ES-230)\nAmplifier: 32-channel EEGO amplifier, 2 kHz, CE Class IIa medical device\nReference: online referencing with CPz\nGround electrode: AFz\nResolution: 24-bit\nEEG Cap: Waveguard – sizes M, and L\nSampling rate: upto 2048 Hz\nSoftware: EEGO software for recording, reviewing, and export EEG data\n\n\n\nData acquisition\n1. Creating a new subject\n2. Placing EEG headset\n3. Checking Impedance\n4. EEG Recording\n5. Exporting EEG data"
+  },
+  {
+    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#data-processing-and-analysis",
+    "href": "posts/eeg-acq-process/eeg-acq-process.html#data-processing-and-analysis",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "Data processing and analysis",
+    "text": "Data processing and analysis\nA variety of software are available for EEG data processing and analysis. The widely used licensed programme is MATALB (stands for matrix laboratory). It is primarily a statistical and machine learning programme and can be used for EEG data processing in two ways: via command line or via a freely available toolbox EEGLab.\n\n\n\nMATLAB user interface\n\n\nThere are many alternative. A famous free programme is Python – whereas the relevant library is called MNE.\nWe primarily use EEGLab in PSYC480, that shall be installed as an MATLAB add-on."
+  },
+  {
+    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#installing-eeglab-toolbox",
+    "href": "posts/eeg-acq-process/eeg-acq-process.html#installing-eeglab-toolbox",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "Installing EEGLab Toolbox",
+    "text": "Installing EEGLab Toolbox\n\nUse the latest versions of MATLAB and EEGLab.\nUnzip EEGLab and Microstates1.21, and paste Microstates1.2 inside EEGLab -&gt; plugins.\nMake sure that you do not have any extra - old copies of the software on your computer.\nFrom MATLAB Home tab, click Preferences -&gt; Add-Ons and click on three dots beside the installation folder path (see Figure 1). This shows you the folder where MATLAB has been installed. If you see a MATLAB Add-Ons folder within Mathworks, then EEGLab (unzipped) should be pasted here and deleted from all other places on your computer. If such a folder does not exist, create a new folder and name it MATLAB Add-Ons, then paste the EEGLab folder here. Creating this folder should not be problematics as described here.\nFrom MATLAB Home tab, click Set Path -&gt; Default. This deletes all old paths. Once the process completes, click Save. Then, click Add with Subfolders and find the path to EEGLab folder based on point 4, then click Save.\nType eeglab in MATLAB Command Window and EEGLab shall open.\n\n\n\n\n\n\n\nFigure 1: MATLAB preferences\n\n\n\nEEGLab fig tba.\nHow to create a study\n(Used to process multiple datasets at once)\n\nLoad in datasets\nFile -&gt; Create Study -&gt; Using all loaded datasets\n\nHow to remove non-EEG channels\n\nEdit -&gt; Select Data -&gt; Tick the box on the same line as channel range and then click on the “…” box to select the channels to remove (how do you know how to remove the channels? I wish I knew)\n\nHow to compute the average reference for microstate analysis\n\nTools -&gt; Basic FIR filter -&gt; Set lower edge to 2 and upper edge to 20 and run\n\nHow to run artifact correction (ASR)\n\nTools -&gt; Reject data using clean rawdata and ASR\nTick the “Remove channel drift” box and change the values to 0.75 and 1.25 (Why? IDK)\nUncheck the “Remove channel if it is flat for more than …” box\nChange the min acceptable correlation with nearby chans from 0.8 to 0.7\n\nApparently we now average reference again, but this time we also interpolate removed channels\nHow to run ICA with Picard\n\nTools -&gt; Decompose data by ICA\nChange from “runica” to “picard”\nUncheck the reorder components by variance box\nAfter that is finished, go back to Tools -&gt; Classify components using ICLabel-&gt; label components (leave as default) and run\nThen Tools -&gt; Classify components using ICLabel-&gt; Flag components as artifacts\nThen Tools -&gt; remove components from data\n\nHow to actually run microstate analysis (Windows edition)\n\nTools -&gt; Microstate analysis toolbox -&gt; select data for microstate analysis\nChange ERP – Concatenate datasets to Spontaneous GFP Peaks\nTools -&gt; Microstate analysis toolbox -&gt; Segment into microstates\nCopy this (Shamelessly stolen from Usman’s slides)\n\n\n\nCopy this\n\n\nYou should be able to plot them after doing this."
+  },
+  {
+    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#resting-eeg-microstates",
+    "href": "posts/eeg-acq-process/eeg-acq-process.html#resting-eeg-microstates",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "Resting EEG Microstates",
+    "text": "Resting EEG Microstates\nEEG data processing (as described above) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble the prototypical four network types. To the best of my knowledge, it is important to use only the following processing steps:\n\nChannel locations\nFilter 2-20 Hz\nRemove artefacts with ASR, but make sure to un-check the option Remove channel if it is flat for more than (seconds), see Figure 2.\nReference to average and interpolate removed channels.\nFrom Tools -&gt; Microstates -&gt; Obtain Microstate Maps, use k-means method with a min of 4 and max of 5 maps, and set restarts to 20.\nFrom Plots -&gt; …\nExamine whether or not your obtained microstates resemble the prototypical four network types (see Figure 3) (Nash et al. 2022).\n\n\n\n\n\n\n\nFigure 2: Automatic artefact removal\n\n\n\n\n\n\n\n\n\nFigure 3: Four prototypical microstates (Nash et al. 2022)"
+  },
+  {
+    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#eeg-headset-maintenance-and-cleaning",
+    "href": "posts/eeg-acq-process/eeg-acq-process.html#eeg-headset-maintenance-and-cleaning",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "EEG Headset maintenance and cleaning",
+    "text": "EEG Headset maintenance and cleaning\nhttps://youtu.be/FOgfR0QI9_A"
+  },
+  {
+    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#footnotes",
+    "href": "posts/eeg-acq-process/eeg-acq-process.html#footnotes",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nMicrostates is not primarily needed for EEGLab. We install it because it will be used for acquiring resting EEG microstate plots and relevant statistics.↩︎"
   },
   {
     "objectID": "posts/lab-1/Lab01-2024.html#what-is-matlab",
@@ -196,395 +392,73 @@
     "text": "To submit continued\n\nPlot channels as 2-D\nDo you see any anomaly? Comment!\nConduct automatic rejection with ASR.\nReport your findings in comparison with before artefact rejection.\nSubmit this as a pdf on Learn."
   },
   {
-    "objectID": "posts/eeg-acq-process/eeg-acq-process.html",
-    "href": "posts/eeg-acq-process/eeg-acq-process.html",
-    "title": "EEG data acquistion, processing, and analysis",
-    "section": "",
-    "text": "Note\n\n\n\nThis is work under progress and more information will be added."
+    "objectID": "posts/Lab02-2024.html#pipeline",
+    "href": "posts/Lab02-2024.html#pipeline",
+    "title": "Lab 02",
+    "section": "Pipeline",
+    "text": "Pipeline\n\nEEGLab Preprocessing - Delorme"
   },
   {
-    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#collecting-eeg-data",
-    "href": "posts/eeg-acq-process/eeg-acq-process.html#collecting-eeg-data",
-    "title": "EEG data acquistion, processing, and analysis",
-    "section": "Collecting EEG data",
-    "text": "Collecting EEG data\nEEG data can be collected using a variety of EEG headset tools and software. We are using a mobile, gel-based, 32 channel headset, Ant Neuro EEGO Sports.\n\nEEG Headset Technical details\n\nBrand: Ant Neuro EEGO Sports 32 (ES-230)\nAmplifier: 32-channel EEGO amplifier, 2 kHz, CE Class IIa medical device\nReference: online referencing with CPz\nGround electrode: AFz\nResolution: 24-bit\nEEG Cap: Waveguard – sizes M, and L\nSampling rate: upto 2048 Hz\nSoftware: EEGO software for recording, reviewing, and export EEG data\n\n\n\nData acquisition\n1. Creating a new subject\n2. Placing EEG headset\n3. Checking Impedance\n4. EEG Recording\n5. Exporting EEG data"
+    "objectID": "posts/Lab02-2024.html#recap",
+    "href": "posts/Lab02-2024.html#recap",
+    "title": "Lab 02",
+    "section": "Recap",
+    "text": "Recap\n\nReferencing and filtering\nRemoving unwanted channels\nRemoving artefacts"
   },
   {
-    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#data-processing-and-analysis",
-    "href": "posts/eeg-acq-process/eeg-acq-process.html#data-processing-and-analysis",
-    "title": "EEG data acquistion, processing, and analysis",
-    "section": "Data processing and analysis",
-    "text": "Data processing and analysis\nA variety of software are available for EEG data processing and analysis. The widely used licensed programme is MATALB (stands for matrix laboratory). It is primarily a statistical and machine learning programme and can be used for EEG data processing in two ways: via command line or via a freely available toolbox EEGLab.\n\n\n\nMATLAB user interface\n\n\nThere are many alternative. A famous free programme is Python – whereas the relevant library is called MNE.\nWe primarily use EEGLab in PSYC480, that shall be installed as an MATLAB add-on."
+    "objectID": "posts/Lab02-2024.html#independent-component-analysis-ica",
+    "href": "posts/Lab02-2024.html#independent-component-analysis-ica",
+    "title": "Lab 02",
+    "section": "Independent Component Analysis (ICA)",
+    "text": "Independent Component Analysis (ICA)\n\n\nWhy we need ICA?\nICA is a signal processing method to separate independent sources linearly mixed in several sensors (ICA for Dummies - By Delorme)\nLet’s watch the video together: ICA by Delorme\nRemove artefacts, make sure you have enough data (20 * square of number of channels), high pass filter at 0.5, remove bad channels."
   },
   {
-    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#installing-eeglab-toolbox",
-    "href": "posts/eeg-acq-process/eeg-acq-process.html#installing-eeglab-toolbox",
-    "title": "EEG data acquistion, processing, and analysis",
-    "section": "Installing EEGLab Toolbox",
-    "text": "Installing EEGLab Toolbox\n\nUse the latest versions of MATLAB and EEGLab.\nUnzip EEGLab and Microstates1.21, and paste Microstates1.2 inside EEGLab -&gt; plugins.\nMake sure that you do not have any extra - old copies of the software on your computer.\nFrom MATLAB Home tab, click Preferences -&gt; Add-Ons and click on three dots beside the installation folder path (see Figure 1). This shows you the folder where MATLAB has been installed. If you see a MATLAB Add-Ons folder within Mathworks, then EEGLab (unzipped) should be pasted here and deleted from all other places on your computer. If such a folder does not exist, create a new folder and name it MATLAB Add-Ons, then paste the EEGLab folder here. Creating this folder should not be problematics as described here.\nFrom MATLAB Home tab, click Set Path -&gt; Default. This deletes all old paths. Once the process completes, click Save. Then, click Add with Subfolders and find the path to EEGLab folder based on point 4, then click Save.\nType eeglab in MATLAB Command Window and EEGLab shall open.\n\n\n\n\n\n\n\nFigure 1: MATLAB preferences\n\n\n\nEEGLab fig tba.\nHow to create a study\n(Used to process multiple datasets at once)\n\nLoad in datasets\nFile -&gt; Create Study -&gt; Using all loaded datasets\n\nHow to remove non-EEG channels\n\nEdit -&gt; Select Data -&gt; Tick the box on the same line as channel range and then click on the “…” box to select the channels to remove (how do you know how to remove the channels? I wish I knew)\n\nHow to compute the average reference for microstate analysis\n\nTools -&gt; Basic FIR filter -&gt; Set lower edge to 2 and upper edge to 20 and run\n\nHow to run artifact correction (ASR)\n\nTools -&gt; Reject data using clean rawdata and ASR\nTick the “Remove channel drift” box and change the values to 0.75 and 1.25 (Why? IDK)\nUncheck the “Remove channel if it is flat for more than …” box\nChange the min acceptable correlation with nearby chans from 0.8 to 0.7\n\nApparently we now average reference again, but this time we also interpolate removed channels\nHow to run ICA with Picard\n\nTools -&gt; Decompose data by ICA\nChange from “runica” to “picard”\nUncheck the reorder components by variance box\nAfter that is finished, go back to Tools -&gt; Classify components using ICLabel-&gt; label components (leave as default) and run\nThen Tools -&gt; Classify components using ICLabel-&gt; Flag components as artifacts\nThen Tools -&gt; remove components from data\n\nHow to actually run microstate analysis (Windows edition)\n\nTools -&gt; Microstate analysis toolbox -&gt; select data for microstate analysis\nChange ERP – Concatenate datasets to Spontaneous GFP Peaks\nTools -&gt; Microstate analysis toolbox -&gt; Segment into microstates\nCopy this (Shamelessly stolen from Usman’s slides)\n\n\n\nCopy this\n\n\nYou should be able to plot them after doing this."
+    "objectID": "posts/Lab02-2024.html#running-ica",
+    "href": "posts/Lab02-2024.html#running-ica",
+    "title": "Lab 02",
+    "section": "Running ICA",
+    "text": "Running ICA\n\n\nUse the the Lab 2 demo dataset on Learn.\nUse Tools -&gt; Decompose data by ICA. Select Infomax runica.m (default), extended 1 (helps to detect line noise).\nYou can also plot all or individual component maps from the Plot menu.\nUse Tools -&gt; Inspect/label components by map.\nUse Tools -&gt; Remove components from data."
   },
   {
-    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#resting-eeg-microstates",
-    "href": "posts/eeg-acq-process/eeg-acq-process.html#resting-eeg-microstates",
-    "title": "EEG data acquistion, processing, and analysis",
-    "section": "Resting EEG Microstates",
-    "text": "Resting EEG Microstates\nEEG data processing (as described above) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble the prototypical four network types. To the best of my knowledge, it is important to use only the following processing steps:\n\nChannel locations\nFilter 2-20 Hz\nRemove artefacts with ASR, but make sure to un-check the option Remove channel if it is flat for more than (seconds), see Figure 2.\nReference to average and interpolate removed channels.\nFrom Tools -&gt; Microstates -&gt; Obtain Microstate Maps, use k-means method with a min of 4 and max of 5 maps, and set restarts to 20.\nFrom Plots -&gt; …\nExamine whether or not your obtained microstates resemble the prototypical four network types (see Figure 3) (Nash et al. 2022).\n\n\n\n\n\n\n\nFigure 2: Automatic artefact removal\n\n\n\n\n\n\n\n\n\nFigure 3: Four prototypical microstates (Nash et al. 2022)"
+    "objectID": "posts/Lab02-2024.html#continued",
+    "href": "posts/Lab02-2024.html#continued",
+    "title": "Lab 02",
+    "section": "Continued",
+    "text": "Continued\n\n\nOr, do this automatically: Tools -&gt; Classify components using ICLabel, then flag components as artefacts.\nImportant: DON’T remove/reject components if you are conducting group level analysis (we will learn about group level analysis later)."
   },
   {
-    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#eeg-headset-maintenance-and-cleaning",
-    "href": "posts/eeg-acq-process/eeg-acq-process.html#eeg-headset-maintenance-and-cleaning",
-    "title": "EEG data acquistion, processing, and analysis",
-    "section": "EEG Headset maintenance and cleaning",
-    "text": "EEG Headset maintenance and cleaning\nhttps://youtu.be/FOgfR0QI9_A"
-  },
-  {
-    "objectID": "posts/eeg-acq-process/eeg-acq-process.html#footnotes",
-    "href": "posts/eeg-acq-process/eeg-acq-process.html#footnotes",
-    "title": "EEG data acquistion, processing, and analysis",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nMicrostates is not primarily needed for EEGLab. We install it because it will be used for acquiring resting EEG microstate plots and relevant statistics.↩︎"
-  },
-  {
-    "objectID": "posts/Lab03-2024.html#eeg-microstates",
-    "href": "posts/Lab03-2024.html#eeg-microstates",
-    "title": "Lab 03",
-    "section": "EEG Microstates",
-    "text": "EEG Microstates\n\n\nDefinition\nUse\nRe-processing"
-  },
-  {
-    "objectID": "posts/Lab03-2024.html#microstates-definition",
-    "href": "posts/Lab03-2024.html#microstates-definition",
-    "title": "Lab 03",
-    "section": "Microstates Definition",
-    "text": "Microstates Definition\n“EEG microstates are brief, recurring periods of stable brain activity that reflect the activation of large-scale neural networks. The temporal characteristics of these microstates, including their average duration, number of occurrences, and percentage contribution have been shown to serve as biomarkers of mental and neurological disorders” (Kleinert, Nash, et al. 2024)."
-  },
-  {
-    "objectID": "posts/Lab03-2024.html#two-major-types",
-    "href": "posts/Lab03-2024.html#two-major-types",
-    "title": "Lab 03",
-    "section": "Two major types",
-    "text": "Two major types\n\n\nResting EEG Microstates\nERP Microstates"
-  },
-  {
-    "objectID": "posts/Lab03-2024.html#the-use-of-microstates",
-    "href": "posts/Lab03-2024.html#the-use-of-microstates",
-    "title": "Lab 03",
-    "section": "The use of Microstates",
-    "text": "The use of Microstates\n“Recent publications demonstrate the potential of microstate research to contribute to a more sophisticated diagnosis, monitoring, prognosis, and prevention of mental disorders in clinical psychology and psychiatry. Microstate characteristics may serve as biomarkers of schizophrenia (da Cruz et al. 2020; de Bock et al. 2020), affective disorders (Al Zoubi et al. 2019; Damborská et al. 2019b; Murphy et al. 2020), anxiety disorders (Al Zoubi et al. 2019), ADHD (Férat et al. 2022a), and autism (D’Croz-Baron et al. 2019; Bochet et al. 2021). as mentioned in (Kleinert, Koenig, et al. 2024)”"
-  },
-  {
-    "objectID": "posts/Lab03-2024.html#processing-for-microstates-analysis",
-    "href": "posts/Lab03-2024.html#processing-for-microstates-analysis",
-    "title": "Lab 03",
-    "section": "Processing for Microstates analysis",
-    "text": "Processing for Microstates analysis\nEEG data processing (as described in the previous labs) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble the prototypical four to seven network types."
-  },
-  {
-    "objectID": "posts/Lab03-2024.html#processing-continued.",
-    "href": "posts/Lab03-2024.html#processing-continued.",
-    "title": "Lab 03",
-    "section": "Processing continued….",
-    "text": "Processing continued….\nTo the best of my knowledge, it is important to use only the following processing steps:\n\nAdd channel locations\nFilter 2-20 Hz\nRemove artefacts with ASR, but make sure to un-check the option Remove channel if it is flat for more than (seconds), see Figure 1.\nReference to average and interpolate removed channels."
-  },
-  {
-    "objectID": "posts/Lab03-2024.html#processing-continued.-1",
-    "href": "posts/Lab03-2024.html#processing-continued.-1",
-    "title": "Lab 03",
-    "section": "Processing continued….",
-    "text": "Processing continued….\n\n\nFigure 1: Automatic artefact removal"
-  },
-  {
-    "objectID": "posts/Lab03-2024.html#processing-continued.-2",
-    "href": "posts/Lab03-2024.html#processing-continued.-2",
-    "title": "Lab 03",
-    "section": "Processing continued….",
-    "text": "Processing continued….\n\nFrom Tools -&gt; Microstates -&gt; Obtain Microstate Maps, use k-means method with a min of 4 and max of 5 maps, and set restarts to 20, see Figure 2.\nFrom Plots -&gt; …\nExamine whether or not your obtained microstates resemble the prototypical four (or seven) network types (see Figure 3) (Nash et al. 2022)."
-  },
-  {
-    "objectID": "posts/Lab03-2024.html#microstates-menu",
-    "href": "posts/Lab03-2024.html#microstates-menu",
-    "title": "Lab 03",
-    "section": "Microstates menu",
-    "text": "Microstates menu\n\n\nFigure 2"
-  },
-  {
-    "objectID": "posts/Lab03-2024.html#typical-ms-maps",
-    "href": "posts/Lab03-2024.html#typical-ms-maps",
-    "title": "Lab 03",
-    "section": "Typical MS Maps",
-    "text": "Typical MS Maps\n\n\nFigure 3: Four prototypical microstates (Nash et al. 2022)"
-  },
-  {
-    "objectID": "posts/Lab03-2024.html#obtaining-microstates",
-    "href": "posts/Lab03-2024.html#obtaining-microstates",
-    "title": "Lab 03",
-    "section": "Obtaining microstates",
-    "text": "Obtaining microstates\n\n\nUse Lab 3 demo dataset on Learn.\nConduct the necessary processing."
-  },
-  {
-    "objectID": "posts/Lab03-2024.html#to-submit",
-    "href": "posts/Lab03-2024.html#to-submit",
-    "title": "Lab 03",
+    "objectID": "posts/Lab02-2024.html#to-submit",
+    "href": "posts/Lab02-2024.html#to-submit",
+    "title": "Lab 02",
     "section": "To submit",
-    "text": "To submit\n\nUse the the Lab 3 exercise dataset on Learn.\nConduct necessary processing.\nIdentify microstate maps"
+    "text": "To submit\n\nUse the the Lab 2 exercise dataset on Learn.\nConduct pipeline processing as per usual (using last week’s processing too).\nRun ICA, share a screenshot.\nRemove components, share a screenshot.\nCompare pre- and post-analysis attributes.\nCompare pre- and post-analysis Channel data (scroll). What do you conclude? Any problems/issues? Why or why not? (consists 25% of today’s mark)."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To PSYC480 Blog",
+    "section": "",
+    "text": "Kia ora!\nWelcome to PSYC480 (2024) blog.\nI am Usman Afzali, the course coordinator and lecturer of the course.\nThis website contains labs and EEG data processing and analysis instructions for Special Topic: Computational Contemplative-Neuroscience taught at the School of Psychology, Speech and Hearing, University of Canterbury."
+  },
+  {
+    "objectID": "posts/welcome/index.html#blog",
+    "href": "posts/welcome/index.html#blog",
+    "title": "Welcome To PSYC480 Blog",
+    "section": "Blog",
+    "text": "Blog\nPlease access the PSYC480 blog to see this code live."
+  },
+  {
+    "objectID": "posts/welcome/index.html#note",
+    "href": "posts/welcome/index.html#note",
+    "title": "Welcome To PSYC480 Blog",
+    "section": "Note",
+    "text": "Note\n\nFeel free to use/replicate the code.\nSuggestions welcome.\n\nKind regards.\nUsman Afzali, PhD\nwww.usmanafzali.com"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Special Topic: Computational Contemplative-Neuroscience",
     "section": "",
-    "text": "EEG data acquistion, processing, and analysis\n\n\n\n\n\n\nlab\n\n\neeg\n\n\neeglab\n\n\nmatlab\n\n\n\n\n\n\n\n\n\nApr 25, 2024\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, Harriet Grace, and Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\nlab\n\n\neeg\n\n\neeglab\n\n\n\n\n\n\n\n\n\nApr 23, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\nlab\n\n\neeg\n\n\neeglab\n\n\n\n\n\n\n\n\n\nMar 26, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 01\n\n\nPSYC480\n\n\n\nlab\n\n\neeg\n\n\neeglab\n\n\n\n\n\n\n\n\n\nMar 19, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to MATLAB\n\n\nPSYC480\n\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nMar 19, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To PSYC480 Blog\n\n\n\n\n\n\nintro\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nUsman Afzali\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/matlab/Lab01-2024.html#what-is-matlab",
-    "href": "posts/matlab/Lab01-2024.html#what-is-matlab",
-    "title": "Introduction to MATLAB",
-    "section": "What is MATLAB?",
-    "text": "What is MATLAB?\n\nProgramming language\nMatrix manipulations, plotting, implementing algorithms etc.\nToolboxes and apps"
-  },
-  {
-    "objectID": "posts/matlab/Lab01-2024.html#what-is-eeglab",
-    "href": "posts/matlab/Lab01-2024.html#what-is-eeglab",
-    "title": "Introduction to MATLAB",
-    "section": "What is EEGLab?",
-    "text": "What is EEGLab?\n\nA MATLAB toolbox\nUsed for processing and analysing EEG, MEG and other electrophysiological signals.\nIt has a GUI"
-  },
-  {
-    "objectID": "posts/matlab/Lab01-2024.html#processing-and-analysing-eeg-data",
-    "href": "posts/matlab/Lab01-2024.html#processing-and-analysing-eeg-data",
-    "title": "Introduction to MATLAB",
-    "section": "Processing and analysing EEG data",
-    "text": "Processing and analysing EEG data\n\nMATLAB command line\nThe standalone EEGLab software\nUse EEGLab in association with MATLAB"
-  },
-  {
-    "objectID": "posts/matlab/Lab01-2024.html#pipeline",
-    "href": "posts/matlab/Lab01-2024.html#pipeline",
-    "title": "Introduction to MATLAB",
-    "section": "Pipeline",
-    "text": "Pipeline\n\nEEGLab Preprocessing - Delorme"
-  },
-  {
-    "objectID": "posts/matlab/Lab01-2024.html#how-to-process-using-eeglab",
-    "href": "posts/matlab/Lab01-2024.html#how-to-process-using-eeglab",
-    "title": "Introduction to MATLAB",
-    "section": "How to process using EEGLab",
-    "text": "How to process using EEGLab\n\nUse the available dataset from Learn Lab 1 demo.\nNote “Channels per frame, Frames per epoch, epoch, events, sampling rate, reference and other attributes."
-  },
-  {
-    "objectID": "posts/matlab/Lab01-2024.html#how-to-process-using-eeglab-1",
-    "href": "posts/matlab/Lab01-2024.html#how-to-process-using-eeglab-1",
-    "title": "Introduction to MATLAB",
-    "section": "How to process using EEGLab",
-    "text": "How to process using EEGLab\n\nEpoch: A procedure in which specific time-windows are extracted from the continuous EEG signal. These time windows are called “epochs”, and usually are time-locked with respect an event e.g. a visual stimulus."
-  },
-  {
-    "objectID": "posts/matlab/Lab01-2024.html#attributes-contd",
-    "href": "posts/matlab/Lab01-2024.html#attributes-contd",
-    "title": "Introduction to MATLAB",
-    "section": "Attributes contd…",
-    "text": "Attributes contd…\n\nEvent: a visual stimuli or a task\nSampling rate (Hz): the number of samples (of electrical activity) recorded per second\nFrames: Frames in EEGLAB are the same as samples (so if you sampled at 500 Hz your data will have 500 frames each second)\nReferencing: EEG recordings measure differences in electrical potentials between two points (Voltages). This means the signal displayed at any channel is in fact the difference in electrical potential to some other recording site (or reference)."
-  },
-  {
-    "objectID": "posts/matlab/Lab01-2024.html#visualising-eeg-data",
-    "href": "posts/matlab/Lab01-2024.html#visualising-eeg-data",
-    "title": "Introduction to MATLAB",
-    "section": "Visualising EEG data",
-    "text": "Visualising EEG data\n\nUse Plot -&gt; Channel data (scroll)."
-  },
-  {
-    "objectID": "posts/matlab/Lab01-2024.html#referencing",
-    "href": "posts/matlab/Lab01-2024.html#referencing",
-    "title": "Introduction to MATLAB",
-    "section": "Referencing",
-    "text": "Referencing\n\n\nWhy do we reference?"
-  },
-  {
-    "objectID": "posts/matlab/Lab01-2024.html#referencing-to-m1-and-m2",
-    "href": "posts/matlab/Lab01-2024.html#referencing-to-m1-and-m2",
-    "title": "Introduction to MATLAB",
-    "section": "Referencing to M1 and M2",
-    "text": "Referencing to M1 and M2\n\n\nUse Tools -&gt; re-reference the data.\nCompare the attributes to the original dataset. Is there any discrepancy? If yes, why?\nIf you haven’t picked answer to “why” yet, plot the data again and observe closely."
-  },
-  {
-    "objectID": "posts/matlab/Lab01-2024.html#filtering",
-    "href": "posts/matlab/Lab01-2024.html#filtering",
-    "title": "Introduction to MATLAB",
-    "section": "Filtering",
-    "text": "Filtering\n\n\nWhy do we filter data?\nMany sources of noise, such as the 60Hz line noise, consist mainly of very high frequencies or very low frequencies, whereas most of the useful information in an EEG or ERP waveform is at intermediate frequencies (between approximately 0.1Hz and 50Hz)."
-  },
-  {
-    "objectID": "posts/matlab/Lab01-2024.html#filtering-contd.",
-    "href": "posts/matlab/Lab01-2024.html#filtering-contd.",
-    "title": "Introduction to MATLAB",
-    "section": "Filtering contd….",
-    "text": "Filtering contd….\n\n\nConsequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.\nDelorme recommends filtering at 0.5.\nUse Tools -&gt; Filter data -&gt; basic FIR Filter. Type 0.5 in the Lower edge\nDC offset: https://relaytraining.com/what-is-dc-offset-ask-chris/"
-  },
-  {
-    "objectID": "posts/matlab/Lab01-2024.html#visaul-inspection.",
-    "href": "posts/matlab/Lab01-2024.html#visaul-inspection.",
-    "title": "Introduction to MATLAB",
-    "section": "Visaul inspection….",
-    "text": "Visaul inspection….\n\nFrom Edit, select channel locations\nPlot channels as 2-D"
-  },
-  {
-    "objectID": "posts/matlab/Lab01-2024.html#removing-unwanted-channels",
-    "href": "posts/matlab/Lab01-2024.html#removing-unwanted-channels",
-    "title": "Introduction to MATLAB",
-    "section": "Removing unwanted channels",
-    "text": "Removing unwanted channels\nUse Edit -&gt; Select data. Select the Channel range that you want to remove."
-  },
-  {
-    "objectID": "posts/matlab/Lab01-2024.html#examining-raw-data",
-    "href": "posts/matlab/Lab01-2024.html#examining-raw-data",
-    "title": "Introduction to MATLAB",
-    "section": "Examining raw data",
-    "text": "Examining raw data\n\n\n\n\nTo identify artefacts\nAnd to reject them\nUse Tools -&gt; Inspect/reject data by eye. Use your mouse to highlight the part you want to reject, and click the REJECT button."
-  },
-  {
-    "objectID": "posts/matlab/Lab01-2024.html#automatic-artefact-rejection",
-    "href": "posts/matlab/Lab01-2024.html#automatic-artefact-rejection",
-    "title": "Introduction to MATLAB",
-    "section": "Automatic artefact rejection",
-    "text": "Automatic artefact rejection\nUse Tools -&gt; Reject data using Clean Rawdata and ASR. Generally, we’d use all default choices - Consequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.\n\nDelorme’s video and another video on these."
-  },
-  {
-    "objectID": "posts/matlab/Lab01-2024.html#to-submit",
-    "href": "posts/matlab/Lab01-2024.html#to-submit",
-    "title": "Introduction to MATLAB",
-    "section": "To submit",
-    "text": "To submit\n\nUse the the Lab 1 exercise dataset on Learn.\nRead it in to the EEGLab\nReport all attributes\nInsert a screenshot of the attributes\nPlot data using the scroll option\nInsert a screenshot\nReport your observation: do the data look similar to demonstration? What do you see as a potential difference?"
-  },
-  {
-    "objectID": "posts/matlab/Lab01-2024.html#to-submit-continued",
-    "href": "posts/matlab/Lab01-2024.html#to-submit-continued",
-    "title": "Introduction to MATLAB",
-    "section": "To submit continued",
-    "text": "To submit continued\n\nPlot channels as 2-D\nDo you see any anomaly? Comment!\nConduct automatic rejection with ASR.\nReport your findings in comparison with before artefact rejection.\nSubmit this as a pdf on Learn."
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#what-is-matlab",
-    "href": "posts/matlab/intro-matlab.html#what-is-matlab",
-    "title": "Introduction to MATLAB",
-    "section": "What is MATLAB?",
-    "text": "What is MATLAB?\n\nProgramming language\nMatrix manipulations, plotting, implementing algorithms etc.\nToolboxes and apps"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#what-is-eeglab",
-    "href": "posts/matlab/intro-matlab.html#what-is-eeglab",
-    "title": "Introduction to MATLAB",
-    "section": "What is EEGLab?",
-    "text": "What is EEGLab?\n\nA MATLAB toolbox\nUsed for processing and analysing EEG, MEG and other electrophysiological signals.\nIt has a GUI"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#processing-and-analysing-eeg-data",
-    "href": "posts/matlab/intro-matlab.html#processing-and-analysing-eeg-data",
-    "title": "Introduction to MATLAB",
-    "section": "Processing and analysing EEG data",
-    "text": "Processing and analysing EEG data\n\nMATLAB command line\nThe standalone EEGLab software\nUse EEGLab in association with MATLAB"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#pipeline",
-    "href": "posts/matlab/intro-matlab.html#pipeline",
-    "title": "Introduction to MATLAB",
-    "section": "Pipeline",
-    "text": "Pipeline\n\nEEGLab Preprocessing - Delorme"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#how-to-process-using-eeglab",
-    "href": "posts/matlab/intro-matlab.html#how-to-process-using-eeglab",
-    "title": "Introduction to MATLAB",
-    "section": "How to process using EEGLab",
-    "text": "How to process using EEGLab\n\nUse the available dataset from Learn Lab 1 demo.\nNote “Channels per frame, Frames per epoch, epoch, events, sampling rate, reference and other attributes."
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#how-to-process-using-eeglab-1",
-    "href": "posts/matlab/intro-matlab.html#how-to-process-using-eeglab-1",
-    "title": "Introduction to MATLAB",
-    "section": "How to process using EEGLab",
-    "text": "How to process using EEGLab\n\nEpoch: A procedure in which specific time-windows are extracted from the continuous EEG signal. These time windows are called “epochs”, and usually are time-locked with respect an event e.g. a visual stimulus."
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#attributes-contd",
-    "href": "posts/matlab/intro-matlab.html#attributes-contd",
-    "title": "Introduction to MATLAB",
-    "section": "Attributes contd…",
-    "text": "Attributes contd…\n\nEvent: a visual stimuli or a task\nSampling rate (Hz): the number of samples (of electrical activity) recorded per second\nFrames: Frames in EEGLAB are the same as samples (so if you sampled at 500 Hz your data will have 500 frames each second)\nReferencing: EEG recordings measure differences in electrical potentials between two points (Voltages). This means the signal displayed at any channel is in fact the difference in electrical potential to some other recording site (or reference)."
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#visualising-eeg-data",
-    "href": "posts/matlab/intro-matlab.html#visualising-eeg-data",
-    "title": "Introduction to MATLAB",
-    "section": "Visualising EEG data",
-    "text": "Visualising EEG data\n\nUse Plot -&gt; Channel data (scroll)."
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#referencing",
-    "href": "posts/matlab/intro-matlab.html#referencing",
-    "title": "Introduction to MATLAB",
-    "section": "Referencing",
-    "text": "Referencing\n\n\nWhy do we reference?"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#referencing-to-m1-and-m2",
-    "href": "posts/matlab/intro-matlab.html#referencing-to-m1-and-m2",
-    "title": "Introduction to MATLAB",
-    "section": "Referencing to M1 and M2",
-    "text": "Referencing to M1 and M2\n\n\nUse Tools -&gt; re-reference the data.\nCompare the attributes to the original dataset. Is there any discrepancy? If yes, why?\nIf you haven’t picked answer to “why” yet, plot the data again and observe closely."
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#filtering",
-    "href": "posts/matlab/intro-matlab.html#filtering",
-    "title": "Introduction to MATLAB",
-    "section": "Filtering",
-    "text": "Filtering\n\n\nWhy do we filter data?\nMany sources of noise, such as the 60Hz line noise, consist mainly of very high frequencies or very low frequencies, whereas most of the useful information in an EEG or ERP waveform is at intermediate frequencies (between approximately 0.1Hz and 50Hz)."
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#filtering-contd.",
-    "href": "posts/matlab/intro-matlab.html#filtering-contd.",
-    "title": "Introduction to MATLAB",
-    "section": "Filtering contd….",
-    "text": "Filtering contd….\n\n\nConsequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.\nDelorme recommends filtering at 0.5.\nUse Tools -&gt; Filter data -&gt; basic FIR Filter. Type 0.5 in the Lower edge\nDC offset: https://relaytraining.com/what-is-dc-offset-ask-chris/"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#visaul-inspection.",
-    "href": "posts/matlab/intro-matlab.html#visaul-inspection.",
-    "title": "Introduction to MATLAB",
-    "section": "Visaul inspection….",
-    "text": "Visaul inspection….\n\nFrom Edit, select channel locations\nPlot channels as 2-D"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#removing-unwanted-channels",
-    "href": "posts/matlab/intro-matlab.html#removing-unwanted-channels",
-    "title": "Introduction to MATLAB",
-    "section": "Removing unwanted channels",
-    "text": "Removing unwanted channels\nUse Edit -&gt; Select data. Select the Channel range that you want to remove."
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#examining-raw-data",
-    "href": "posts/matlab/intro-matlab.html#examining-raw-data",
-    "title": "Introduction to MATLAB",
-    "section": "Examining raw data",
-    "text": "Examining raw data\n\n\n\n\nTo identify artefacts\nAnd to reject them\nUse Tools -&gt; Inspect/reject data by eye. Use your mouse to highlight the part you want to reject, and click the REJECT button."
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#automatic-artefact-rejection",
-    "href": "posts/matlab/intro-matlab.html#automatic-artefact-rejection",
-    "title": "Introduction to MATLAB",
-    "section": "Automatic artefact rejection",
-    "text": "Automatic artefact rejection\nUse Tools -&gt; Reject data using Clean Rawdata and ASR. Generally, we’d use all default choices - Consequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.\n\nDelorme’s video and another video on these."
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#to-submit",
-    "href": "posts/matlab/intro-matlab.html#to-submit",
-    "title": "Introduction to MATLAB",
-    "section": "To submit",
-    "text": "To submit\n\nUse the the Lab 1 exercise dataset on Learn.\nRead it in to the EEGLab\nReport all attributes\nInsert a screenshot of the attributes\nPlot data using the scroll option\nInsert a screenshot\nReport your observation: do the data look similar to demonstration? What do you see as a potential difference?"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#to-submit-continued",
-    "href": "posts/matlab/intro-matlab.html#to-submit-continued",
-    "title": "Introduction to MATLAB",
-    "section": "To submit continued",
-    "text": "To submit continued\n\nPlot channels as 2-D\nDo you see any anomaly? Comment!\nConduct automatic rejection with ASR.\nReport your findings in comparison with before artefact rejection.\nSubmit this as a pdf on Learn."
+    "text": "EEG data acquistion, processing, and analysis\n\n\n\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nApr 25, 2024\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, Harriet Grace, and Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nApr 23, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nMar 26, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 01\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nMar 19, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to MATLAB\n\n\nPSYC480\n\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nMar 19, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To PSYC480 Blog\n\n\n\n\n\n\nintro\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nUsman Afzali\n\n\n\n\n\n\nNo matching items"
   }
 ]

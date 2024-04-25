@@ -10,7 +10,7 @@ format:
     highlight-style: github
     slide-number: c/t
 bibliography: references.bib
-categories: [lab, eeg, eeglab]
+categories: [Lab, EEG, EEGLAB]
 ---
 
 ## EEG Microstates {background-color="orange"}
