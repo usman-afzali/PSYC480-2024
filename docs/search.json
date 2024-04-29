@@ -530,5 +530,26 @@
     "title": "Introduction to MATLAB",
     "section": "User Interface",
     "text": "User Interface\n\nMATLAB user interface"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#from-the-horses-mouth",
+    "href": "posts/matlab/intro-matlab.html#from-the-horses-mouth",
+    "title": "Introduction to MATLAB",
+    "section": "From the horse’s mouth",
+    "text": "From the horse’s mouth\nWhat is MATLAB"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#getting-started",
+    "href": "posts/matlab/intro-matlab.html#getting-started",
+    "title": "Introduction to MATLAB",
+    "section": "Getting started",
+    "text": "Getting started\n\nMATLAB user interface"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#getting-started-1",
+    "href": "posts/matlab/intro-matlab.html#getting-started-1",
+    "title": "Introduction to MATLAB",
+    "section": "Getting started",
+    "text": "Getting started\n\nSetting path\nExamples:\nSetting up EEGLab followed by Microstates\nRemoving paths"
   }
 ]

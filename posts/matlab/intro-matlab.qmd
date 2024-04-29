@@ -24,7 +24,7 @@ categories: [EEG, EEGLAB, MATLAB]
 -   Working with imported data
 -   What's next?
 
-## Resources {background-color="#346bc8"}
+## Resources {background-color="yellow"}
 
 -   [PSYC480 Blog](https://usman-afzali.github.io/psyc480-2k24/)
 -   [MATLAB for Neuroscience](https://research.ebsco.com/c/g6lqvo/search/details/yksmkozjxf?q=matlab%20for%20neuroscience)
@@ -38,6 +38,10 @@ categories: [EEG, EEGLAB, MATLAB]
 
 MATLAB, short for "MATrix LABoratory," is a high-level programming language and interactive environment primarily designed for numerical computation, data analysis, and visualization. It provides a comprehensive set of tools and functions for various domains, including mathematics, engineering, and science. MATLAB allows users to perform matrix manipulations, implement algorithms, create graphical user interfaces (GUIs), and interface with other programming languages and software packages. It is widely used in academia, industry, and research for tasks such as signal processing, image processing, control systems design, and machine learning. (from ChatGPT)
 
+## From the horse's mouth {background-color="yellow"}
+
+[What is MATLAB](https://au.mathworks.com/support/search.html/videos/matlab-overview-61923.html?fq%5B%5D=asset_type_name:video&fq%5B%5D=category:matlab/getting-started-with-matlab&page=1)
+
 ## Uses (from ChatGPT) {background-color="#346bc8"}
 
 ::: columns
@@ -47,7 +51,6 @@ MATLAB, short for "MATrix LABoratory," is a high-level programming language and 
 3.  Signal processing
 4.  Image processing and computer vision
 5.  Control systems design and analysis
-
 :::
 
 ::: {.column width="50%"}
@@ -63,19 +66,18 @@ MATLAB, short for "MATrix LABoratory," is a high-level programming language and 
 
 ::: columns
 ::: {.column width="50%"}
-11.  Computational fluid dynamics (CFD)
-12.  Geospatial analysis and mapping
-13.  Time-series analysis and forecasting
-14.  Statistical analysis and hypothesis testing
-15.  Graph theory and network analysis
+11. Computational fluid dynamics (CFD)
+12. Geospatial analysis and mapping
+13. Time-series analysis and forecasting
+14. Statistical analysis and hypothesis testing
+15. Graph theory and network analysis
 :::
 
 ::: {.column width="50%"}
-
-16.  Robotics and autonomous systems
-17.  Audio processing and speech recognition
-18.  Cryptography and security analysis
-19.  Education and teaching (simulations, course materials)
+16. Robotics and autonomous systems
+17. Audio processing and speech recognition
+18. Cryptography and security analysis
+19. Education and teaching (simulations, course materials)
 20. Application development (applications, GUIs)
 :::
 :::
@@ -84,13 +86,25 @@ MATLAB, short for "MATrix LABoratory," is a high-level programming language and 
 
 ![MATLAB user interface](matlab.png)
 
-## Toolboxes and Apps {background-color="#346bc8"}
+## Getting started {background-color="#346bc8"}
+
+![MATLAB user interface](setpath.png)
+
+## Getting started {background-color="#346bc8"}
+
+-   Setting path
+-   **Examples:**
+-   Setting up EEGLab followed by Microstates
+-   Removing paths
+
+# Basic operations {background-color="orange"}
 
 
+# Toolboxes and Apps {background-color="orange"}
 
--   A MATLAB toolbox
--   Used for processing and analysing EEG, MEG and other electrophysiological signals.
--   It has a GUI
+# Working with imported data {background-color="orange"}
+
+# What's next? {background-color="orange"}
 
 ## Processing and analysing EEG data {background-color="#346bc8"}
 
