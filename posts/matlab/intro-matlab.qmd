@@ -3,7 +3,7 @@ title: "Introduction to MATLAB"
 subtitle: "PSYC480"
 author: "Usman Afzali"
 institute: "University of Canterbury"
-date: 2024-04-26
+date: 2024-05-01
 format: 
   revealjs:
     theme: simple
@@ -12,15 +12,81 @@ format:
 categories: [EEG, EEGLAB, MATLAB]
 ---
 
-# MATLAB and EEGLab {background-color="orange"}
+# Outline {background-color="orange"}
 
-## What is MATLAB? {background-color="#346bc8"}
+## What's on today? {background-color="#346bc8"}
 
--   Programming language
--   Matrix manipulations, plotting, implementing algorithms etc.
--   Toolboxes and apps
+-   Introducing the PSYC480 Blog
+-   What is MATLAB?
+-   User interface
+-   Getting started
+-   Basic operations
+-   Working with imported data
+-   What's next?
 
-## What is EEGLab? {background-color="#346bc8"}
+## Resources {background-color="#346bc8"}
+
+-   [PSYC480 Blog](https://usman-afzali.github.io/psyc480-2k24/)
+-   [MATLAB for Neuroscience](https://research.ebsco.com/c/g6lqvo/search/details/yksmkozjxf?q=matlab%20for%20neuroscience)
+-   [Get Started with MATLAB](https://au.mathworks.com/help/matlab/getting-started-with-matlab.html)
+
+# [PSYC480 Blog](https://usman-afzali.github.io/psyc480-2k24/) {background-color="orange"}
+
+# MATLAB {background-color="orange"}
+
+## Introduction {background-color="#346bc8"}
+
+MATLAB, short for "MATrix LABoratory," is a high-level programming language and interactive environment primarily designed for numerical computation, data analysis, and visualization. It provides a comprehensive set of tools and functions for various domains, including mathematics, engineering, and science. MATLAB allows users to perform matrix manipulations, implement algorithms, create graphical user interfaces (GUIs), and interface with other programming languages and software packages. It is widely used in academia, industry, and research for tasks such as signal processing, image processing, control systems design, and machine learning. (from ChatGPT)
+
+## Uses (from ChatGPT) {background-color="#346bc8"}
+
+::: columns
+::: {.column width="50%"}
+1.  Numerical computation
+2.  Data analysis and visualization
+3.  Signal processing
+4.  Image processing and computer vision
+5.  Control systems design and analysis
+
+:::
+
+::: {.column width="50%"}
+6.  Machine learning and deep learning
+7.  Optimization and mathematical modeling
+8.  Simulation of dynamic systems
+9.  Financial modeling and analysis
+10. Computational biology and bioinformatics
+:::
+:::
+
+## Uses continued (from ChatGPT) {background-color="#346bc8"}
+
+::: columns
+::: {.column width="50%"}
+11.  Computational fluid dynamics (CFD)
+12.  Geospatial analysis and mapping
+13.  Time-series analysis and forecasting
+14.  Statistical analysis and hypothesis testing
+15.  Graph theory and network analysis
+:::
+
+::: {.column width="50%"}
+
+16.  Robotics and autonomous systems
+17.  Audio processing and speech recognition
+18.  Cryptography and security analysis
+19.  Education and teaching (simulations, course materials)
+20. Application development (applications, GUIs)
+:::
+:::
+
+## User Interface {background-color="#346bc8"}
+
+![MATLAB user interface](matlab.png)
+
+## Toolboxes and Apps {background-color="#346bc8"}
+
+
 
 -   A MATLAB toolbox
 -   Used for processing and analysing EEG, MEG and other electrophysiological signals.

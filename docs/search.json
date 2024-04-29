@@ -459,6 +459,76 @@
     "href": "index.html",
     "title": "Special Topic: Computational Contemplative-Neuroscience",
     "section": "",
-    "text": "Introduction to MATLAB\n\n\nPSYC480\n\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nApr 26, 2024\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nEEG data acquistion, processing, and analysis\n\n\n\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nApr 25, 2024\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, Harriet Grace, and Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nApr 23, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nMar 26, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 01\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nMar 19, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to PSYC480 Blog\n\n\n\n\n\n\nintro\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nUsman Afzali\n\n\n\n\n\n\nNo matching items"
+    "text": "Introduction to MATLAB\n\n\nPSYC480\n\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nMay 1, 2024\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nEEG data acquistion, processing, and analysis\n\n\n\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nApr 25, 2024\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, Harriet Grace, and Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nApr 23, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nMar 26, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 01\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nMar 19, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to PSYC480 Blog\n\n\n\n\n\n\nintro\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nUsman Afzali\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#what-is-matlab-1",
+    "href": "posts/matlab/intro-matlab.html#what-is-matlab-1",
+    "title": "Introduction to MATLAB",
+    "section": "What is MATLAB?",
+    "text": "What is MATLAB?\n\nProgramming language\nMatrix manipulations, plotting, implementing algorithms etc.\nToolboxes and apps"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#whats-on-today",
+    "href": "posts/matlab/intro-matlab.html#whats-on-today",
+    "title": "Introduction to MATLAB",
+    "section": "What’s on today?",
+    "text": "What’s on today?\n\nIntroducing the PSYC480 Blog\nWhat is MATLAB?\nUser interface\nGetting started\nBasic operations\nWorking with imported data\nWhat’s next?"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#resources",
+    "href": "posts/matlab/intro-matlab.html#resources",
+    "title": "Introduction to MATLAB",
+    "section": "Resources",
+    "text": "Resources\n\nPSYC480 Blog\nMATLAB for Neuroscience\nGet Started with MATLAB"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#introduction",
+    "href": "posts/matlab/intro-matlab.html#introduction",
+    "title": "Introduction to MATLAB",
+    "section": "Introduction",
+    "text": "Introduction\nMATLAB, short for “MATrix LABoratory,” is a high-level programming language and interactive environment primarily designed for numerical computation, data analysis, and visualization. It provides a comprehensive set of tools and functions for various domains, including mathematics, engineering, and science. MATLAB allows users to perform matrix manipulations, implement algorithms, create graphical user interfaces (GUIs), and interface with other programming languages and software packages. It is widely used in academia, industry, and research for tasks such as signal processing, image processing, control systems design, and machine learning. (from ChatGPT)"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#uses",
+    "href": "posts/matlab/intro-matlab.html#uses",
+    "title": "Introduction to MATLAB",
+    "section": "Uses",
+    "text": "Uses\n\n\n\nNumerical computation\nData analysis and visualization\nSignal processing\nImage processing and computer vision\nControl systems design and analysis\n\n\n\nMachine learning and deep learning\nOptimization and mathematical modeling\nSimulation of dynamic systems\nFinancial modeling and analysis\nComputational biology and bioinformatics"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#toolboxes-and-apps",
+    "href": "posts/matlab/intro-matlab.html#toolboxes-and-apps",
+    "title": "Introduction to MATLAB",
+    "section": "Toolboxes and Apps",
+    "text": "Toolboxes and Apps\n\nA MATLAB toolbox\nUsed for processing and analysing EEG, MEG and other electrophysiological signals.\nIt has a GUI"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#uses-continued",
+    "href": "posts/matlab/intro-matlab.html#uses-continued",
+    "title": "Introduction to MATLAB",
+    "section": "Uses continued",
+    "text": "Uses continued\n\n\n\nComputational fluid dynamics (CFD)\nGeospatial analysis and mapping\nTime-series analysis and forecasting\nStatistical analysis and hypothesis testing\nGraph theory and network analysis\n\n\n\nRobotics and autonomous systems\nAudio processing and speech recognition\nCryptography and security analysis\nEducation and teaching (simulations, course materials)\nApplication development (applications, GUIs)"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#uses-from-chatgpt",
+    "href": "posts/matlab/intro-matlab.html#uses-from-chatgpt",
+    "title": "Introduction to MATLAB",
+    "section": "Uses (from ChatGPT)",
+    "text": "Uses (from ChatGPT)\n\n\n\nNumerical computation\nData analysis and visualization\nSignal processing\nImage processing and computer vision\nControl systems design and analysis\n\n\n\nMachine learning and deep learning\nOptimization and mathematical modeling\nSimulation of dynamic systems\nFinancial modeling and analysis\nComputational biology and bioinformatics"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#uses-continued-from-chatgpt",
+    "href": "posts/matlab/intro-matlab.html#uses-continued-from-chatgpt",
+    "title": "Introduction to MATLAB",
+    "section": "Uses continued (from ChatGPT)",
+    "text": "Uses continued (from ChatGPT)\n\n\n\nComputational fluid dynamics (CFD)\nGeospatial analysis and mapping\nTime-series analysis and forecasting\nStatistical analysis and hypothesis testing\nGraph theory and network analysis\n\n\n\nRobotics and autonomous systems\nAudio processing and speech recognition\nCryptography and security analysis\nEducation and teaching (simulations, course materials)\nApplication development (applications, GUIs)"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#user-interface",
+    "href": "posts/matlab/intro-matlab.html#user-interface",
+    "title": "Introduction to MATLAB",
+    "section": "User Interface",
+    "text": "User Interface\n\nMATLAB user interface"
   }
 ]
