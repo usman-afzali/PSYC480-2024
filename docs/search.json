@@ -551,5 +551,54 @@
     "title": "Introduction to MATLAB",
     "section": "Getting started",
     "text": "Getting started\n\nSetting path\nExamples:\nSetting up EEGLab followed by Microstates\nRemoving paths"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#arithmetic",
+    "href": "posts/matlab/intro-matlab.html#arithmetic",
+    "title": "Introduction to MATLAB",
+    "section": "Arithmetic",
+    "text": "Arithmetic\na = 1\nb = 2\nc = a + b\nd = sqrt (b)\ne = a * b\n\nUse up- and down-arrow keys to recall previous commands.\nUse % for comments."
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#statistics",
+    "href": "posts/matlab/intro-matlab.html#statistics",
+    "title": "Introduction to MATLAB",
+    "section": "Statistics",
+    "text": "Statistics\na = 1\nb = 2\nc = a + b\nd = sqrt (b)\ne = a * b"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#using-a-matlab-script",
+    "href": "posts/matlab/intro-matlab.html#using-a-matlab-script",
+    "title": "Introduction to MATLAB",
+    "section": "Using a MATLAB script",
+    "text": "Using a MATLAB script\n\nFile: basics.m on Learn.\nSome basics commands:\nto get help, use help function name\nor use doc function name"
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#matlab-toolboxes",
+    "href": "posts/matlab/intro-matlab.html#matlab-toolboxes",
+    "title": "Introduction to MATLAB",
+    "section": "MATLAB toolboxes",
+    "text": "MATLAB toolboxes\n\nMATLAB Toolboxes are collections of functions, algorithms, and graphical user interfaces (GUIs) that extend the core functionality of MATLAB for specific applications or industries.\nToolboxes provide specialized tools and algorithms for tasks such as signal processing, image processing, control systems design, optimization, and more."
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#matlab-toolboxes-.",
+    "href": "posts/matlab/intro-matlab.html#matlab-toolboxes-.",
+    "title": "Introduction to MATLAB",
+    "section": "MATLAB toolboxes ….",
+    "text": "MATLAB toolboxes ….\n\nUsers can purchase or access various Toolboxes to enhance MATLAB’s capabilities in specific domains. Toolboxes can be seamlessly integrated into MATLAB, allowing users to access their functions and tools within the MATLAB environment.\n\nExamples: Signal Processing Toolbox, Image Processing Toolbox, Control System Toolbox, Optimization Toolbox, Statistics and Machine Learning Toolbox."
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#matlab-apps",
+    "href": "posts/matlab/intro-matlab.html#matlab-apps",
+    "title": "Introduction to MATLAB",
+    "section": "MATLAB apps",
+    "text": "MATLAB apps\n\nMATLAB Apps are interactive applications built using MATLAB’s App Designer tool, which allows users to create custom graphical user interfaces (GUIs) for their MATLAB code.\nApps provide a user-friendly interface for performing specific tasks or workflows, enabling users to interact with MATLAB functionality without needing to write code."
+  },
+  {
+    "objectID": "posts/matlab/intro-matlab.html#matlab-apps-.",
+    "href": "posts/matlab/intro-matlab.html#matlab-apps-.",
+    "title": "Introduction to MATLAB",
+    "section": "MATLAB apps ….",
+    "text": "MATLAB apps ….\n\nUsers can design Apps to automate complex processes, visualize data, or streamline repetitive tasks, making MATLAB more accessible to users with varying levels of programming experience.\nMATLAB Apps can be shared and distributed to other users, allowing for collaboration and deployment of custom tools and workflows.\n\nExamples: Image Viewer App, Signal Analyzer App, Control System Tuner App, Curve Fitting App, Machine Learning App."
   }
 ]

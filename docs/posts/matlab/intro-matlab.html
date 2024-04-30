@@ -447,173 +447,81 @@ Usman Afzali
 <li>Removing paths</li>
 </ul>
 </section></section>
+<section>
 <section id="basic-operations" class="title-slide slide level1 center" data-background-color="orange">
 <h1>Basic operations</h1>
 
 </section>
-
-<section id="toolboxes-and-apps" class="title-slide slide level1 center" data-background-color="orange">
-<h1>Toolboxes and Apps</h1>
-
+<section id="arithmetic" class="slide level2" data-background-color="#346bc8">
+<h2>Arithmetic</h2>
+<pre><code>a = 1
+b = 2
+c = a + b
+d = sqrt (b)
+e = a * b</code></pre>
+<ul>
+<li>Use up- and down-arrow keys to recall previous <code>commands</code>.</li>
+<li>Use % for <code>comments</code>.</li>
+</ul>
 </section>
-
+<section id="using-a-matlab-script" class="slide level2" data-background-color="#346bc8">
+<h2>Using a MATLAB script</h2>
+<ul>
+<li>File: basics.m on <code>Learn</code>.</li>
+<li>Some basics commands:</li>
+<li>to get help, use help <code>function name</code></li>
+<li>or use doc <code>function name</code></li>
+</ul>
+</section></section>
 <section id="working-with-imported-data" class="title-slide slide level1 center" data-background-color="orange">
 <h1>Working with imported data</h1>
 
 </section>
 
 <section>
+<section id="toolboxes-and-apps" class="title-slide slide level1 center" data-background-color="orange">
+<h1>Toolboxes and Apps</h1>
+
+</section>
+<section id="matlab-toolboxes" class="slide level2" data-background-color="#346bc8">
+<h2>MATLAB toolboxes</h2>
+<ol type="1">
+<li><p>MATLAB Toolboxes are collections of functions, algorithms, and graphical user interfaces (GUIs) that extend the core functionality of MATLAB for specific applications or industries.</p></li>
+<li><p>Toolboxes provide specialized tools and algorithms for tasks such as signal processing, image processing, control systems design, optimization, and more.</p></li>
+</ol>
+</section>
+<section id="matlab-toolboxes-." class="slide level2" data-background-color="#346bc8">
+<h2>MATLAB toolboxes ….</h2>
+<ol start="3" type="1">
+<li>Users can purchase or access various Toolboxes to enhance MATLAB’s capabilities in specific domains. Toolboxes can be seamlessly integrated into MATLAB, allowing users to access their functions and tools within the MATLAB environment.</li>
+</ol>
+<p>Examples: Signal Processing Toolbox, Image Processing Toolbox, Control System Toolbox, Optimization Toolbox, Statistics and Machine Learning Toolbox.</p>
+</section>
+<section id="matlab-apps" class="slide level2" data-background-color="#346bc8">
+<h2>MATLAB apps</h2>
+<ol type="1">
+<li>MATLAB Apps are interactive applications built using MATLAB’s App Designer tool, which allows users to create custom graphical user interfaces (GUIs) for their MATLAB code.</li>
+<li>Apps provide a user-friendly interface for performing specific tasks or workflows, enabling users to interact with MATLAB functionality without needing to write code.</li>
+</ol>
+</section>
+<section id="matlab-apps-." class="slide level2" data-background-color="#346bc8">
+<h2>MATLAB apps ….</h2>
+<ol start="3" type="1">
+<li><p>Users can design Apps to automate complex processes, visualize data, or streamline repetitive tasks, making MATLAB more accessible to users with varying levels of programming experience.</p></li>
+<li><p>MATLAB Apps can be shared and distributed to other users, allowing for collaboration and deployment of custom tools and workflows.</p></li>
+</ol>
+<p>Examples: Image Viewer App, Signal Analyzer App, Control System Tuner App, Curve Fitting App, Machine Learning App.</p>
+</section></section>
 <section id="whats-next" class="title-slide slide level1 center" data-background-color="orange">
 <h1>What’s next?</h1>
 
 </section>
-<section id="processing-and-analysing-eeg-data" class="slide level2" data-background-color="#346bc8">
-<h2>Processing and analysing EEG data</h2>
-<ul>
-<li>MATLAB command line</li>
-<li>The standalone EEGLab software</li>
-<li>Use EEGLab in association with MATLAB</li>
-</ul>
-</section></section>
-<section>
-<section id="demonstration" class="title-slide slide level1 center" data-background-color="orange">
-<h1>Demonstration</h1>
+
+<section id="how-to-learn-programming" class="title-slide slide level1 center" data-background-color="orange">
+<h1>How to learn programming?</h1>
 
 </section>
-<section id="pipeline" class="slide level2" data-background-color="#346bc8">
-<h2>Pipeline</h2>
 
-<img data-src="../../figs/pipeline.png" class="r-stretch"><p><a href="https://youtu.be/gEk33jWB0MY">EEGLab Preprocessing - Delorme</a></p>
-</section>
-<section id="how-to-process-using-eeglab" class="slide level2" data-background-color="#346bc8">
-<h2>How to process using EEGLab</h2>
-<ul>
-<li>Use the available dataset from Learn <code>Lab 1 demo</code>.</li>
-<li>Note “Channels per frame, Frames per epoch, epoch, events, sampling rate, reference and other attributes.</li>
-</ul>
-</section>
-<section id="how-to-process-using-eeglab-1" class="slide level2" data-background-color="#346bc8">
-<h2>How to process using EEGLab</h2>
-<ul>
-<li>Epoch: A procedure in which specific time-windows are extracted from the continuous EEG signal. These time windows are called “epochs”, and usually are time-locked with respect an event e.g.&nbsp;a visual stimulus. <img data-src="../../figs/Figure 9.png"></li>
-</ul>
-</section>
-<section id="attributes-contd" class="slide level2" data-background-color="#346bc8">
-<h2>Attributes contd…</h2>
-<ul>
-<li>Event: a visual stimuli or a task</li>
-<li>Sampling rate (Hz): the number of samples (of electrical activity) recorded per second</li>
-<li>Frames: Frames in EEGLAB are the same as samples (so if you sampled at 500 Hz your data will have 500 frames each second)</li>
-<li>Referencing: EEG recordings measure differences in electrical potentials between two points (Voltages). This means the signal displayed at any channel is in fact the difference in electrical potential to some other recording site (or reference).</li>
-</ul>
-</section>
-<section id="visualising-eeg-data" class="slide level2" data-background-color="#346bc8">
-<h2>Visualising EEG data</h2>
-<ul>
-<li>Use <code>Plot -&gt; Channel data (scroll)</code>.</li>
-</ul>
-
-<img data-src="../../figs/eeg1.png" class="r-stretch"></section>
-<section id="referencing" class="slide level2" data-background-color="#346bc8">
-<h2>Referencing</h2>
-<div>
-<ul>
-<li class="fragment">Why do we reference?</li>
-</ul>
-</div>
-</section>
-<section id="referencing-to-m1-and-m2" class="slide level2" data-background-color="#346bc8">
-<h2>Referencing to M1 and M2</h2>
-<div>
-<ul>
-<li class="fragment">Use <code>Tools -&gt; re-reference the data</code>.</li>
-<li class="fragment">Compare the attributes to the original dataset. Is there any discrepancy? If yes, why?</li>
-<li class="fragment">If you haven’t picked answer to “why” yet, plot the data again and observe closely.</li>
-</ul>
-</div>
-</section>
-<section id="filtering" class="slide level2" data-background-color="#346bc8">
-<h2>Filtering</h2>
-<div>
-<ul>
-<li class="fragment">Why do we filter data?</li>
-<li class="fragment">Many sources of noise, such as the 60Hz line noise, consist mainly of very high frequencies or very low frequencies, whereas most of the useful information in an EEG or ERP waveform is at intermediate frequencies (between approximately 0.1Hz and 50Hz).</li>
-</ul>
-</div>
-</section>
-<section id="filtering-contd." class="slide level2" data-background-color="#346bc8">
-<h2>Filtering contd….</h2>
-<div>
-<ul>
-<li class="fragment"><p>Consequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.</p></li>
-<li class="fragment"><p>Delorme recommends filtering at 0.5.</p></li>
-<li class="fragment"><p>Use <code>Tools -&gt; Filter data -&gt; basic FIR Filter</code>. Type 0.5 in the <code>Lower edge</code></p></li>
-<li class="fragment"><p>DC offset: <a href="https://relaytraining.com/what-is-dc-offset-ask-chris/" class="uri">https://relaytraining.com/what-is-dc-offset-ask-chris/</a></p></li>
-</ul>
-</div>
-</section>
-<section id="visaul-inspection." class="slide level2" data-background-color="#346bc8">
-<h2>Visaul inspection….</h2>
-<ul>
-<li>From <code>Edit</code>, select <code>channel locations</code></li>
-<li>Plot channels as <code>2-D</code></li>
-</ul>
-</section>
-<section id="removing-unwanted-channels" class="slide level2" data-background-color="#346bc8">
-<h2>Removing unwanted channels</h2>
-<p>Use <code>Edit -&gt; Select data</code>. Select the <code>Channel range</code> that you want to remove.</p>
-</section>
-<section id="examining-raw-data" class="slide level2" data-background-color="#346bc8">
-<h2>Examining raw data</h2>
-<div class="quarto-layout-panel" data-layout="[[60, 40], [100]]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
-<ul>
-<li>To identify artefacts</li>
-<li>And to reject them</li>
-<li>Use <code>Tools -&gt; Inspect/reject data by eye.</code> Use your mouse to highlight the part you want to reject, and click the <code>REJECT</code> button.</li>
-</ul>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: center;">
-<p><img data-src="../../figs/messydata.png"></p>
-</div>
-</div>
-</div>
-</section>
-<section id="automatic-artefact-rejection" class="slide level2" data-background-color="#346bc8">
-<h2>Automatic artefact rejection</h2>
-<p>Use <code>Tools -&gt; Reject data using Clean Rawdata and ASR.</code> Generally, we’d use all <code>default choices</code> - Consequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.</p>
-<ul>
-<li>Delorme’s <a href="https://www.youtube.com/watch?v=5BTT-L2Ab04&amp;list=PLXc9qfVbMMN1ZS3sU2xT2hhfB5PAmuNae&amp;index=6">video</a> and another <a href="https://www.youtube.com/watch?v=ZvbRiX84mgc&amp;list=PLXc9qfVbMMN1ZS3sU2xT2hhfB5PAmuNae&amp;index=7">video</a> on these.</li>
-</ul>
-</section></section>
-<section>
-<section id="exercise" class="title-slide slide level1 center" data-background-color="orange">
-<h1>Exercise</h1>
-
-</section>
-<section id="to-submit" class="slide level2" data-background-color="#346bc8">
-<h2>To submit</h2>
-<ul>
-<li>Use the the <code>Lab 1 exercise</code> dataset on Learn.</li>
-<li>Read it in to the EEGLab</li>
-<li>Report all attributes</li>
-<li>Insert a screenshot of the attributes</li>
-<li>Plot data using the scroll option</li>
-<li>Insert a screenshot</li>
-<li>Report your observation: do the data look similar to <code>demonstration</code>? What do you see as a potential difference?</li>
-</ul>
-</section>
-<section id="to-submit-continued" class="slide level2" data-background-color="#346bc8">
-<h2>To submit continued</h2>
-<ul>
-<li>Plot channels as <code>2-D</code></li>
-<li>Do you see any anomaly? Comment!</li>
-<li>Conduct automatic rejection with ASR.</li>
-<li>Report your findings in comparison with before artefact rejection.</li>
-<li>Submit this as a pdf on Learn.</li>
-</ul>
-</section></section>
 <section id="the-end" class="title-slide slide level1 center" data-background-color="orange">
 <h1>The END</h1>
 
