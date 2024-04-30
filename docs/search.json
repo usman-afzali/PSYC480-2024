@@ -7,130 +7,109 @@
     "text": "Dr Usman Afzali"
   },
   {
-    "objectID": "posts/matlab/intro-matlab.html#what-is-matlab",
-    "href": "posts/matlab/intro-matlab.html#what-is-matlab",
+    "objectID": "posts/matlab/intro-matlab.html#whats-on-today",
+    "href": "posts/matlab/intro-matlab.html#whats-on-today",
     "title": "Introduction to MATLAB",
-    "section": "What is MATLAB?",
-    "text": "What is MATLAB?\n\nProgramming language\nMatrix manipulations, plotting, implementing algorithms etc.\nToolboxes and apps"
+    "section": "What’s on today?",
+    "text": "What’s on today?\n\nIntroducing the PSYC480 Blog\nWhat is MATLAB?\nUser interface\nGetting started\nBasic operations\nWorking with imported data\nWhat’s next?"
   },
   {
-    "objectID": "posts/matlab/intro-matlab.html#what-is-eeglab",
-    "href": "posts/matlab/intro-matlab.html#what-is-eeglab",
+    "objectID": "posts/matlab/intro-matlab.html#resources",
+    "href": "posts/matlab/intro-matlab.html#resources",
     "title": "Introduction to MATLAB",
-    "section": "What is EEGLab?",
-    "text": "What is EEGLab?\n\nA MATLAB toolbox\nUsed for processing and analysing EEG, MEG and other electrophysiological signals.\nIt has a GUI"
+    "section": "Resources",
+    "text": "Resources\n\nPSYC480 Blog\nMATLAB for Neuroscience\nGet Started with MATLAB"
   },
   {
-    "objectID": "posts/matlab/intro-matlab.html#processing-and-analysing-eeg-data",
-    "href": "posts/matlab/intro-matlab.html#processing-and-analysing-eeg-data",
+    "objectID": "posts/matlab/intro-matlab.html#introduction",
+    "href": "posts/matlab/intro-matlab.html#introduction",
     "title": "Introduction to MATLAB",
-    "section": "Processing and analysing EEG data",
-    "text": "Processing and analysing EEG data\n\nMATLAB command line\nThe standalone EEGLab software\nUse EEGLab in association with MATLAB"
+    "section": "Introduction",
+    "text": "Introduction\nMATLAB, short for “MATrix LABoratory,” is a high-level programming language and interactive environment primarily designed for numerical computation, data analysis, and visualization. It provides a comprehensive set of tools and functions for various domains, including mathematics, engineering, and science. MATLAB allows users to perform matrix manipulations, implement algorithms, create graphical user interfaces (GUIs), and interface with other programming languages and software packages. It is widely used in academia, industry, and research for tasks such as signal processing, image processing, control systems design, and machine learning. (from ChatGPT)"
   },
   {
-    "objectID": "posts/matlab/intro-matlab.html#pipeline",
-    "href": "posts/matlab/intro-matlab.html#pipeline",
+    "objectID": "posts/matlab/intro-matlab.html#from-the-horses-mouth",
+    "href": "posts/matlab/intro-matlab.html#from-the-horses-mouth",
     "title": "Introduction to MATLAB",
-    "section": "Pipeline",
-    "text": "Pipeline\n\nEEGLab Preprocessing - Delorme"
+    "section": "From the horse’s mouth",
+    "text": "From the horse’s mouth\nWhat is MATLAB"
   },
   {
-    "objectID": "posts/matlab/intro-matlab.html#how-to-process-using-eeglab",
-    "href": "posts/matlab/intro-matlab.html#how-to-process-using-eeglab",
+    "objectID": "posts/matlab/intro-matlab.html#uses-from-chatgpt",
+    "href": "posts/matlab/intro-matlab.html#uses-from-chatgpt",
     "title": "Introduction to MATLAB",
-    "section": "How to process using EEGLab",
-    "text": "How to process using EEGLab\n\nUse the available dataset from Learn Lab 1 demo.\nNote “Channels per frame, Frames per epoch, epoch, events, sampling rate, reference and other attributes."
+    "section": "Uses (from ChatGPT)",
+    "text": "Uses (from ChatGPT)\n\n\n\nNumerical computation\nData analysis and visualization\nSignal processing\nImage processing and computer vision\nControl systems design and analysis\n\n\n\nMachine learning and deep learning\nOptimization and mathematical modeling\nSimulation of dynamic systems\nFinancial modeling and analysis\nComputational biology and bioinformatics"
   },
   {
-    "objectID": "posts/matlab/intro-matlab.html#how-to-process-using-eeglab-1",
-    "href": "posts/matlab/intro-matlab.html#how-to-process-using-eeglab-1",
+    "objectID": "posts/matlab/intro-matlab.html#uses-continued-from-chatgpt",
+    "href": "posts/matlab/intro-matlab.html#uses-continued-from-chatgpt",
     "title": "Introduction to MATLAB",
-    "section": "How to process using EEGLab",
-    "text": "How to process using EEGLab\n\nEpoch: A procedure in which specific time-windows are extracted from the continuous EEG signal. These time windows are called “epochs”, and usually are time-locked with respect an event e.g. a visual stimulus."
+    "section": "Uses continued (from ChatGPT)",
+    "text": "Uses continued (from ChatGPT)\n\n\n\nComputational fluid dynamics (CFD)\nGeospatial analysis and mapping\nTime-series analysis and forecasting\nStatistical analysis and hypothesis testing\nGraph theory and network analysis\n\n\n\nRobotics and autonomous systems\nAudio processing and speech recognition\nCryptography and security analysis\nEducation and teaching (simulations, course materials)\nApplication development (applications, GUIs)"
   },
   {
-    "objectID": "posts/matlab/intro-matlab.html#attributes-contd",
-    "href": "posts/matlab/intro-matlab.html#attributes-contd",
+    "objectID": "posts/matlab/intro-matlab.html#user-interface",
+    "href": "posts/matlab/intro-matlab.html#user-interface",
     "title": "Introduction to MATLAB",
-    "section": "Attributes contd…",
-    "text": "Attributes contd…\n\nEvent: a visual stimuli or a task\nSampling rate (Hz): the number of samples (of electrical activity) recorded per second\nFrames: Frames in EEGLAB are the same as samples (so if you sampled at 500 Hz your data will have 500 frames each second)\nReferencing: EEG recordings measure differences in electrical potentials between two points (Voltages). This means the signal displayed at any channel is in fact the difference in electrical potential to some other recording site (or reference)."
+    "section": "User Interface",
+    "text": "User Interface\n\nMATLAB user interface"
   },
   {
-    "objectID": "posts/matlab/intro-matlab.html#visualising-eeg-data",
-    "href": "posts/matlab/intro-matlab.html#visualising-eeg-data",
+    "objectID": "posts/matlab/intro-matlab.html#getting-started",
+    "href": "posts/matlab/intro-matlab.html#getting-started",
     "title": "Introduction to MATLAB",
-    "section": "Visualising EEG data",
-    "text": "Visualising EEG data\n\nUse Plot -&gt; Channel data (scroll)."
+    "section": "Getting started",
+    "text": "Getting started\n\nMATLAB user interface"
   },
   {
-    "objectID": "posts/matlab/intro-matlab.html#referencing",
-    "href": "posts/matlab/intro-matlab.html#referencing",
+    "objectID": "posts/matlab/intro-matlab.html#getting-started-1",
+    "href": "posts/matlab/intro-matlab.html#getting-started-1",
     "title": "Introduction to MATLAB",
-    "section": "Referencing",
-    "text": "Referencing\n\n\nWhy do we reference?"
+    "section": "Getting started",
+    "text": "Getting started\n\nSetting path\nExamples:\nSetting up EEGLab followed by Microstates\nRemoving paths"
   },
   {
-    "objectID": "posts/matlab/intro-matlab.html#referencing-to-m1-and-m2",
-    "href": "posts/matlab/intro-matlab.html#referencing-to-m1-and-m2",
+    "objectID": "posts/matlab/intro-matlab.html#arithmetic",
+    "href": "posts/matlab/intro-matlab.html#arithmetic",
     "title": "Introduction to MATLAB",
-    "section": "Referencing to M1 and M2",
-    "text": "Referencing to M1 and M2\n\n\nUse Tools -&gt; re-reference the data.\nCompare the attributes to the original dataset. Is there any discrepancy? If yes, why?\nIf you haven’t picked answer to “why” yet, plot the data again and observe closely."
+    "section": "Arithmetic",
+    "text": "Arithmetic\na = 1\nb = 2\nc = a + b\nd = sqrt (b)\ne = a * b\n\nUse up- and down-arrow keys to recall previous commands.\nUse % for comments."
   },
   {
-    "objectID": "posts/matlab/intro-matlab.html#filtering",
-    "href": "posts/matlab/intro-matlab.html#filtering",
+    "objectID": "posts/matlab/intro-matlab.html#using-a-matlab-script",
+    "href": "posts/matlab/intro-matlab.html#using-a-matlab-script",
     "title": "Introduction to MATLAB",
-    "section": "Filtering",
-    "text": "Filtering\n\n\nWhy do we filter data?\nMany sources of noise, such as the 60Hz line noise, consist mainly of very high frequencies or very low frequencies, whereas most of the useful information in an EEG or ERP waveform is at intermediate frequencies (between approximately 0.1Hz and 50Hz)."
+    "section": "Using a MATLAB script",
+    "text": "Using a MATLAB script\n\nFile: basics.m on Learn.\nSome basics commands:\nto get help, use help function name\nor use doc function name"
   },
   {
-    "objectID": "posts/matlab/intro-matlab.html#filtering-contd.",
-    "href": "posts/matlab/intro-matlab.html#filtering-contd.",
+    "objectID": "posts/matlab/intro-matlab.html#matlab-toolboxes",
+    "href": "posts/matlab/intro-matlab.html#matlab-toolboxes",
     "title": "Introduction to MATLAB",
-    "section": "Filtering contd….",
-    "text": "Filtering contd….\n\n\nConsequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.\nDelorme recommends filtering at 0.5.\nUse Tools -&gt; Filter data -&gt; basic FIR Filter. Type 0.5 in the Lower edge\nDC offset: https://relaytraining.com/what-is-dc-offset-ask-chris/"
+    "section": "MATLAB toolboxes",
+    "text": "MATLAB toolboxes\n\nMATLAB Toolboxes are collections of functions, algorithms, and graphical user interfaces (GUIs) that extend the core functionality of MATLAB for specific applications or industries.\nToolboxes provide specialized tools and algorithms for tasks such as signal processing, image processing, control systems design, optimization, and more."
   },
   {
-    "objectID": "posts/matlab/intro-matlab.html#visaul-inspection.",
-    "href": "posts/matlab/intro-matlab.html#visaul-inspection.",
+    "objectID": "posts/matlab/intro-matlab.html#matlab-toolboxes-.",
+    "href": "posts/matlab/intro-matlab.html#matlab-toolboxes-.",
     "title": "Introduction to MATLAB",
-    "section": "Visaul inspection….",
-    "text": "Visaul inspection….\n\nFrom Edit, select channel locations\nPlot channels as 2-D"
+    "section": "MATLAB toolboxes ….",
+    "text": "MATLAB toolboxes ….\n\nUsers can purchase or access various Toolboxes to enhance MATLAB’s capabilities in specific domains. Toolboxes can be seamlessly integrated into MATLAB, allowing users to access their functions and tools within the MATLAB environment.\n\nExamples: Signal Processing Toolbox, Image Processing Toolbox, Control System Toolbox, Optimization Toolbox, Statistics and Machine Learning Toolbox."
   },
   {
-    "objectID": "posts/matlab/intro-matlab.html#removing-unwanted-channels",
-    "href": "posts/matlab/intro-matlab.html#removing-unwanted-channels",
+    "objectID": "posts/matlab/intro-matlab.html#matlab-apps",
+    "href": "posts/matlab/intro-matlab.html#matlab-apps",
     "title": "Introduction to MATLAB",
-    "section": "Removing unwanted channels",
-    "text": "Removing unwanted channels\nUse Edit -&gt; Select data. Select the Channel range that you want to remove."
+    "section": "MATLAB apps",
+    "text": "MATLAB apps\n\nMATLAB Apps are interactive applications built using MATLAB’s App Designer tool, which allows users to create custom graphical user interfaces (GUIs) for their MATLAB code.\nApps provide a user-friendly interface for performing specific tasks or workflows, enabling users to interact with MATLAB functionality without needing to write code."
   },
   {
-    "objectID": "posts/matlab/intro-matlab.html#examining-raw-data",
-    "href": "posts/matlab/intro-matlab.html#examining-raw-data",
+    "objectID": "posts/matlab/intro-matlab.html#matlab-apps-.",
+    "href": "posts/matlab/intro-matlab.html#matlab-apps-.",
     "title": "Introduction to MATLAB",
-    "section": "Examining raw data",
-    "text": "Examining raw data\n\n\n\n\nTo identify artefacts\nAnd to reject them\nUse Tools -&gt; Inspect/reject data by eye. Use your mouse to highlight the part you want to reject, and click the REJECT button."
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#automatic-artefact-rejection",
-    "href": "posts/matlab/intro-matlab.html#automatic-artefact-rejection",
-    "title": "Introduction to MATLAB",
-    "section": "Automatic artefact rejection",
-    "text": "Automatic artefact rejection\nUse Tools -&gt; Reject data using Clean Rawdata and ASR. Generally, we’d use all default choices - Consequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.\n\nDelorme’s video and another video on these."
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#to-submit",
-    "href": "posts/matlab/intro-matlab.html#to-submit",
-    "title": "Introduction to MATLAB",
-    "section": "To submit",
-    "text": "To submit\n\nUse the the Lab 1 exercise dataset on Learn.\nRead it in to the EEGLab\nReport all attributes\nInsert a screenshot of the attributes\nPlot data using the scroll option\nInsert a screenshot\nReport your observation: do the data look similar to demonstration? What do you see as a potential difference?"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#to-submit-continued",
-    "href": "posts/matlab/intro-matlab.html#to-submit-continued",
-    "title": "Introduction to MATLAB",
-    "section": "To submit continued",
-    "text": "To submit continued\n\nPlot channels as 2-D\nDo you see any anomaly? Comment!\nConduct automatic rejection with ASR.\nReport your findings in comparison with before artefact rejection.\nSubmit this as a pdf on Learn."
+    "section": "MATLAB apps ….",
+    "text": "MATLAB apps ….\n\nUsers can design Apps to automate complex processes, visualize data, or streamline repetitive tasks, making MATLAB more accessible to users with varying levels of programming experience.\nMATLAB Apps can be shared and distributed to other users, allowing for collaboration and deployment of custom tools and workflows.\n\nExamples: Image Viewer App, Signal Analyzer App, Control System Tuner App, Curve Fitting App, Machine Learning App."
   },
   {
     "objectID": "posts/lab-2/Lab02-2024.html#pipeline",
@@ -460,145 +439,5 @@
     "title": "Special Topic: Computational Contemplative-Neuroscience",
     "section": "",
     "text": "Introduction to MATLAB\n\n\nPSYC480\n\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nMay 1, 2024\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nEEG data acquistion, processing, and analysis\n\n\n\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nApr 25, 2024\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, Harriet Grace, and Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nApr 23, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nMar 26, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 01\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nMar 19, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to PSYC480 Blog\n\n\n\n\n\n\nintro\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nUsman Afzali\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#what-is-matlab-1",
-    "href": "posts/matlab/intro-matlab.html#what-is-matlab-1",
-    "title": "Introduction to MATLAB",
-    "section": "What is MATLAB?",
-    "text": "What is MATLAB?\n\nProgramming language\nMatrix manipulations, plotting, implementing algorithms etc.\nToolboxes and apps"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#whats-on-today",
-    "href": "posts/matlab/intro-matlab.html#whats-on-today",
-    "title": "Introduction to MATLAB",
-    "section": "What’s on today?",
-    "text": "What’s on today?\n\nIntroducing the PSYC480 Blog\nWhat is MATLAB?\nUser interface\nGetting started\nBasic operations\nWorking with imported data\nWhat’s next?"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#resources",
-    "href": "posts/matlab/intro-matlab.html#resources",
-    "title": "Introduction to MATLAB",
-    "section": "Resources",
-    "text": "Resources\n\nPSYC480 Blog\nMATLAB for Neuroscience\nGet Started with MATLAB"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#introduction",
-    "href": "posts/matlab/intro-matlab.html#introduction",
-    "title": "Introduction to MATLAB",
-    "section": "Introduction",
-    "text": "Introduction\nMATLAB, short for “MATrix LABoratory,” is a high-level programming language and interactive environment primarily designed for numerical computation, data analysis, and visualization. It provides a comprehensive set of tools and functions for various domains, including mathematics, engineering, and science. MATLAB allows users to perform matrix manipulations, implement algorithms, create graphical user interfaces (GUIs), and interface with other programming languages and software packages. It is widely used in academia, industry, and research for tasks such as signal processing, image processing, control systems design, and machine learning. (from ChatGPT)"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#uses",
-    "href": "posts/matlab/intro-matlab.html#uses",
-    "title": "Introduction to MATLAB",
-    "section": "Uses",
-    "text": "Uses\n\n\n\nNumerical computation\nData analysis and visualization\nSignal processing\nImage processing and computer vision\nControl systems design and analysis\n\n\n\nMachine learning and deep learning\nOptimization and mathematical modeling\nSimulation of dynamic systems\nFinancial modeling and analysis\nComputational biology and bioinformatics"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#toolboxes-and-apps",
-    "href": "posts/matlab/intro-matlab.html#toolboxes-and-apps",
-    "title": "Introduction to MATLAB",
-    "section": "Toolboxes and Apps",
-    "text": "Toolboxes and Apps\n\nA MATLAB toolbox\nUsed for processing and analysing EEG, MEG and other electrophysiological signals.\nIt has a GUI"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#uses-continued",
-    "href": "posts/matlab/intro-matlab.html#uses-continued",
-    "title": "Introduction to MATLAB",
-    "section": "Uses continued",
-    "text": "Uses continued\n\n\n\nComputational fluid dynamics (CFD)\nGeospatial analysis and mapping\nTime-series analysis and forecasting\nStatistical analysis and hypothesis testing\nGraph theory and network analysis\n\n\n\nRobotics and autonomous systems\nAudio processing and speech recognition\nCryptography and security analysis\nEducation and teaching (simulations, course materials)\nApplication development (applications, GUIs)"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#uses-from-chatgpt",
-    "href": "posts/matlab/intro-matlab.html#uses-from-chatgpt",
-    "title": "Introduction to MATLAB",
-    "section": "Uses (from ChatGPT)",
-    "text": "Uses (from ChatGPT)\n\n\n\nNumerical computation\nData analysis and visualization\nSignal processing\nImage processing and computer vision\nControl systems design and analysis\n\n\n\nMachine learning and deep learning\nOptimization and mathematical modeling\nSimulation of dynamic systems\nFinancial modeling and analysis\nComputational biology and bioinformatics"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#uses-continued-from-chatgpt",
-    "href": "posts/matlab/intro-matlab.html#uses-continued-from-chatgpt",
-    "title": "Introduction to MATLAB",
-    "section": "Uses continued (from ChatGPT)",
-    "text": "Uses continued (from ChatGPT)\n\n\n\nComputational fluid dynamics (CFD)\nGeospatial analysis and mapping\nTime-series analysis and forecasting\nStatistical analysis and hypothesis testing\nGraph theory and network analysis\n\n\n\nRobotics and autonomous systems\nAudio processing and speech recognition\nCryptography and security analysis\nEducation and teaching (simulations, course materials)\nApplication development (applications, GUIs)"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#user-interface",
-    "href": "posts/matlab/intro-matlab.html#user-interface",
-    "title": "Introduction to MATLAB",
-    "section": "User Interface",
-    "text": "User Interface\n\nMATLAB user interface"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#from-the-horses-mouth",
-    "href": "posts/matlab/intro-matlab.html#from-the-horses-mouth",
-    "title": "Introduction to MATLAB",
-    "section": "From the horse’s mouth",
-    "text": "From the horse’s mouth\nWhat is MATLAB"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#getting-started",
-    "href": "posts/matlab/intro-matlab.html#getting-started",
-    "title": "Introduction to MATLAB",
-    "section": "Getting started",
-    "text": "Getting started\n\nMATLAB user interface"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#getting-started-1",
-    "href": "posts/matlab/intro-matlab.html#getting-started-1",
-    "title": "Introduction to MATLAB",
-    "section": "Getting started",
-    "text": "Getting started\n\nSetting path\nExamples:\nSetting up EEGLab followed by Microstates\nRemoving paths"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#arithmetic",
-    "href": "posts/matlab/intro-matlab.html#arithmetic",
-    "title": "Introduction to MATLAB",
-    "section": "Arithmetic",
-    "text": "Arithmetic\na = 1\nb = 2\nc = a + b\nd = sqrt (b)\ne = a * b\n\nUse up- and down-arrow keys to recall previous commands.\nUse % for comments."
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#statistics",
-    "href": "posts/matlab/intro-matlab.html#statistics",
-    "title": "Introduction to MATLAB",
-    "section": "Statistics",
-    "text": "Statistics\na = 1\nb = 2\nc = a + b\nd = sqrt (b)\ne = a * b"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#using-a-matlab-script",
-    "href": "posts/matlab/intro-matlab.html#using-a-matlab-script",
-    "title": "Introduction to MATLAB",
-    "section": "Using a MATLAB script",
-    "text": "Using a MATLAB script\n\nFile: basics.m on Learn.\nSome basics commands:\nto get help, use help function name\nor use doc function name"
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#matlab-toolboxes",
-    "href": "posts/matlab/intro-matlab.html#matlab-toolboxes",
-    "title": "Introduction to MATLAB",
-    "section": "MATLAB toolboxes",
-    "text": "MATLAB toolboxes\n\nMATLAB Toolboxes are collections of functions, algorithms, and graphical user interfaces (GUIs) that extend the core functionality of MATLAB for specific applications or industries.\nToolboxes provide specialized tools and algorithms for tasks such as signal processing, image processing, control systems design, optimization, and more."
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#matlab-toolboxes-.",
-    "href": "posts/matlab/intro-matlab.html#matlab-toolboxes-.",
-    "title": "Introduction to MATLAB",
-    "section": "MATLAB toolboxes ….",
-    "text": "MATLAB toolboxes ….\n\nUsers can purchase or access various Toolboxes to enhance MATLAB’s capabilities in specific domains. Toolboxes can be seamlessly integrated into MATLAB, allowing users to access their functions and tools within the MATLAB environment.\n\nExamples: Signal Processing Toolbox, Image Processing Toolbox, Control System Toolbox, Optimization Toolbox, Statistics and Machine Learning Toolbox."
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#matlab-apps",
-    "href": "posts/matlab/intro-matlab.html#matlab-apps",
-    "title": "Introduction to MATLAB",
-    "section": "MATLAB apps",
-    "text": "MATLAB apps\n\nMATLAB Apps are interactive applications built using MATLAB’s App Designer tool, which allows users to create custom graphical user interfaces (GUIs) for their MATLAB code.\nApps provide a user-friendly interface for performing specific tasks or workflows, enabling users to interact with MATLAB functionality without needing to write code."
-  },
-  {
-    "objectID": "posts/matlab/intro-matlab.html#matlab-apps-.",
-    "href": "posts/matlab/intro-matlab.html#matlab-apps-.",
-    "title": "Introduction to MATLAB",
-    "section": "MATLAB apps ….",
-    "text": "MATLAB apps ….\n\nUsers can design Apps to automate complex processes, visualize data, or streamline repetitive tasks, making MATLAB more accessible to users with varying levels of programming experience.\nMATLAB Apps can be shared and distributed to other users, allowing for collaboration and deployment of custom tools and workflows.\n\nExamples: Image Viewer App, Signal Analyzer App, Control System Tuner App, Curve Fitting App, Machine Learning App."
   }
 ]
