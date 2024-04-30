@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Charlie Drinkwater, Sheena Henderson, Cambria Doyle, Harriet Grace, and Usman Afzali">
-<meta name="dcterms.date" content="2024-04-25">
 
-<title>PSYC480 Blog - EEG data acquistion, processing, and analysis</title>
+<title>PSYC480 Blog - Special Topic: Computational Contemplative-Neuroscience</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,45 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -88,19 +68,77 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../../styles.css">
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">PSYC480 Blog</span>
     </a>
   </div>
@@ -111,7 +149,7 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item compact">
@@ -134,217 +172,275 @@ div.csl-indent {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">EEG data acquistion, processing, and analysis</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">Lab</div>
-                <div class="quarto-category">EEG</div>
-                <div class="quarto-category">EEGLAB</div>
-                <div class="quarto-category">MATLAB</div>
-              </div>
-                  </div>
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Special Topic: Computational Contemplative-Neuroscience</h1>
+                      </div>
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Charlie Drinkwater, Sheena Henderson, Cambria Doyle, Harriet Grace, and Usman Afzali </p>
-            </div>
-    </div>
       
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">April 25, 2024</p>
-      </div>
-    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="EEG">EEG <span class="quarto-category-count">(5)</span></div><div class="category" data-category="EEGLAB">EEGLAB <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Lab">Lab <span class="quarto-category-count">(4)</span></div><div class="category" data-category="MATLAB">MATLAB <span class="quarto-category-count">(2)</span></div><div class="category" data-category="intro">intro <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
 
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This is work under progress and more information will be added.</p>
-</div>
-</div>
-<section id="collecting-eeg-data" class="level2">
-<h2 class="anchored" data-anchor-id="collecting-eeg-data">Collecting EEG data</h2>
-<p>EEG data can be collected using a variety of EEG headset tools and software. We are using a mobile, gel-based, 32 channel headset, <a href="https://www.ant-neuro.com/products/eego_sports">Ant Neuro EEGO Sports</a>.</p>
-<section id="eeg-headset-technical-details" class="level3">
-<h3 class="anchored" data-anchor-id="eeg-headset-technical-details">EEG Headset Technical details</h3>
-<ul>
-<li>Brand: Ant Neuro EEGO Sports 32 (ES-230)</li>
-<li>Amplifier: 32-channel EEGO amplifier, 2 kHz, CE Class IIa medical device</li>
-<li>Reference: online referencing with CPz</li>
-<li>Ground electrode: AFz</li>
-<li>Resolution: 24-bit</li>
-<li>EEG Cap: Waveguard – sizes M, and L</li>
-<li>Sampling rate: upto 2048 Hz</li>
-<li>Software: EEGO software for recording, reviewing, and export EEG data</li>
-</ul>
-</section>
-<section id="data-acquisition" class="level3">
-<h3 class="anchored" data-anchor-id="data-acquisition">Data acquisition</h3>
-<p><strong>1. Creating a new subject</strong></p>
-<p><strong>2. Placing EEG headset</strong></p>
-<p><strong>3. Checking Impedance</strong></p>
-<p><strong>4. EEG Recording</strong></p>
-<p><strong>5. Exporting EEG data</strong></p>
-</section>
-</section>
-<section id="data-processing-and-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="data-processing-and-analysis">Data processing and analysis</h2>
-<p>A variety of software are available for EEG data processing and analysis. The widely used licensed programme is MATALB (stands for matrix laboratory). It is primarily a statistical and machine learning programme and can be used for EEG data processing in two ways: via command line or via a freely available toolbox <a href="https://eeglab.org">EEGLab</a>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="matlab.png" class="img-fluid figure-img"></p>
-<figcaption>MATLAB user interface</figcaption>
-</figure>
-</div>
-<p>There are many alternative. A famous free programme is Python – whereas the relevant library is called <a href="https://mne.tools/stable/index.html">MNE</a>.</p>
-<p>We primarily use EEGLab in PSYC480, that shall be installed as an MATLAB add-on.</p>
-</section>
-<section id="installing-eeglab-toolbox" class="level2">
-<h2 class="anchored" data-anchor-id="installing-eeglab-toolbox">Installing EEGLab Toolbox</h2>
-<ol type="1">
-<li>Use the latest versions of MATLAB and EEGLab.</li>
-<li>Unzip EEGLab and <code>Microstates1.2</code><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, and paste <code>Microstates1.2</code> inside <code>EEGLab -&gt; plugins</code>.</li>
-<li>Make sure that you do not have any extra - old copies of the software on your computer.</li>
-<li>From MATLAB <code>Home</code> tab, click <code>Preferences -&gt; Add-Ons</code> and click on three dots beside the installation folder path (see <a href="#fig-matlab" class="quarto-xref">Figure&nbsp;1</a>). This shows you the folder where MATLAB has been installed. If you see a <code>MATLAB Add-Ons</code> folder within <code>Mathworks</code>, then EEGLab (unzipped) should be pasted here and deleted from all other places on your computer. If such a folder does not exist, create a new folder and name it <code>MATLAB Add-Ons</code>, then paste the EEGLab folder here. Creating this folder should not be problematics as described <a href="https://usman-afzali.github.io/PSYC480/labs/matlab.html">here</a>.</li>
-<li>From MATLAB <code>Home</code> tab, click <code>Set Path -&gt; Default</code>. This deletes all old paths. Once the process completes, click <code>Save</code>. Then, click <code>Add with Subfolders</code> and find the path to EEGLab folder based on point 4, then click <code>Save</code>.</li>
-<li>Type <code>eeglab</code> in MATLAB <code>Command Window</code> and EEGLab shall open.</li>
-</ol>
-<div id="fig-matlab" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-matlab-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="matlab-pref.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-matlab-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: MATLAB preferences
-</figcaption>
-</figure>
-</div>
-<p>EEGLab fig tba.</p>
-<p><strong>How to create a study</strong></p>
-<p>(Used to process multiple datasets at once)</p>
-<ol type="1">
-<li>Load in datasets</li>
-<li>File -&gt; Create Study -&gt; Using all loaded datasets</li>
-</ol>
-<p><strong>How to remove non-EEG channels</strong></p>
-<ol type="1">
-<li>Edit -&gt; Select Data -&gt; Tick the box on the same line as channel range and then click on the “…” box to select the channels to remove (how do you know how to remove the channels? I wish I knew)</li>
-</ol>
-<p><strong>How to compute the average reference for microstate analysis</strong></p>
-<ol type="1">
-<li>Tools -&gt; Basic FIR filter -&gt; Set lower edge to 2 and upper edge to 20 and run</li>
-</ol>
-<p><strong>How to run artifact correction (ASR)</strong></p>
-<ol type="1">
-<li>Tools -&gt; Reject data using clean rawdata and ASR</li>
-<li>Tick the “Remove channel drift” box and change the values to 0.75 and 1.25 (Why? IDK)</li>
-<li>Uncheck the “Remove channel if it is flat for more than …” box</li>
-<li>Change the min acceptable correlation with nearby chans from 0.8 to 0.7</li>
-</ol>
-<p>Apparently we now average reference again, but this time we also interpolate removed channels</p>
-<p><strong>How to run ICA with Picard</strong></p>
-<ol type="1">
-<li>Tools -&gt; Decompose data by ICA</li>
-<li>Change from “runica” to “picard”</li>
-<li>Uncheck the reorder components by variance box</li>
-<li>After that is finished, go back to Tools -&gt; Classify components using ICLabel-&gt; label components (leave as default) and run</li>
-<li>Then Tools -&gt; Classify components using ICLabel-&gt; Flag components as artifacts</li>
-<li>Then Tools -&gt; remove components from data</li>
-</ol>
-<p><strong>How to actually run microstate analysis (Windows edition)</strong></p>
-<ol type="1">
-<li>Tools -&gt; Microstate analysis toolbox -&gt; select data for microstate analysis</li>
-<li>Change ERP – Concatenate datasets to Spontaneous GFP Peaks</li>
-<li>Tools -&gt; Microstate analysis toolbox -&gt; Segment into microstates</li>
-<li>Copy this (Shamelessly stolen from Usman’s slides)</li>
-</ol>
-<p><img src="ms-windows.png" class="img-fluid"></p>
-<ol start="5" type="1">
-<li>Copy this</li>
-</ol>
-<p><img src="ms-win-2.png" class="img-fluid"></p>
-<p>You should be able to plot them after doing this.</p>
-</section>
-<section id="resting-eeg-microstates" class="level2">
-<h2 class="anchored" data-anchor-id="resting-eeg-microstates">Resting EEG Microstates</h2>
-<p>EEG data processing (as described above) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble the prototypical four network types. To the best of my knowledge, it is important to use only the following processing steps:</p>
-<ol type="1">
-<li>Channel locations</li>
-<li>Filter 2-20 Hz</li>
-<li>Remove artefacts with ASR, but make sure to un-check the option <code>Remove channel if it is flat for more than (seconds)</code>, see <a href="#fig-artefact-ms" class="quarto-xref">Figure&nbsp;2</a>.</li>
-<li>Reference to average and interpolate removed channels.</li>
-<li>From <code>Tools -&gt; Microstates -&gt; Obtain Microstate Maps</code>, use <code>k-means</code> method with a min of 4 and max of 5 maps, and set <code>restarts</code> to 20.</li>
-<li>From <code>Plots -&gt;</code> …</li>
-<li>Examine whether or not your obtained microstates resemble the prototypical four network types (see <a href="#fig-fourmaps" class="quarto-xref">Figure&nbsp;3</a>) <span class="citation" data-cites="nash2022">(<a href="#ref-nash2022" role="doc-biblioref">Nash et al. 2022</a>)</span>.</li>
-</ol>
-<div id="fig-artefact-ms" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-artefact-ms-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="artefact-ms.jpg" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-artefact-ms-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: Automatic artefact removal
-</figcaption>
-</figure>
-</div>
-<div id="fig-fourmaps" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-fourmaps-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="fourmaps.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-fourmaps-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3: Four prototypical microstates <span class="citation" data-cites="nash2022">(<a href="#ref-nash2022" role="doc-biblioref">Nash et al. 2022</a>)</span>
-</figcaption>
-</figure>
-</div>
-</section>
-<section id="eeg-headset-maintenance-and-cleaning" class="level2">
-<h2 class="anchored" data-anchor-id="eeg-headset-maintenance-and-cleaning">EEG Headset maintenance and cleaning</h2>
-<p><a href="https://youtu.be/FOgfR0QI9_A" class="uri">https://youtu.be/FOgfR0QI9_A</a></p>
 
 
 
-</section>
 
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-nash2022" class="csl-entry" role="listitem">
-Nash, Kyle, Tobias Kleinert, Josh Leota, Andy Scott, and Jeff Schimel. 2022. <span>“Resting-State Networks of Believers and Non-Believers: An EEG Microstate Study.”</span> <em>Biological Psychology</em> 169 (March): 108283. <a href="https://doi.org/10.1016/j.biopsycho.2022.108283">https://doi.org/10.1016/j.biopsycho.2022.108283</a>.
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="EEG,EEGLAB,MATLAB" data-listing-date-sort="1714478400000" data-listing-file-modified-sort="1714446484437" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="619">
+<div class="thumbnail">
+<p><a href="./posts/matlab/intro-matlab.html" class="no-external"></a></p><a href="./posts/matlab/intro-matlab.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/matlab/intro-matlab.html" class="no-external"></a></p>
 </div>
-</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>Microstates is not primarily needed for EEGLab. We install it because it will be used for acquiring resting EEG microstate plots and relevant statistics.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/matlab/intro-matlab.html" class="no-external">Introduction to MATLAB</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/matlab/intro-matlab.html" class="no-external">PSYC480</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('EEG'); return false;">
+EEG
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EEGLAB'); return false;">
+EEGLAB
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('MATLAB'); return false;">
+MATLAB
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/matlab/intro-matlab.html" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/matlab/intro-matlab.html" class="no-external">
+<div class="listing-date">
+May 1, 2024
+</div>
+<div class="listing-author">
+Usman Afzali
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Lab,EEG,EEGLAB,MATLAB" data-listing-date-sort="1713960000000" data-listing-file-modified-sort="1714355934370" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="888">
+<div class="thumbnail">
+<p><a href="./posts/eeg-acq-process/eeg-acq-process.html" class="no-external"></a></p><a href="./posts/eeg-acq-process/eeg-acq-process.html" class="no-external">
+<p class="card-img-top"><img src="posts/eeg-acq-process/matlab.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/eeg-acq-process/eeg-acq-process.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/eeg-acq-process/eeg-acq-process.html" class="no-external">EEG data acquistion, processing, and analysis</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/eeg-acq-process/eeg-acq-process.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Lab'); return false;">
+Lab
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EEG'); return false;">
+EEG
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EEGLAB'); return false;">
+EEGLAB
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('MATLAB'); return false;">
+MATLAB
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/eeg-acq-process/eeg-acq-process.html" class="no-external">This is work under progress and more information will be added.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/eeg-acq-process/eeg-acq-process.html" class="no-external">
+<div class="listing-date">
+Apr 25, 2024
+</div>
+<div class="listing-author">
+Charlie Drinkwater, Sheena Henderson, Cambria Doyle, Harriet Grace, and Usman Afzali
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="Lab,EEG,EEGLAB" data-listing-date-sort="1713787200000" data-listing-file-modified-sort="1714046070794" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="400">
+<div class="thumbnail">
+<p><a href="./posts/lab-3/Lab03-2024.html" class="no-external"></a></p><a href="./posts/lab-3/Lab03-2024.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/lab-3/Lab03-2024.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/lab-3/Lab03-2024.html" class="no-external">Lab 03</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/lab-3/Lab03-2024.html" class="no-external">PSYC480</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Lab'); return false;">
+Lab
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EEG'); return false;">
+EEG
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EEGLAB'); return false;">
+EEGLAB
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/lab-3/Lab03-2024.html" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/lab-3/Lab03-2024.html" class="no-external">
+<div class="listing-date">
+Apr 23, 2024
+</div>
+<div class="listing-author">
+Harriet Grace
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="Lab,EEG,EEGLAB" data-listing-date-sort="1711364400000" data-listing-file-modified-sort="1714045786442" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="276">
+<div class="thumbnail">
+<p><a href="./posts/lab-2/Lab02-2024.html" class="no-external"></a></p><a href="./posts/lab-2/Lab02-2024.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/lab-2/Lab02-2024.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/lab-2/Lab02-2024.html" class="no-external">Lab 02</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/lab-2/Lab02-2024.html" class="no-external">PSYC480</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Lab'); return false;">
+Lab
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EEG'); return false;">
+EEG
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EEGLAB'); return false;">
+EEGLAB
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/lab-2/Lab02-2024.html" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/lab-2/Lab02-2024.html" class="no-external">
+<div class="listing-date">
+Mar 26, 2024
+</div>
+<div class="listing-author">
+Harriet Grace
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="Lab,EEG,EEGLAB" data-listing-date-sort="1710759600000" data-listing-file-modified-sort="1714045614903" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="675">
+<div class="thumbnail">
+<p><a href="./posts/lab-1/Lab01-2024.html" class="no-external"></a></p><a href="./posts/lab-1/Lab01-2024.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/lab-1/Lab01-2024.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/lab-1/Lab01-2024.html" class="no-external">Lab 01</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/lab-1/Lab01-2024.html" class="no-external">PSYC480</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Lab'); return false;">
+Lab
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EEG'); return false;">
+EEG
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EEGLAB'); return false;">
+EEGLAB
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/lab-1/Lab01-2024.html" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/lab-1/Lab01-2024.html" class="no-external">
+<div class="listing-date">
+Mar 19, 2024
+</div>
+<div class="listing-author">
+Harriet Grace
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="intro" data-listing-date-sort="1710673200000" data-listing-file-modified-sort="1714044045858" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
+<div class="thumbnail">
+<p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
+<p><img src="./posts/welcome/erp.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/welcome/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/welcome/index.html" class="no-external">Welcome to PSYC480 Blog</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/welcome/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('intro'); return false;">
+intro
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/welcome/index.html" class="no-external">Kia ora!</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/welcome/index.html" class="no-external">
+<div class="listing-date">
+Mar 18, 2024
+</div>
+<div class="listing-author">
+Usman Afzali
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
