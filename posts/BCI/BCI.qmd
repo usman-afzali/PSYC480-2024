@@ -1,0 +1,183 @@
+---
+title: "Brain Computer Interface"
+subtitle: "PSYC480"
+author: "Usman Afzali"
+institute: "University of Canterbury"
+date: 2024-05-08
+format: 
+  revealjs:
+    theme: simple
+    highlight-style: github
+    slide-number: c/t
+categories: [BCI, EEG]
+---
+
+# Outline {background-color="orange"}
+
+## What's on today? {background-color="#346bc8"}
+
+-   Presentations update
+-   Final Report update
+-   Discussion
+
+# Discussions {background-color="orange"}
+
+## Brain Computer Interfaces, a Review {background-color="#346bc8"}
+
+Team:
+
+1.    Kenny
+2.    Pia
+3.    Kylie
+4.    Belle
+5.    Cathy
+
+## Discussion Questions {background-color="#346bc8"}
+
+::: {.incremental}
+1.    Discuss overview of the article.
+2.    What are the immediate goals of brain-computer interface (BCI) research? How do these goals aim to assist individuals with severe neuromuscular disorders?
+3.    What are the primary neuroimaging modalities utilized in BCI signal acquisition, and what are their respective advantages and applications?
+:::
+
+## Discussion Questions {background-color="#346bc8"}
+
+::: {.incremental}
+4.    Discuss the advancements achieved in BCI research over the past two decades. How have these advancements contributed to the feasibility and usability of BCIs in daily life tasks for disabled individuals?
+5.    Identify and elaborate on two unresolved issues highlighted in the conclusion regarding current BCI systems. How might addressing these issues further improve the functionality and acceptance of BCIs?
+
+:::
+
+## Discussion Questions {background-color="#346bc8"}
+
+6.    In what ways does the conclusion suggest that recent advancements in BCI research may shape the future of human-machine interaction? How does the interdisciplinary nature of BCI research contribute to its potential for future developments and applications?
+
+## Talking off the top of your head: toward a mental prosthesis utilizing event-related brain potentials {background-color="#346bc8"}
+
+Team:
+
+1.    Lucy Beesley
+2.    Stacey
+3.    Lucy Greig
+4.    Bryar
+5.    Kimberley
+
+## Discussion Questions {background-color="#346bc8"}
+
+::: {.incremental}
+1.    Discuss overview of the article.
+2.    Describe the process for communication through a computer using the P300 component of the event-related brain potential (ERP). How does the computer detect the chosen character, and what role does the P300 play in this process?
+3.    What is the assessed rate of communication achieved using the P300 communication channel, and how does it compare to conventional typing or voice communication? Discuss the significance of this rate in the context of individuals with severe motor disabilities.
+:::
+
+## Discussion Questions {background-color="#346bc8"}
+
+::: {.incremental}
+4.    It is suggested that the value of the P300 channel can be enhanced by using it as a method for choosing from a menu of commands rather than spelling words. Explain how this paradigm shift could amplify the rate of communication and how it might be implemented practically.
+5.    The conclusion mentions several potential procedures for accelerating communication through the P300 channel. What are some of these procedures, and how could they be incorporated into the system to improve communication speed?
+
+:::
+
+## Discussion Questions {background-color="#346bc8"}
+
+6.    Discuss the implications of incorporating the known constraints of language into the P300 communication system, as mentioned in the conclusion. How might leveraging these constraints improve the efficiency and accuracy of communication for users?
+
+## Exploring Cognition with Brain–Machine Interfaces {background-color="#346bc8"}
+
+Team:
+
+1.    Haig
+2.    Mya
+3.    Shae
+4.    Brinna Murphy
+5.    Jenny
+
+## Discussion Questions {background-color="#346bc8"}
+
+::: {.incremental}
+1.    Discuss overview of the article.
+2.    What distinguishes traditional brain-machine interfaces (BMIs) from the cognitive signals recently discovered in the human posterior parietal cortex (PPC)? How do these cognitive signals contribute to the control of external devices?
+3.    Describe the concept of "partially mixed selectivity" as discussed in the conclusion. How does this architecture enable the encoding of diverse cognitive variables within the same population of cells in the PPC?
+:::
+
+## Discussion Questions {background-color="#346bc8"}
+
+::: {.incremental}
+4.    Future directions of cognitive BMIs, including speech prosthetics and hybrid BMI systems are mentioned. Discuss how these advancements could enhance the speed and functionality of communication prosthetics for individuals with severe motor disabilities.
+5.    How might cognitive BMIs contribute to the treatment of psychological conditions such as depression, anxiety, and disruptive motor disorders? Explain how the technology could be utilized to regulate mood and alleviate symptoms of these disorders.
+
+:::
+
+## Discussion Questions {background-color="#346bc8"}
+
+6.    In the final thoughts section, the paper discusses challenges and potential advances in the field of neural prosthetics. What technological refinements and improvements are necessary to transition cognitive BMIs from clinical trial/laboratory settings to routine therapy? How might reducing the invasiveness of implants impact the accessibility and acceptance of neural prosthetics among patients?
+
+## Neuroadaptive modelling for generating images matching perceptual categories {background-color="#346bc8"}
+
+Team:
+
+1.    Briana Box
+2.    Isaac
+3.    Summer
+4.    Michael
+5.    Susanne
+
+## Discussion Questions {background-color="#346bc8"}
+
+::: {.incremental}
+1.    Discuss overview of the article.
+2.    Explain the concept of mixed selectivity as discussed in the article. How does the encoding of multiple variables within the same population of neurons in the posterior parietal cortex (PPC) differ between humans and non-human primates (NHPs), as outlined in the text?
+3.    Describe the future directions of cognitive brain-machine interface (BMI) systems mentioned in the conclusion. How might advancements in speech prosthetics, hybrid BMI systems, mood regulation, and awareness of intent impact the field of neural prosthetics and assist individuals with disabilities?
+:::
+
+## Discussion Questions {background-color="#346bc8"}
+
+::: {.incremental}
+4.    How might a closed-loop brain-computer interface (BCI) system based on neuroadaptive generative modeling function? What methods could be employed to update the model online and provide feedback for future iterations?
+5.    Discuss the implications of the neuroadaptive generative modeling approach outlined in the conclusion. How does this approach differ from traditional brain-computer interfaces, and what potential benefits does it offer for human-machine interaction and cognitive neuroscience research?
+
+:::
+
+## Discussion Questions {background-color="#346bc8"}
+
+6.    How does the article suggest that the neuroadaptive generative modeling approach could impact experimental psychology and cognitive neuroscience? Explain how this methodology could contribute to understanding the nature of mental representation and subjective features in the human brain.
+
+## Brain-computer interfaces: a neuroscience paradigm of social interaction? A matter of perspective {background-color="#346bc8"}
+
+Team: 
+
+1.    Benjamin
+2.    Chathurangi
+3.    Henry
+4.    Patricia
+5.    Emma
+
+## Discussion Questions {background-color="#346bc8"}
+
+::: {.incremental}
+1.    Discuss overview of the article.
+2.    How does the emerging field of Neuroscience of Social Interactions (NSI) share common challenges with the field of Brain-Computer Interfaces (BCI), as outlined in the introduction? What are some of these shared challenges, and why are computational models of brain processes considered crucial in addressing them?
+
+:::
+
+## Discussion Questions {background-color="#346bc8"}
+
+::: {.incremental}
+
+3.    Discuss the potential mutual benefits of collaboration between BCI and NSI protocols. How might computational models of interacting minds contribute to both fields, and what implications could this collaboration have for theoretical, technical, methodological, clinical, and ethical issues?
+
+:::
+
+## Discussion Questions {background-color="#346bc8"}
+
+4.    According to the conclusion, what role do computational models play in the study of true interactions within the NSI field? How might the insights gained from NSI experiments inform the development of more productive interactions between adaptive BCIs and patients, particularly in clinical applications such as neuroprosthetics and neurofeedback training?
+
+## Discussion Questions {background-color="#346bc8"}
+
+5.    Explain the concept of adaptive BCIs and their potential applications in clinical settings, as discussed in the paper. How might adaptive BCIs be utilized to facilitate communication or interaction with patients, and what implications could they have for treating conditions such as autism spectrum disorder?
+
+## Discussion Questions {background-color="#346bc8"}
+
+6.    The paper mentions the potential use of adaptive BCIs with patients who have deficits in social interactions, such as those with autism spectrum disorder. Discuss the rationale behind this proposal and the challenges that need to be addressed for the effective implementation of adaptive BCIs in treating such patients, considering their preferences for predictable or slowly varying agents, as mentioned in the text.
+
+# The END {background-color="orange"}

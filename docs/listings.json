@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/BCI/BCI.html",
       "/posts/matlab/intro-matlab.html",
       "/posts/eeg-acq-process/eeg-acq-process.html",
       "/posts/lab-3/Lab03-2024.html",

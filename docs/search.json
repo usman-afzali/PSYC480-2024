@@ -438,6 +438,265 @@
     "href": "index.html",
     "title": "Special Topic: Computational Contemplative-Neuroscience",
     "section": "",
-    "text": "Introduction to MATLAB\n\n\nPSYC480\n\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nMay 1, 2024\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nEEG data acquistion, processing, and analysis\n\n\n\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nApr 25, 2024\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, Harriet Grace, and Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nApr 23, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nMar 26, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 01\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nMar 19, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to PSYC480 Blog\n\n\n\n\n\n\nintro\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nUsman Afzali\n\n\n\n\n\n\nNo matching items"
+    "text": "Brain Computer Interface\n\n\nPSYC480\n\n\n\nBCI\n\n\nEEG\n\n\n\n\n\n\n\n\n\nMay 8, 2024\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to MATLAB\n\n\nPSYC480\n\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nMay 1, 2024\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nEEG data acquistion, processing, and analysis\n\n\n\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\nMATLAB\n\n\n\n\n\n\n\n\n\nApr 25, 2024\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, Harriet Grace, and Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nApr 23, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nMar 26, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 01\n\n\nPSYC480\n\n\n\nLab\n\n\nEEG\n\n\nEEGLAB\n\n\n\n\n\n\n\n\n\nMar 19, 2024\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to PSYC480 Blog\n\n\n\n\n\n\nintro\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nUsman Afzali\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#whats-on-today",
+    "href": "posts/BCI/BCI.html#whats-on-today",
+    "title": "Brain Computer Interface",
+    "section": "What’s on today?",
+    "text": "What’s on today?\n\nPresentations update\nFinal Report update\nDiscussion"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#resources",
+    "href": "posts/BCI/BCI.html#resources",
+    "title": "Brain Computer Interface",
+    "section": "Resources",
+    "text": "Resources\n\nPSYC480 Blog\nMATLAB for Neuroscience\nGet Started with MATLAB"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#introduction",
+    "href": "posts/BCI/BCI.html#introduction",
+    "title": "Brain Computer Interface",
+    "section": "Introduction",
+    "text": "Introduction\nMATLAB, short for “MATrix LABoratory,” is a high-level programming language and interactive environment primarily designed for numerical computation, data analysis, and visualization. It provides a comprehensive set of tools and functions for various domains, including mathematics, engineering, and science. MATLAB allows users to perform matrix manipulations, implement algorithms, create graphical user interfaces (GUIs), and interface with other programming languages and software packages. It is widely used in academia, industry, and research for tasks such as signal processing, image processing, control systems design, and machine learning. (from ChatGPT)"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#from-the-horses-mouth",
+    "href": "posts/BCI/BCI.html#from-the-horses-mouth",
+    "title": "Brain Computer Interface",
+    "section": "From the horse’s mouth",
+    "text": "From the horse’s mouth\nWhat is MATLAB"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#uses-from-chatgpt",
+    "href": "posts/BCI/BCI.html#uses-from-chatgpt",
+    "title": "Brain Computer Interface",
+    "section": "Uses (from ChatGPT)",
+    "text": "Uses (from ChatGPT)\n\n\n\nNumerical computation\nData analysis and visualization\nSignal processing\nImage processing and computer vision\nControl systems design and analysis\n\n\n\nMachine learning and deep learning\nOptimization and mathematical modeling\nSimulation of dynamic systems\nFinancial modeling and analysis\nComputational biology and bioinformatics"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#uses-continued-from-chatgpt",
+    "href": "posts/BCI/BCI.html#uses-continued-from-chatgpt",
+    "title": "Brain Computer Interface",
+    "section": "Uses continued (from ChatGPT)",
+    "text": "Uses continued (from ChatGPT)\n\n\n\nComputational fluid dynamics (CFD)\nGeospatial analysis and mapping\nTime-series analysis and forecasting\nStatistical analysis and hypothesis testing\nGraph theory and network analysis\n\n\n\nRobotics and autonomous systems\nAudio processing and speech recognition\nCryptography and security analysis\nEducation and teaching (simulations, course materials)\nApplication development (applications, GUIs)"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#user-interface",
+    "href": "posts/BCI/BCI.html#user-interface",
+    "title": "Brain Computer Interface",
+    "section": "User Interface",
+    "text": "User Interface\n\nMATLAB user interface"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#getting-started",
+    "href": "posts/BCI/BCI.html#getting-started",
+    "title": "Brain Computer Interface",
+    "section": "Getting started",
+    "text": "Getting started\n\nMATLAB user interface"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#getting-started-1",
+    "href": "posts/BCI/BCI.html#getting-started-1",
+    "title": "Brain Computer Interface",
+    "section": "Getting started",
+    "text": "Getting started\n\nSetting path\nExamples:\nSetting up EEGLab followed by Microstates\nRemoving paths"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#arithmetic",
+    "href": "posts/BCI/BCI.html#arithmetic",
+    "title": "Brain Computer Interface",
+    "section": "Arithmetic",
+    "text": "Arithmetic\na = 1\nb = 2\nc = a + b\nd = sqrt (b)\ne = a * b\n\nUse up- and down-arrow keys to recall previous commands.\nUse % for comments."
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#using-a-matlab-script",
+    "href": "posts/BCI/BCI.html#using-a-matlab-script",
+    "title": "Brain Computer Interface",
+    "section": "Using a MATLAB script",
+    "text": "Using a MATLAB script\n\nFile: basics.m on Learn.\nSome basics commands:\nto get help, use help function name\nor use doc function name"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#matlab-toolboxes",
+    "href": "posts/BCI/BCI.html#matlab-toolboxes",
+    "title": "Brain Computer Interface",
+    "section": "MATLAB toolboxes",
+    "text": "MATLAB toolboxes\n\nMATLAB Toolboxes are collections of functions, algorithms, and graphical user interfaces (GUIs) that extend the core functionality of MATLAB for specific applications or industries.\nToolboxes provide specialized tools and algorithms for tasks such as signal processing, image processing, control systems design, optimization, and more."
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#matlab-toolboxes-.",
+    "href": "posts/BCI/BCI.html#matlab-toolboxes-.",
+    "title": "Brain Computer Interface",
+    "section": "MATLAB toolboxes ….",
+    "text": "MATLAB toolboxes ….\n\nUsers can purchase or access various Toolboxes to enhance MATLAB’s capabilities in specific domains. Toolboxes can be seamlessly integrated into MATLAB, allowing users to access their functions and tools within the MATLAB environment.\n\nExamples: Signal Processing Toolbox, Image Processing Toolbox, Control System Toolbox, Optimization Toolbox, Statistics and Machine Learning Toolbox."
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#matlab-apps",
+    "href": "posts/BCI/BCI.html#matlab-apps",
+    "title": "Brain Computer Interface",
+    "section": "MATLAB apps",
+    "text": "MATLAB apps\n\nMATLAB Apps are interactive applications built using MATLAB’s App Designer tool, which allows users to create custom graphical user interfaces (GUIs) for their MATLAB code.\nApps provide a user-friendly interface for performing specific tasks or workflows, enabling users to interact with MATLAB functionality without needing to write code."
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#matlab-apps-.",
+    "href": "posts/BCI/BCI.html#matlab-apps-.",
+    "title": "Brain Computer Interface",
+    "section": "MATLAB apps ….",
+    "text": "MATLAB apps ….\n\nUsers can design Apps to automate complex processes, visualize data, or streamline repetitive tasks, making MATLAB more accessible to users with varying levels of programming experience.\nMATLAB Apps can be shared and distributed to other users, allowing for collaboration and deployment of custom tools and workflows.\n\nExamples: Image Viewer App, Signal Analyzer App, Control System Tuner App, Curve Fitting App, Machine Learning App."
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#brain-computer-interfaces-a-review",
+    "href": "posts/BCI/BCI.html#brain-computer-interfaces-a-review",
+    "title": "Brain Computer Interface",
+    "section": "Brain Computer Interfaces, a Review",
+    "text": "Brain Computer Interfaces, a Review\nTeam:\n\nKenny\nPia\nKylie\nBelle\nCathy"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#discussion-questions",
+    "href": "posts/BCI/BCI.html#discussion-questions",
+    "title": "Brain Computer Interface",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\n\nDiscuss overview of the article.\nWhat are the immediate goals of brain-computer interface (BCI) research? How do these goals aim to assist individuals with severe neuromuscular disorders?\nWhat are the primary neuroimaging modalities utilized in BCI signal acquisition, and what are their respective advantages and applications?"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#discussion-questions-1",
+    "href": "posts/BCI/BCI.html#discussion-questions-1",
+    "title": "Brain Computer Interface",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\n\nDiscuss the advancements achieved in BCI research over the past two decades. How have these advancements contributed to the feasibility and usability of BCIs in daily life tasks for disabled individuals?\nIdentify and elaborate on two unresolved issues highlighted in the conclusion regarding current BCI systems. How might addressing these issues further improve the functionality and acceptance of BCIs?"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#discussion-questions-2",
+    "href": "posts/BCI/BCI.html#discussion-questions-2",
+    "title": "Brain Computer Interface",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\nIn what ways does the conclusion suggest that recent advancements in BCI research may shape the future of human-machine interaction? How does the interdisciplinary nature of BCI research contribute to its potential for future developments and applications?"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#talking-off-the-top-of-your-head-toward-a-mental-prosthesis-utilizing-event-related-brain-potentials",
+    "href": "posts/BCI/BCI.html#talking-off-the-top-of-your-head-toward-a-mental-prosthesis-utilizing-event-related-brain-potentials",
+    "title": "Brain Computer Interface",
+    "section": "Talking off the top of your head: toward a mental prosthesis utilizing event-related brain potentials",
+    "text": "Talking off the top of your head: toward a mental prosthesis utilizing event-related brain potentials\nTeam:\n\nLucy Beesley\nStacey\nLucy Greig\nBryar\nKimberley"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#discussion-questions-3",
+    "href": "posts/BCI/BCI.html#discussion-questions-3",
+    "title": "Brain Computer Interface",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\n\nDiscuss overview of the article.\nDescribe the process for communication through a computer using the P300 component of the event-related brain potential (ERP). How does the computer detect the chosen character, and what role does the P300 play in this process?\nWhat is the assessed rate of communication achieved using the P300 communication channel, and how does it compare to conventional typing or voice communication? Discuss the significance of this rate in the context of individuals with severe motor disabilities."
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#discussion-questions-4",
+    "href": "posts/BCI/BCI.html#discussion-questions-4",
+    "title": "Brain Computer Interface",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\n\nIt is suggested that the value of the P300 channel can be enhanced by using it as a method for choosing from a menu of commands rather than spelling words. Explain how this paradigm shift could amplify the rate of communication and how it might be implemented practically.\nThe conclusion mentions several potential procedures for accelerating communication through the P300 channel. What are some of these procedures, and how could they be incorporated into the system to improve communication speed?"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#discussion-questions-5",
+    "href": "posts/BCI/BCI.html#discussion-questions-5",
+    "title": "Brain Computer Interface",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\nDiscuss the implications of incorporating the known constraints of language into the P300 communication system, as mentioned in the conclusion. How might leveraging these constraints improve the efficiency and accuracy of communication for users?"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#exploring-cognition-with-brainmachine-interfaces",
+    "href": "posts/BCI/BCI.html#exploring-cognition-with-brainmachine-interfaces",
+    "title": "Brain Computer Interface",
+    "section": "Exploring Cognition with Brain–Machine Interfaces",
+    "text": "Exploring Cognition with Brain–Machine Interfaces\nTeam:\n\nHaig\nMya\nShae\nBrinna Murphy\nJenny"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#discussion-questions-6",
+    "href": "posts/BCI/BCI.html#discussion-questions-6",
+    "title": "Brain Computer Interface",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\n\nDiscuss overview of the article.\nWhat distinguishes traditional brain-machine interfaces (BMIs) from the cognitive signals recently discovered in the human posterior parietal cortex (PPC)? How do these cognitive signals contribute to the control of external devices?\nDescribe the concept of “partially mixed selectivity” as discussed in the conclusion. How does this architecture enable the encoding of diverse cognitive variables within the same population of cells in the PPC?"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#discussion-questions-7",
+    "href": "posts/BCI/BCI.html#discussion-questions-7",
+    "title": "Brain Computer Interface",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\n\nFuture directions of cognitive BMIs, including speech prosthetics and hybrid BMI systems are mentioned. Discuss how these advancements could enhance the speed and functionality of communication prosthetics for individuals with severe motor disabilities.\nHow might cognitive BMIs contribute to the treatment of psychological conditions such as depression, anxiety, and disruptive motor disorders? Explain how the technology could be utilized to regulate mood and alleviate symptoms of these disorders."
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#discussion-questions-8",
+    "href": "posts/BCI/BCI.html#discussion-questions-8",
+    "title": "Brain Computer Interface",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\nIn the final thoughts section, the paper discusses challenges and potential advances in the field of neural prosthetics. What technological refinements and improvements are necessary to transition cognitive BMIs from clinical trial/laboratory settings to routine therapy? How might reducing the invasiveness of implants impact the accessibility and acceptance of neural prosthetics among patients?"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#neuroadaptive-modelling-for-generating-images-matching-perceptual-categories",
+    "href": "posts/BCI/BCI.html#neuroadaptive-modelling-for-generating-images-matching-perceptual-categories",
+    "title": "Brain Computer Interface",
+    "section": "Neuroadaptive modelling for generating images matching perceptual categories",
+    "text": "Neuroadaptive modelling for generating images matching perceptual categories\nTeam:\n\nBriana Box\nIsaac\nSummer\nMichael\nSusanne"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#discussion-questions-9",
+    "href": "posts/BCI/BCI.html#discussion-questions-9",
+    "title": "Brain Computer Interface",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\n\nDiscuss overview of the article.\nExplain the concept of mixed selectivity as discussed in the article. How does the encoding of multiple variables within the same population of neurons in the posterior parietal cortex (PPC) differ between humans and non-human primates (NHPs), as outlined in the text?\nDescribe the future directions of cognitive brain-machine interface (BMI) systems mentioned in the conclusion. How might advancements in speech prosthetics, hybrid BMI systems, mood regulation, and awareness of intent impact the field of neural prosthetics and assist individuals with disabilities?"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#discussion-questions-10",
+    "href": "posts/BCI/BCI.html#discussion-questions-10",
+    "title": "Brain Computer Interface",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\n\nHow might a closed-loop brain-computer interface (BCI) system based on neuroadaptive generative modeling function? What methods could be employed to update the model online and provide feedback for future iterations?\nDiscuss the implications of the neuroadaptive generative modeling approach outlined in the conclusion. How does this approach differ from traditional brain-computer interfaces, and what potential benefits does it offer for human-machine interaction and cognitive neuroscience research?"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#discussion-questions-11",
+    "href": "posts/BCI/BCI.html#discussion-questions-11",
+    "title": "Brain Computer Interface",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\nHow does the article suggest that the neuroadaptive generative modeling approach could impact experimental psychology and cognitive neuroscience? Explain how this methodology could contribute to understanding the nature of mental representation and subjective features in the human brain."
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#brain-computer-interfaces-a-neuroscience-paradigm-of-social-interaction-a-matter-of-perspective",
+    "href": "posts/BCI/BCI.html#brain-computer-interfaces-a-neuroscience-paradigm-of-social-interaction-a-matter-of-perspective",
+    "title": "Brain Computer Interface",
+    "section": "Brain-computer interfaces: a neuroscience paradigm of social interaction? A matter of perspective",
+    "text": "Brain-computer interfaces: a neuroscience paradigm of social interaction? A matter of perspective\nTeam:\n\nBenjamin\nChathurangi\nHenry\nPatricia\nEmma"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#discussion-questions-12",
+    "href": "posts/BCI/BCI.html#discussion-questions-12",
+    "title": "Brain Computer Interface",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\n\nDiscuss overview of the article.\nHow does the emerging field of Neuroscience of Social Interactions (NSI) share common challenges with the field of Brain-Computer Interfaces (BCI), as outlined in the introduction? What are some of these shared challenges, and why are computational models of brain processes considered crucial in addressing them?"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#discussion-questions-13",
+    "href": "posts/BCI/BCI.html#discussion-questions-13",
+    "title": "Brain Computer Interface",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\n\nDiscuss the potential mutual benefits of collaboration between BCI and NSI protocols. How might computational models of interacting minds contribute to both fields, and what implications could this collaboration have for theoretical, technical, methodological, clinical, and ethical issues?"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#discussion-questions-14",
+    "href": "posts/BCI/BCI.html#discussion-questions-14",
+    "title": "Brain Computer Interface",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\nAccording to the conclusion, what role do computational models play in the study of true interactions within the NSI field? How might the insights gained from NSI experiments inform the development of more productive interactions between adaptive BCIs and patients, particularly in clinical applications such as neuroprosthetics and neurofeedback training?"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#discussion-questions-15",
+    "href": "posts/BCI/BCI.html#discussion-questions-15",
+    "title": "Brain Computer Interface",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\nExplain the concept of adaptive BCIs and their potential applications in clinical settings, as discussed in the paper. How might adaptive BCIs be utilized to facilitate communication or interaction with patients, and what implications could they have for treating conditions such as autism spectrum disorder?"
+  },
+  {
+    "objectID": "posts/BCI/BCI.html#discussion-questions-16",
+    "href": "posts/BCI/BCI.html#discussion-questions-16",
+    "title": "Brain Computer Interface",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\nThe paper mentions the potential use of adaptive BCIs with patients who have deficits in social interactions, such as those with autism spectrum disorder. Discuss the rationale behind this proposal and the challenges that need to be addressed for the effective implementation of adaptive BCIs in treating such patients, considering their preferences for predictable or slowly varying agents, as mentioned in the text."
   }
 ]
