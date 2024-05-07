@@ -89,7 +89,7 @@ Team:
 1.    Haig
 2.    Mya
 3.    Shae
-4.    Brinna Murphy
+4.    Brianna Murphy
 5.    Jenny
 
 ## Discussion Questions {background-color="#346bc8"}
