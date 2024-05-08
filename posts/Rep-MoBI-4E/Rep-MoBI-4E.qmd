@@ -9,7 +9,7 @@ format:
     theme: simple
     highlight-style: github
     slide-number: c/t
-categories: [BCI, EEG]
+categories: [4E, MoBI, Replication]
 ---
 
 # Discussions {background-color="orange"}
