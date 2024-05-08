@@ -1,0 +1,132 @@
+---
+title: "Replication, MoBI, 4E Cognition"
+subtitle: "PSYC480"
+author: "Usman Afzali"
+institute: "University of Canterbury"
+date: 2024-05-15
+format: 
+  revealjs:
+    theme: simple
+    highlight-style: github
+    slide-number: c/t
+categories: [BCI, EEG]
+---
+
+# Discussions {background-color="orange"}
+
+## Replicability, Robustness, and Reproducibility in Psychological Science {background-color="#346bc8"}
+
+Team: `Lucy Greig`, `Mya`
+
+::: incremental
+1.    Overview of the article.
+2.    How has the recent focus on replication in psychology influenced perceptions of research progress and scientific rigor, and what challenges and opportunities does this renewed emphasis present for advancing knowledge in the field?
+:::
+
+## And... {background-color="#346bc8"}
+
+::: incremental
+3.    In light of the recent decade of research on replicability, what are the key questions emerging for the future of metascience research? Specifically, how do factors such as optimal replicability rates, the role of replicability in cumulative science, the effectiveness of interventions to improve replicability, and the ongoing culture change movement shape the trajectory of scientific inquiry and research practices?
+:::
+
+
+## How to Start a Replication Crisis {background-color="#346bc8"}
+
+Team: `Pia`
+
+::: incremental
+1.    Overview of the article.
+2.    How did the Reproducibility Project in psychology influence perceptions of the field's credibility, and what are the potential reputational consequences for psychology as a result of its findings on replicability?
+
+:::
+
+## Understanding Replication in a Way that is True to Science {background-color="#346bc8"}
+
+Team: `Patricia`, `Stacey`, `Michael`
+
+::: incremental
+1.    Overview of the article.
+2.    How does the author challenge conventional perspectives on replication in science, particularly within the context of psychology, and what underappreciated aspects of scientific practice does the author emphasize in this critique?
+
+:::
+
+## And... {background-color="#346bc8"}
+
+::: incremental
+3.    What are some of the key points made by the author regarding the relationship between replication and theory construction, and how do they relate to different accounts of scientific method, such as hypothetico-deductive and abductive approaches?
+4.    In the conclusion, the author discusses the role of metascience in addressing the replication crisis and suggests broader interdisciplinary engagement, particularly with the philosophy of science. How might incorporating insights from philosophy of science enhance our understanding of replication and scientific practices within psychology and beyond?
+
+:::
+
+## Experimental Results and the Replication Crisis in Neuroscience {background-color="#346bc8"}
+
+Team: Isaac
+
+::: incremental
+1.    Overview of the article.
+2.    What are the key findings and implications of the replication attempt described in the article, "An Implicit Plan Still Overrides an Explicit Strategy during Visuomotor Adaptation," particularly concerning the dominance of implicit motor adaptation processes over explicit strategies, and how does this contribute to our understanding of motor adaptation mechanisms?
+:::
+
+## Replicability or reproducibility? On the replication crisis in computational neuroscience and sharing only relevant detail {background-color="#346bc8"}
+
+Team: Cathy, Henry, Susanne
+
+
+## Discussion Questions {background-color="#346bc8"}
+
+::: incremental
+
+:::
+
+## Reproducible brain-wide association studies require thousands of individuals {background-color="#346bc8"}
+
+Team: Kylie,  Jenny, Briana Box
+
+## Discussion Questions {background-color="#346bc8"}
+
+::: incremental
+
+:::
+
+## Perfect timing: Mobile brain/body imaging scaffolds the 4E-cognition research program {background-color="#346bc8"}
+
+Team: Kenny, Brianna Murphy, Shae
+
+## Discussion Questions {background-color="#346bc8"}
+
+::: incremental
+
+:::
+
+## Capturing Cognitive Events Embedded in the Real World Using Mobile Electroencephalography and Eye-Tracking {background-color="#346bc8"}
+
+Team: Haig, Summer, Lucy Beesley, Abdul
+
+## Discussion Questions {background-color="#346bc8"}
+
+::: incremental
+
+:::
+
+## Mobile Brain/Body Imaging (MoBI) of Physical Interaction with Dynamically Moving Objects {background-color="#346bc8"}
+
+Team: Kimberley, Benjamin, Chathurangi
+
+## Discussion Questions {background-color="#346bc8"}
+
+::: incremental
+
+:::
+
+## Mobile Brain/Body Imaging: Challenges and opportunities for the implementation of research programs based on the 4E perspective to cognition {background-color="#346bc8"}
+
+Team: Emma, Belle, Bryar
+
+## Discussion Questions {background-color="#346bc8"}
+
+::: incremental
+
+:::
+
+
+# The END {background-color="orange"}
