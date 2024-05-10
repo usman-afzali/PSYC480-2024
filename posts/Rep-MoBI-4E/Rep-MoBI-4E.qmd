@@ -14,9 +14,16 @@ categories: [4E, MoBI, Replication, EEG]
 
 # Discussions {background-color="orange"}
 
+## What's on? {background-color="#346bc8"}
+
+-   Teaching Evaluation
+-   Replication in psychology
+-   Replication in Neuroscience
+-   MoBI and 4E Cognition
+
 ## Replicability, Robustness, and Reproducibility in Psychological Science {background-color="#346bc8"}
 
-Team: `Lucy Greig`, `Mya`
+Team: `Lucy Greig`, `Mya East`
 
 ::: incremental
 1.    Overview of the article.
@@ -25,29 +32,25 @@ Team: `Lucy Greig`, `Mya`
 
 ## And... {background-color="#346bc8"}
 
-::: incremental
 3.    In light of the recent decade of research on replicability, what are the key questions emerging for the future of metascience research? Specifically, how do factors such as optimal replicability rates, the role of replicability in cumulative science, the effectiveness of interventions to improve replicability, and the ongoing culture change movement shape the trajectory of scientific inquiry and research practices?
-:::
 
 
 ## How to Start a Replication Crisis {background-color="#346bc8"}
 
-Team: `Pia`
+Team: `Pia Clark`
 
 ::: incremental
 1.    Overview of the article.
 2.    How did the Reproducibility Project in psychology influence perceptions of the field's credibility, and what are the potential reputational consequences for psychology as a result of its findings on replicability?
-
 :::
 
 ## Understanding Replication in a Way that is True to Science {background-color="#346bc8"}
 
-Team: `Patricia`, `Stacey`, `Michael`
+Team: `Patricia Parkin`, `Stacey Cromie`, `Michael Nicol`
 
 ::: incremental
 1.    Overview of the article.
 2.    How does the author challenge conventional perspectives on replication in science, particularly within the context of psychology, and what underappreciated aspects of scientific practice does the author emphasize in this critique?
-
 :::
 
 ## And... {background-color="#346bc8"}
@@ -55,12 +58,11 @@ Team: `Patricia`, `Stacey`, `Michael`
 ::: incremental
 3.    What are some of the key points made by the author regarding the relationship between replication and theory construction, and how do they relate to different accounts of scientific method, such as hypothetico-deductive and abductive approaches?
 4.    In the conclusion, the author discusses the role of metascience in addressing the replication crisis and suggests broader interdisciplinary engagement, particularly with the philosophy of science. How might incorporating insights from philosophy of science enhance our understanding of replication and scientific practices within psychology and beyond?
-
 :::
 
 ## Experimental Results and the Replication Crisis in Neuroscience {background-color="#346bc8"}
 
-Team: Isaac
+Team: `Isaac Findley`
 
 ::: incremental
 1.    Overview of the article.
@@ -69,64 +71,103 @@ Team: Isaac
 
 ## Replicability or reproducibility? On the replication crisis in computational neuroscience and sharing only relevant detail {background-color="#346bc8"}
 
-Team: Cathy, Henry, Susanne
+Team: `Cathy Peng`, `Henry Hastings`, `Susanne Sullivan`
 
+::: incremental
+1.    Overview of the article.
+:::
 
 ## Discussion Questions {background-color="#346bc8"}
 
 ::: incremental
-
+2.    What are the key distinctions between model replicability and model reproducibility in computational neuroscience, as outlined in the paper, and how do these differences inform strategies for improving scientific communication and progress in the field?
+3.    How do the authors' proposed guidelines for effective scientific communication, particularly regarding model formulation, metadata inclusion, and comparison to previous models, differ from the best practices advocated by Manninen et al. (2011), and what implications do these differences hold for advancing model reproducibility and replicability in computational neuroscience?
 :::
 
 ## Reproducible brain-wide association studies require thousands of individuals {background-color="#346bc8"}
 
-Team: Kylie,  Jenny, Briana Box
-
-## Discussion Questions {background-color="#346bc8"}
+Team: `Kylie Gore`,  `Jenny Slater`, `Briana Box`
 
 ::: incremental
-
+1.    Overview of the article.
+2.    How do the findings presented in the paper regarding brain-wide association studies (BWAS) effect sizes and reproducibility shed light on the challenges and potential solutions for advancing mental health research using magnetic resonance imaging (MRI)?
 :::
+
+## And.... {background-color="#346bc8"}
+
+3.    What are the implications of the observed differences in reproducibility and effect sizes between various types of brain-wide associations, such as structural versus functional MRI, cognitive tests versus mental health questionnaires, and univariate versus multivariate methods, for the future of computational neuroscience research and its application in understanding complex cognitive and mental health phenotypes?
 
 ## Perfect timing: Mobile brain/body imaging scaffolds the 4E-cognition research program {background-color="#346bc8"}
 
-Team: Kenny, Brianna Murphy, Shae
-
-## Discussion Questions {background-color="#346bc8"}
+Team: `Kenny Babajide`, `Brianna Murphy`, `Shae Harrison-Best`
 
 ::: incremental
+1.    Overview of the article.
 
 :::
+
+## And.... {background-color="#346bc8"}
+
+2.    How does the Mobile Brain/Body Imaging (MoBI) framework, in conjunction with recent theoretical advancements in 4E-Cognition, contribute to the understanding of cognition as a complex emergent phenomenon? How does this synthesis address the long-standing debate regarding the role of the body and the world in shaping cognitive processes?
+
+## And.... {background-color="#346bc8"}
+
+3.    The conclusion of the paper suggests the emergence of a "fourth wave" in the quest for understanding the complexity underlying human interaction and cognition. What are the key characteristics of this fourth wave, and how does it differ from previous waves in the development of comprehensive mechanistic models of human interaction?
 
 ## Capturing Cognitive Events Embedded in the Real World Using Mobile Electroencephalography and Eye-Tracking {background-color="#346bc8"}
 
-Team: Haig, Summer, Lucy Beesley, Abdul
-
-## Discussion Questions {background-color="#346bc8"}
+Team: `Haig Bishop`, `Summer Hart`, `Lucy Beesley`, `Abdul-Azeez Bello`
 
 ::: incremental
-
+1.    Overview of the article.
 :::
+
+## And.... {background-color="#346bc8"}
+
+2.    How does the present study address the challenges associated with studying human cognition in real-world contexts compared to computerized paradigms? What methodological approaches were employed to capture neural markers of cognitive processes during natural behaviors, particularly in the context of identifying task-relevant objects in a library?
+
+## And.... {background-color="#346bc8"}
+
+3.    What were the key findings regarding the presence of P300 ERP responses in the library recordings, and how were these responses identified and analyzed using dynamic time warping and lag correction techniques? How do these findings contribute to our understanding of cognitive processes during natural behaviors?
+
+## And.... {background-color="#346bc8"}
+
+4.    In the conclusion, the authors emphasize the importance of scalable experimental designs and multimodal recording methodologies in studying human cognition in real-world environments. How do these approaches help overcome the challenges associated with experimental control and timing issues in EEG analyses? What implications do these findings have for future research in the field of cognitive neuroscience?
 
 ## Mobile Brain/Body Imaging (MoBI) of Physical Interaction with Dynamically Moving Objects {background-color="#346bc8"}
 
-Team: Kimberley, Benjamin, Chathurangi
-
-## Discussion Questions {background-color="#346bc8"}
+Team: `Kimberley Penrose`, `Benjamin Cameron`, `Chathurangi Godahewa Gamage`
 
 ::: incremental
-
+1.    Overview of the article.
 :::
+
+## And.... {background-color="#346bc8"}
+
+2.    How does the use of a visual oddball paradigm combined with a mobile brain/body imaging approach (MoBI) contribute to understanding brain dynamics during rapid, volatile movements in natural working conditions? What methodological approaches were employed to systematically describe the contribution of brain and non-brain sources to the sensor signal?
+
+## And.... {background-color="#346bc8"}
+
+3.    What were the key findings regarding the comparison between simple button presses and physical pointing responses in terms of response onsets and brain dynamics? How do these findings suggest differences in brain dynamic states depending on the behavioral state and the nature of the task, particularly in relation to movement planning, control, and execution?
 
 ## Mobile Brain/Body Imaging: Challenges and opportunities for the implementation of research programs based on the 4E perspective to cognition {background-color="#346bc8"}
 
-Team: Emma, Belle, Bryar
+Team: `Emma Ward`, `Belle Khairudin`, `Bryar Milne`
+
+::: incremental
+1.    Overview of the article.
+:::
+
+## And.... {background-color="#346bc8"}
+
+2.    How does the Mobile Brain/Body Imaging approach contribute to overcoming the limitations of traditional laboratory-based cognitive research paradigms? What are the key components of this approach, and how do they facilitate ecologically valid applications in cognitive science?
+
+## And.... {background-color="#346bc8"}
+
+3.    What are the challenges associated with implementing the Mobile Brain/Body Imaging approach, and how do they impact the feasibility and effectiveness of conducting experiments outside of laboratory settings? How can younger researchers navigate these challenges through transdisciplinary collaboration and methodological expertise?
 
 ## Discussion Questions {background-color="#346bc8"}
 
-::: incremental
+4.    In what ways do novel hardware and software developments associated with Mobile Brain/Body Imaging offer opportunities for improving diagnosis and treatment strategies for neuropsychiatric conditions? How do these advancements address issues of clinical validity, ethical implications, and the establishment of "neuro-rights" for patients incorporating wearable and/or hearable technologies into their daily lives?
 
-:::
-
-
-# The END {background-color="orange"}
+# THE END {background-color="orange"}
